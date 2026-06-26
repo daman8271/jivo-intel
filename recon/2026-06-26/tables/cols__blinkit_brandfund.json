@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date",
+      "city",
+      "item_id",
+      "p_type",
+      "product_id",
+      "offer_type",
+      "product_name",
+      "l0_category_name",
+      "l1_category_name",
+      "l2_category_name",
+      "brand_name",
+      "system_sheet_id",
+      "upload_source",
+      "user_email",
+      "multiplier",
+      "item_mrp",
+      "brandfund_absolute_value",
+      "brandfund_absolute_input_value",
+      "brandfund_percentage_value",
+      "qty_sold",
+      "total_brand_fund",
+      "mrp_gmv",
+      "format",
+      "uploaded_at"
+    ],
+    "sample": {
+      "id": 5439,
+      "date": "2026-06-01",
+      "city": "Agra",
+      "item_id": "10143020",
+      "p_type": "Pomace Olive Oil",
+      "product_id": "528706",
+      "offer_type": "None",
+      "product_name": "Jivo Pomace Olive Oil",
+      "l0_category_name": "Dry Fruits, Masala \u0026 Oil",
+      "l1_category_name": "Oil",
+      "l2_category_name": "Olive Oil",
+      "brand_name": "Jivo",
+      "system_sheet_id": "0",
+      "upload_source": null,
+      "user_email": null,
+      "multiplier": 63.0,
+      "item_mrp": 66087.0,
+      "brandfund_absolute_value": 0.0,
+      "brandfund_absolute_input_value": 0.0,
+      "brandfund_percentage_value": 0.0,
+      "qty_sold": 504.0,
+      "total_brand_fund": 0.0,
+      "mrp_gmv": 528696.0,
+      "format": "BLINKIT",
+      "uploaded_at": "2026-06-08T09:45:13.572875Z"
+    }
+  }
+}

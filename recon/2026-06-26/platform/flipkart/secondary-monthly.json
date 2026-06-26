@@ -1,0 +1,1545 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "flipkart_secondary_all",
+    "format": "FLIPKART",
+    "defaulted_to_latest": true,
+    "year": 2026,
+    "max_date": "2026-06-24",
+    "months": [
+      {
+        "month": 1,
+        "key": "JANUARY",
+        "label": "January"
+      },
+      {
+        "month": 2,
+        "key": "FEBRUARY",
+        "label": "February"
+      },
+      {
+        "month": 3,
+        "key": "MARCH",
+        "label": "March"
+      },
+      {
+        "month": 4,
+        "key": "APRIL",
+        "label": "April"
+      },
+      {
+        "month": 5,
+        "key": "MAY",
+        "label": "May"
+      },
+      {
+        "month": 6,
+        "key": "JUNE",
+        "label": "June"
+      },
+      {
+        "month": 7,
+        "key": "JULY",
+        "label": "July"
+      },
+      {
+        "month": 8,
+        "key": "AUGUST",
+        "label": "August"
+      },
+      {
+        "month": 9,
+        "key": "SEPTEMBER",
+        "label": "September"
+      },
+      {
+        "month": 10,
+        "key": "OCTOBER",
+        "label": "October"
+      },
+      {
+        "month": 11,
+        "key": "NOVEMBER",
+        "label": "November"
+      },
+      {
+        "month": 12,
+        "key": "DECEMBER",
+        "label": "December"
+      }
+    ],
+    "sales_liters": [
+      {
+        "type": "PREMIUM",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 38329.35,
+            "shipped_ltr": 34507.55
+          },
+          "FEBRUARY": {
+            "order_ltr": 25245.25,
+            "shipped_ltr": 22876.05
+          },
+          "MARCH": {
+            "order_ltr": 25093.55,
+            "shipped_ltr": 21158.05
+          },
+          "APRIL": {
+            "order_ltr": 22489.6,
+            "shipped_ltr": 14860.6
+          },
+          "MAY": {
+            "order_ltr": 36218.0,
+            "shipped_ltr": 31490.8
+          },
+          "JUNE": {
+            "order_ltr": 15715.65,
+            "shipped_ltr": 14446.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "COMMODITY",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 29606.0,
+            "shipped_ltr": 26611.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 15727.0,
+            "shipped_ltr": 13579.0
+          },
+          "MARCH": {
+            "order_ltr": 23071.0,
+            "shipped_ltr": 17811.0
+          },
+          "APRIL": {
+            "order_ltr": 10628.0,
+            "shipped_ltr": 6239.0
+          },
+          "MAY": {
+            "order_ltr": 13822.0,
+            "shipped_ltr": 11399.0
+          },
+          "JUNE": {
+            "order_ltr": 5523.0,
+            "shipped_ltr": 4840.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      }
+    ],
+    "sales_values": [
+      {
+        "type": "PREMIUM",
+        "months": {
+          "JANUARY": {
+            "order_value": 11362290.0,
+            "shipped_value": 10243532.0
+          },
+          "FEBRUARY": {
+            "order_value": 8160652.0,
+            "shipped_value": 7407318.0
+          },
+          "MARCH": {
+            "order_value": 7921439.0,
+            "shipped_value": 6782151.0
+          },
+          "APRIL": {
+            "order_value": 7375013.0,
+            "shipped_value": 4849547.0
+          },
+          "MAY": {
+            "order_value": 9649057.0,
+            "shipped_value": 8420496.0
+          },
+          "JUNE": {
+            "order_value": 5246224.0,
+            "shipped_value": 4822709.0
+          },
+          "JULY": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "AUGUST": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "SEPTEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "OCTOBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "NOVEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "DECEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          }
+        }
+      },
+      {
+        "type": "COMMODITY",
+        "months": {
+          "JANUARY": {
+            "order_value": 5078539.0,
+            "shipped_value": 4552697.0
+          },
+          "FEBRUARY": {
+            "order_value": 2838094.0,
+            "shipped_value": 2452198.0
+          },
+          "MARCH": {
+            "order_value": 4126200.0,
+            "shipped_value": 3218817.0
+          },
+          "APRIL": {
+            "order_value": 2043443.0,
+            "shipped_value": 1216008.0
+          },
+          "MAY": {
+            "order_value": 2593860.0,
+            "shipped_value": 2138851.0
+          },
+          "JUNE": {
+            "order_value": 1118600.0,
+            "shipped_value": 979761.0
+          },
+          "JULY": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "AUGUST": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "SEPTEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "OCTOBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "NOVEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          },
+          "DECEMBER": {
+            "order_value": 0.0,
+            "shipped_value": 0.0
+          }
+        }
+      }
+    ],
+    "sales_values_total": {
+      "months": {
+        "JANUARY": {
+          "order_value": 16440829.0,
+          "shipped_value": 14796229.0
+        },
+        "FEBRUARY": {
+          "order_value": 10998746.0,
+          "shipped_value": 9859516.0
+        },
+        "MARCH": {
+          "order_value": 12047639.0,
+          "shipped_value": 10000968.0
+        },
+        "APRIL": {
+          "order_value": 9418456.0,
+          "shipped_value": 6065555.0
+        },
+        "MAY": {
+          "order_value": 12242917.0,
+          "shipped_value": 10559347.0
+        },
+        "JUNE": {
+          "order_value": 6364824.0,
+          "shipped_value": 5802470.0
+        },
+        "JULY": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        },
+        "AUGUST": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        },
+        "SEPTEMBER": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        },
+        "OCTOBER": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        },
+        "NOVEMBER": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        },
+        "DECEMBER": {
+          "order_value": 0.0,
+          "shipped_value": 0.0
+        }
+      }
+    },
+    "category_liters": [
+      {
+        "type": "PREMIUM",
+        "category": "BLENDED",
+        "sub_category": "SO OLIVE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 1725.0,
+            "shipped_ltr": 1061.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 508.0,
+            "shipped_ltr": 446.0
+          },
+          "MARCH": {
+            "order_ltr": 981.0,
+            "shipped_ltr": 707.0
+          },
+          "APRIL": {
+            "order_ltr": 215.0,
+            "shipped_ltr": 68.0
+          },
+          "MAY": {
+            "order_ltr": 114.0,
+            "shipped_ltr": 102.0
+          },
+          "JUNE": {
+            "order_ltr": 71.0,
+            "shipped_ltr": 64.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "CANOLA",
+        "sub_category": "CANOLA",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 13711.0,
+            "shipped_ltr": 12467.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 9058.0,
+            "shipped_ltr": 8091.0
+          },
+          "MARCH": {
+            "order_ltr": 9540.0,
+            "shipped_ltr": 8018.0
+          },
+          "APRIL": {
+            "order_ltr": 7384.0,
+            "shipped_ltr": 4846.0
+          },
+          "MAY": {
+            "order_ltr": 17862.0,
+            "shipped_ltr": 15624.0
+          },
+          "JUNE": {
+            "order_ltr": 5689.0,
+            "shipped_ltr": 5210.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "COCONUT",
+        "sub_category": "COCONUT",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 608.0,
+            "shipped_ltr": 550.5
+          },
+          "FEBRUARY": {
+            "order_ltr": 544.0,
+            "shipped_ltr": 492.0
+          },
+          "MARCH": {
+            "order_ltr": 295.5,
+            "shipped_ltr": 255.0
+          },
+          "APRIL": {
+            "order_ltr": 123.0,
+            "shipped_ltr": 75.5
+          },
+          "MAY": {
+            "order_ltr": 130.0,
+            "shipped_ltr": 122.0
+          },
+          "JUNE": {
+            "order_ltr": 121.0,
+            "shipped_ltr": 110.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "GHEE",
+        "sub_category": "A2 GHEE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 28.0,
+            "shipped_ltr": 26.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 7.5,
+            "shipped_ltr": 7.5
+          },
+          "MARCH": {
+            "order_ltr": 2.0,
+            "shipped_ltr": 2.0
+          },
+          "APRIL": {
+            "order_ltr": 4.5,
+            "shipped_ltr": 2.5
+          },
+          "MAY": {
+            "order_ltr": 3.5,
+            "shipped_ltr": 3.0
+          },
+          "JUNE": {
+            "order_ltr": 1.5,
+            "shipped_ltr": 1.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "GHEE",
+        "sub_category": "DESI GHEE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MARCH": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "APRIL": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MAY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JUNE": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "GROUNDNUT",
+        "sub_category": "GROUNDNUT",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 6321.0,
+            "shipped_ltr": 5886.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 3699.0,
+            "shipped_ltr": 3408.0
+          },
+          "MARCH": {
+            "order_ltr": 4448.0,
+            "shipped_ltr": 3727.0
+          },
+          "APRIL": {
+            "order_ltr": 4867.0,
+            "shipped_ltr": 3594.0
+          },
+          "MAY": {
+            "order_ltr": 7698.0,
+            "shipped_ltr": 6406.0
+          },
+          "JUNE": {
+            "order_ltr": 1555.0,
+            "shipped_ltr": 1419.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "CLASSIC",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MARCH": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "APRIL": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MAY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JUNE": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 6433.0,
+            "shipped_ltr": 5948.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 3448.0,
+            "shipped_ltr": 3248.0
+          },
+          "MARCH": {
+            "order_ltr": 4310.0,
+            "shipped_ltr": 3763.0
+          },
+          "APRIL": {
+            "order_ltr": 4492.0,
+            "shipped_ltr": 3011.0
+          },
+          "MAY": {
+            "order_ltr": 5036.0,
+            "shipped_ltr": 4517.0
+          },
+          "JUNE": {
+            "order_ltr": 2563.0,
+            "shipped_ltr": 2419.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "EXTRA VIRGIN",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 1435.35,
+            "shipped_ltr": 1289.05
+          },
+          "FEBRUARY": {
+            "order_ltr": 1387.75,
+            "shipped_ltr": 1232.55
+          },
+          "MARCH": {
+            "order_ltr": 938.05,
+            "shipped_ltr": 827.05
+          },
+          "APRIL": {
+            "order_ltr": 794.1,
+            "shipped_ltr": 442.6
+          },
+          "MAY": {
+            "order_ltr": 1041.5,
+            "shipped_ltr": 884.8
+          },
+          "JUNE": {
+            "order_ltr": 916.15,
+            "shipped_ltr": 815.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 6538.0,
+            "shipped_ltr": 5870.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 5241.0,
+            "shipped_ltr": 4668.0
+          },
+          "MARCH": {
+            "order_ltr": 3288.0,
+            "shipped_ltr": 2815.0
+          },
+          "APRIL": {
+            "order_ltr": 3490.0,
+            "shipped_ltr": 2085.0
+          },
+          "MAY": {
+            "order_ltr": 2916.0,
+            "shipped_ltr": 2541.0
+          },
+          "JUNE": {
+            "order_ltr": 3923.0,
+            "shipped_ltr": 3571.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "POMACE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MARCH": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "APRIL": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MAY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JUNE": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "OLIVE",
+        "sub_category": "SANO POMACE",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 1244.0,
+            "shipped_ltr": 1141.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 897.0,
+            "shipped_ltr": 845.0
+          },
+          "MARCH": {
+            "order_ltr": 729.0,
+            "shipped_ltr": 589.0
+          },
+          "APRIL": {
+            "order_ltr": 852.0,
+            "shipped_ltr": 589.0
+          },
+          "MAY": {
+            "order_ltr": 1129.0,
+            "shipped_ltr": 1020.0
+          },
+          "JUNE": {
+            "order_ltr": 734.0,
+            "shipped_ltr": 711.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "SESAME",
+        "sub_category": "SESAME",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MARCH": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "APRIL": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MAY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JUNE": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "YELLOW MUSTARD",
+        "sub_category": "YELLOW MUSTARD",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 220.0,
+            "shipped_ltr": 210.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 310.0,
+            "shipped_ltr": 299.0
+          },
+          "MARCH": {
+            "order_ltr": 426.0,
+            "shipped_ltr": 354.0
+          },
+          "APRIL": {
+            "order_ltr": 221.0,
+            "shipped_ltr": 121.0
+          },
+          "MAY": {
+            "order_ltr": 265.0,
+            "shipped_ltr": 252.0
+          },
+          "JUNE": {
+            "order_ltr": 130.0,
+            "shipped_ltr": 114.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "COMMODITY",
+        "category": "BLENDED",
+        "sub_category": "GOLD",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 5176.0,
+            "shipped_ltr": 4703.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 2816.0,
+            "shipped_ltr": 2314.0
+          },
+          "MARCH": {
+            "order_ltr": 5991.0,
+            "shipped_ltr": 4745.0
+          },
+          "APRIL": {
+            "order_ltr": 3341.0,
+            "shipped_ltr": 1592.0
+          },
+          "MAY": {
+            "order_ltr": 2779.0,
+            "shipped_ltr": 2290.0
+          },
+          "JUNE": {
+            "order_ltr": 538.0,
+            "shipped_ltr": 483.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "MUSTARD",
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 16802.0,
+            "shipped_ltr": 15009.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 6258.0,
+            "shipped_ltr": 5466.0
+          },
+          "MARCH": {
+            "order_ltr": 7581.0,
+            "shipped_ltr": 5695.0
+          },
+          "APRIL": {
+            "order_ltr": 4714.0,
+            "shipped_ltr": 3145.0
+          },
+          "MAY": {
+            "order_ltr": 4940.0,
+            "shipped_ltr": 3916.0
+          },
+          "JUNE": {
+            "order_ltr": 1966.0,
+            "shipped_ltr": 1669.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "RICE BRAN",
+        "sub_category": "RICE BRAN",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 2497.0,
+            "shipped_ltr": 2250.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 3111.0,
+            "shipped_ltr": 2834.0
+          },
+          "MARCH": {
+            "order_ltr": 3332.0,
+            "shipped_ltr": 2564.0
+          },
+          "APRIL": {
+            "order_ltr": 1086.0,
+            "shipped_ltr": 492.0
+          },
+          "MAY": {
+            "order_ltr": 2309.0,
+            "shipped_ltr": 2044.0
+          },
+          "JUNE": {
+            "order_ltr": 1495.0,
+            "shipped_ltr": 1418.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "SOYABEAN",
+        "sub_category": "SOYABEAN",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 1313.0,
+            "shipped_ltr": 1158.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 1361.0,
+            "shipped_ltr": 1085.0
+          },
+          "MARCH": {
+            "order_ltr": 1860.0,
+            "shipped_ltr": 1407.0
+          },
+          "APRIL": {
+            "order_ltr": 631.0,
+            "shipped_ltr": 429.0
+          },
+          "MAY": {
+            "order_ltr": 1631.0,
+            "shipped_ltr": 1357.0
+          },
+          "JUNE": {
+            "order_ltr": 741.0,
+            "shipped_ltr": 572.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      },
+      {
+        "type": "",
+        "category": "SUNFLOWER OIL",
+        "sub_category": "SUNFLOWER OIL",
+        "months": {
+          "JANUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "FEBRUARY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MARCH": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "APRIL": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "MAY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JUNE": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "JULY": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "AUGUST": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "SEPTEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "OCTOBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "NOVEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          },
+          "DECEMBER": {
+            "order_ltr": 0.0,
+            "shipped_ltr": 0.0
+          }
+        }
+      }
+    ],
+    "category_liters_total": {
+      "months": {
+        "JANUARY": {
+          "order_ltr": 64051.35,
+          "shipped_ltr": 57568.55
+        },
+        "FEBRUARY": {
+          "order_ltr": 38646.25,
+          "shipped_ltr": 34436.05
+        },
+        "MARCH": {
+          "order_ltr": 43721.55,
+          "shipped_ltr": 35468.05
+        },
+        "APRIL": {
+          "order_ltr": 32214.6,
+          "shipped_ltr": 20492.6
+        },
+        "MAY": {
+          "order_ltr": 47854.0,
+          "shipped_ltr": 41078.8
+        },
+        "JUNE": {
+          "order_ltr": 20443.65,
+          "shipped_ltr": 18576.0
+        },
+        "JULY": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        },
+        "AUGUST": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        },
+        "SEPTEMBER": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        },
+        "OCTOBER": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        },
+        "NOVEMBER": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        },
+        "DECEMBER": {
+          "order_ltr": 0.0,
+          "shipped_ltr": 0.0
+        }
+      }
+    },
+    "mom_growth": [
+      {
+        "month": "JANUARY",
+        "label": "January",
+        "premium_ltr": 43761.55,
+        "commodity_ltr": 43727.0,
+        "premium_growth": 0.0,
+        "commodity_growth": 0.0
+      },
+      {
+        "month": "FEBRUARY",
+        "label": "February",
+        "premium_ltr": 54937.05,
+        "commodity_ltr": 23883.0,
+        "premium_growth": 0.25537258163844745,
+        "commodity_growth": -0.45381572026436756
+      },
+      {
+        "month": "MARCH",
+        "label": "March",
+        "premium_ltr": 30097.55,
+        "commodity_ltr": 22153.0,
+        "premium_growth": -0.4521447729719743,
+        "commodity_growth": -0.07243646108110371
+      },
+      {
+        "month": "APRIL",
+        "label": "April",
+        "premium_ltr": 31080.1,
+        "commodity_ltr": 18365.0,
+        "premium_growth": 0.03264551433588446,
+        "commodity_growth": -0.17099264208007944
+      },
+      {
+        "month": "MAY",
+        "label": "May",
+        "premium_ltr": 48171.8,
+        "commodity_ltr": 25790.0,
+        "premium_growth": 0.5499242280430244,
+        "commodity_growth": 0.40430166076776475
+      },
+      {
+        "month": "JUNE",
+        "label": "June",
+        "premium_ltr": 29428.0,
+        "commodity_ltr": 16836.0,
+        "premium_growth": -0.38910316824366126,
+        "commodity_growth": -0.34718883288096164
+      },
+      {
+        "month": "JULY",
+        "label": "July",
+        "premium_ltr": 16909.0,
+        "commodity_ltr": 10932.0,
+        "premium_growth": -0.42541117303248605,
+        "commodity_growth": -0.35067712045616534
+      },
+      {
+        "month": "AUGUST",
+        "label": "August",
+        "premium_ltr": 10308.0,
+        "commodity_ltr": 6726.0,
+        "premium_growth": -0.39038381926784554,
+        "commodity_growth": -0.38474204171240395
+      },
+      {
+        "month": "SEPTEMBER",
+        "label": "September",
+        "premium_ltr": 45791.5,
+        "commodity_ltr": 15236.0,
+        "premium_growth": 3.4423263484672098,
+        "commodity_growth": 1.265239369610467
+      },
+      {
+        "month": "OCTOBER",
+        "label": "October",
+        "premium_ltr": 25136.5,
+        "commodity_ltr": 10102.0,
+        "premium_growth": -0.45106624591900246,
+        "commodity_growth": -0.3369650826988711
+      },
+      {
+        "month": "NOVEMBER",
+        "label": "November",
+        "premium_ltr": 17664.5,
+        "commodity_ltr": 7214.0,
+        "premium_growth": -0.2972569769060927,
+        "commodity_growth": -0.2858839833696298
+      },
+      {
+        "month": "DECEMBER",
+        "label": "December",
+        "premium_ltr": 10525.0,
+        "commodity_ltr": 5113.0,
+        "premium_growth": -0.404172209799315,
+        "commodity_growth": -0.29123925700027725
+      }
+    ],
+    "dashboard_title": "Flipkart Month Sale",
+    "notes": {
+      "mom_growth_year_filter": false,
+      "other_excluded_from_totals": true,
+      "category_template_fixed": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "uploaded_at",
+      "storage_type",
+      "facility_name",
+      "city",
+      "sku_code",
+      "sku_description",
+      "l1",
+      "l2",
+      "business_category",
+      "shelf_life_days",
+      "days_on_hand",
+      "potential_gmv_loss",
+      "open_pos",
+      "open_po_quantity",
+      "warehouse_qty_available"
+    ],
+    "sample": {
+      "id": 1,
+      "inventory_date": "2026-01-01",
+      "uploaded_at": "2026-01-01T12:12:09.014863Z",
+      "storage_type": "Ambient",
+      "facility_name": "AHM DELHIVERY",
+      "city": "AHMEDABAD",
+      "sku_code": "15685",
+      "sku_description": "Jivo Canola Cold Press Edible Oil 1.0 ltr",
+      "l1": "Edible Oils and Ghee",
+      "l2": "Edible Oils",
+      "business_category": "Cooking Essentials",
+      "shelf_life_days": 730,
+      "days_on_hand": 4,
+      "potential_gmv_loss": 7350.0,
+      "open_pos": "174751",
+      "open_po_quantity": 20,
+      "warehouse_qty_available": 12
+    }
+  }
+}

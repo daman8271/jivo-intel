@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "raw_created_at",
+      "uploaded_at",
+      "backend_facility_id",
+      "backend_facility_name",
+      "item_id",
+      "item_name",
+      "backend_inv_qty",
+      "frontend_inv_qty",
+      "total_inv_qty"
+    ],
+    "sample": {
+      "id": 1,
+      "inventory_date": "2026-01-01",
+      "raw_created_at": "31-12-2025",
+      "uploaded_at": "2026-01-01T11:58:15.089471Z",
+      "backend_facility_id": "1320",
+      "backend_facility_name": "Ludhiana - Feeder Warehouse",
+      "item_id": "10150509",
+      "item_name": "Jivo Kachi Ghani Cold Pressed Mustard Oil 1 l - Rs 255",
+      "backend_inv_qty": 0,
+      "frontend_inv_qty": 0,
+      "total_inv_qty": 0
+    }
+  }
+}

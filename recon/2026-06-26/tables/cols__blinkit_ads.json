@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date",
+      "campaign_id",
+      "campaign_name",
+      "direct_qty_sold",
+      "indirect_qty_sold",
+      "ad_spent",
+      "direct_gmv",
+      "indirect_gmv",
+      "impression",
+      "format",
+      "uploaded_at"
+    ],
+    "sample": {
+      "id": 4,
+      "date": "2026-05-01",
+      "campaign_id": "121611",
+      "campaign_name": "Extra Light 1L",
+      "direct_qty_sold": 52.0,
+      "indirect_qty_sold": 112.0,
+      "ad_spent": 2832.1999999999994,
+      "direct_gmv": 35879.0,
+      "indirect_gmv": 42209.0,
+      "impression": 5873.0,
+      "format": "BLINKIT",
+      "uploaded_at": "2026-05-20T13:09:49.417756Z"
+    }
+  }
+}

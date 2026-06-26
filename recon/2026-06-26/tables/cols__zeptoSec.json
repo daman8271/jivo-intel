@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "Date",
+      "SKU Number",
+      "SKU Name",
+      "EAN",
+      "SKU Category",
+      "SKU Sub Category",
+      "Brand Name",
+      "Manufacturer Name",
+      "Manufacturer ID",
+      "City",
+      "Sales (Qty) - Units",
+      "MRP",
+      "Gross Merchandise Value",
+      "id"
+    ],
+    "sample": {
+      "Date": "2025-12-01",
+      "SKU Number": "883a2716-1a65-4c36-81e2-13e49ce3b01f",
+      "SKU Name": "Jivo Jump Energy Drink - Sugar Free 200.0 MILLILITRE",
+      "EAN": "8.91E+12",
+      "SKU Category": "Cold Drinks \u0026 Juices",
+      "SKU Sub Category": "Energy Drink",
+      "Brand Name": "Jivo",
+      "Manufacturer Name": "Jivo Wellness Pvt. Ltd.",
+      "Manufacturer ID": "946950b7-1ce2-4bdf-a7c4-37499e3f5f34",
+      "City": "Kurukshetra",
+      "Sales (Qty) - Units": 1,
+      "MRP": 60.0,
+      "Gross Merchandise Value": 60.0,
+      "id": 2172
+    }
+  }
+}

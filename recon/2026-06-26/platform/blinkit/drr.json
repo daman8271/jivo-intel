@@ -1,0 +1,837 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": {
+      "sales": "SecMaster",
+      "inventory": "all_platform_inventory"
+    },
+    "format": "BLINKIT",
+    "defaulted_to_latest": true,
+    "month": 6,
+    "month_name": "JUNE",
+    "year": 2026,
+    "sales_of": "ALL",
+    "sales_of_options": [
+      "ALL",
+      "PREMIUM",
+      "COMMODITY",
+      "OTHER"
+    ],
+    "max_date": "2026-06-25",
+    "sales_max_date": "2026-06-25",
+    "inventory_effective_date": "2026-06-26",
+    "elapsed_day": 25,
+    "elapsed_days": 25,
+    "days_in_month": 30,
+    "daily": [
+      {
+        "date": "2026-06-01",
+        "display_date": "01-06-2026",
+        "day": 1,
+        "ops": 582759.9999742,
+        "ltr": 2372.0
+      },
+      {
+        "date": "2026-06-02",
+        "display_date": "02-06-2026",
+        "day": 2,
+        "ops": 634046.666642,
+        "ltr": 2622.0
+      },
+      {
+        "date": "2026-06-03",
+        "display_date": "03-06-2026",
+        "day": 3,
+        "ops": 673383.8094967,
+        "ltr": 2789.0
+      },
+      {
+        "date": "2026-06-04",
+        "display_date": "04-06-2026",
+        "day": 4,
+        "ops": 616351.4285479,
+        "ltr": 2507.0
+      },
+      {
+        "date": "2026-06-05",
+        "display_date": "05-06-2026",
+        "day": 5,
+        "ops": 692911.4285434,
+        "ltr": 2958.0
+      },
+      {
+        "date": "2026-06-06",
+        "display_date": "06-06-2026",
+        "day": 6,
+        "ops": 662446.6666405,
+        "ltr": 2722.0
+      },
+      {
+        "date": "2026-06-07",
+        "display_date": "07-06-2026",
+        "day": 7,
+        "ops": 811348.5713956,
+        "ltr": 3378.0
+      },
+      {
+        "date": "2026-06-08",
+        "display_date": "08-06-2026",
+        "day": 8,
+        "ops": 634967.61902,
+        "ltr": 2589.0
+      },
+      {
+        "date": "2026-06-09",
+        "display_date": "09-06-2026",
+        "day": 9,
+        "ops": 609650.4761663,
+        "ltr": 2471.0
+      },
+      {
+        "date": "2026-06-10",
+        "display_date": "10-06-2026",
+        "day": 10,
+        "ops": 663560.9523523,
+        "ltr": 2823.0
+      },
+      {
+        "date": "2026-06-11",
+        "display_date": "11-06-2026",
+        "day": 11,
+        "ops": 639656.1904519,
+        "ltr": 2585.0
+      },
+      {
+        "date": "2026-06-12",
+        "display_date": "12-06-2026",
+        "day": 12,
+        "ops": 679942.8571134,
+        "ltr": 2916.0
+      },
+      {
+        "date": "2026-06-13",
+        "display_date": "13-06-2026",
+        "day": 13,
+        "ops": 656951.4285465,
+        "ltr": 2693.0
+      },
+      {
+        "date": "2026-06-14",
+        "display_date": "14-06-2026",
+        "day": 14,
+        "ops": 789016.1904428,
+        "ltr": 3409.0
+      },
+      {
+        "date": "2026-06-15",
+        "display_date": "15-06-2026",
+        "day": 15,
+        "ops": 652815.2380666,
+        "ltr": 2784.0
+      },
+      {
+        "date": "2026-06-16",
+        "display_date": "16-06-2026",
+        "day": 16,
+        "ops": 617819.9999705,
+        "ltr": 2640.0
+      },
+      {
+        "date": "2026-06-17",
+        "display_date": "17-06-2026",
+        "day": 17,
+        "ops": 716810.4761552,
+        "ltr": 2963.0
+      },
+      {
+        "date": "2026-06-18",
+        "display_date": "18-06-2026",
+        "day": 18,
+        "ops": 656580.952351,
+        "ltr": 2697.0
+      },
+      {
+        "date": "2026-06-19",
+        "display_date": "19-06-2026",
+        "day": 19,
+        "ops": 715184.7618736,
+        "ltr": 2938.0
+      },
+      {
+        "date": "2026-06-20",
+        "display_date": "20-06-2026",
+        "day": 20,
+        "ops": 627533.3333055,
+        "ltr": 2532.0
+      },
+      {
+        "date": "2026-06-21",
+        "display_date": "21-06-2026",
+        "day": 21,
+        "ops": 755308.5713923,
+        "ltr": 3136.0
+      },
+      {
+        "date": "2026-06-22",
+        "display_date": "22-06-2026",
+        "day": 22,
+        "ops": 638485.7142569,
+        "ltr": 2706.0
+      },
+      {
+        "date": "2026-06-23",
+        "display_date": "23-06-2026",
+        "day": 23,
+        "ops": 644330.4761599,
+        "ltr": 2712.0
+      },
+      {
+        "date": "2026-06-24",
+        "display_date": "24-06-2026",
+        "day": 24,
+        "ops": 703536.1904434,
+        "ltr": 2981.0
+      },
+      {
+        "date": "2026-06-25",
+        "display_date": "25-06-2026",
+        "day": 25,
+        "ops": 671083.8094922,
+        "ltr": 2871.0
+      },
+      {
+        "date": "2026-06-26",
+        "display_date": "26-06-2026",
+        "day": 26,
+        "ops": 0.0,
+        "ltr": 0.0
+      },
+      {
+        "date": "2026-06-27",
+        "display_date": "27-06-2026",
+        "day": 27,
+        "ops": 0.0,
+        "ltr": 0.0
+      },
+      {
+        "date": "2026-06-28",
+        "display_date": "28-06-2026",
+        "day": 28,
+        "ops": 0.0,
+        "ltr": 0.0
+      },
+      {
+        "date": "2026-06-29",
+        "display_date": "29-06-2026",
+        "day": 29,
+        "ops": 0.0,
+        "ltr": 0.0
+      },
+      {
+        "date": "2026-06-30",
+        "display_date": "30-06-2026",
+        "day": 30,
+        "ops": 0.0,
+        "ltr": 0.0
+      }
+    ],
+    "daily_groups": [
+      {
+        "label": "1-9",
+        "days": [
+          {
+            "date": "2026-06-01",
+            "display_date": "01-06-2026",
+            "day": 1,
+            "ops": 582759.9999742,
+            "ltr": 2372.0
+          },
+          {
+            "date": "2026-06-02",
+            "display_date": "02-06-2026",
+            "day": 2,
+            "ops": 634046.666642,
+            "ltr": 2622.0
+          },
+          {
+            "date": "2026-06-03",
+            "display_date": "03-06-2026",
+            "day": 3,
+            "ops": 673383.8094967,
+            "ltr": 2789.0
+          },
+          {
+            "date": "2026-06-04",
+            "display_date": "04-06-2026",
+            "day": 4,
+            "ops": 616351.4285479,
+            "ltr": 2507.0
+          },
+          {
+            "date": "2026-06-05",
+            "display_date": "05-06-2026",
+            "day": 5,
+            "ops": 692911.4285434,
+            "ltr": 2958.0
+          },
+          {
+            "date": "2026-06-06",
+            "display_date": "06-06-2026",
+            "day": 6,
+            "ops": 662446.6666405,
+            "ltr": 2722.0
+          },
+          {
+            "date": "2026-06-07",
+            "display_date": "07-06-2026",
+            "day": 7,
+            "ops": 811348.5713956,
+            "ltr": 3378.0
+          },
+          {
+            "date": "2026-06-08",
+            "display_date": "08-06-2026",
+            "day": 8,
+            "ops": 634967.61902,
+            "ltr": 2589.0
+          },
+          {
+            "date": "2026-06-09",
+            "display_date": "09-06-2026",
+            "day": 9,
+            "ops": 609650.4761663,
+            "ltr": 2471.0
+          }
+        ]
+      },
+      {
+        "label": "10-18",
+        "days": [
+          {
+            "date": "2026-06-10",
+            "display_date": "10-06-2026",
+            "day": 10,
+            "ops": 663560.9523523,
+            "ltr": 2823.0
+          },
+          {
+            "date": "2026-06-11",
+            "display_date": "11-06-2026",
+            "day": 11,
+            "ops": 639656.1904519,
+            "ltr": 2585.0
+          },
+          {
+            "date": "2026-06-12",
+            "display_date": "12-06-2026",
+            "day": 12,
+            "ops": 679942.8571134,
+            "ltr": 2916.0
+          },
+          {
+            "date": "2026-06-13",
+            "display_date": "13-06-2026",
+            "day": 13,
+            "ops": 656951.4285465,
+            "ltr": 2693.0
+          },
+          {
+            "date": "2026-06-14",
+            "display_date": "14-06-2026",
+            "day": 14,
+            "ops": 789016.1904428,
+            "ltr": 3409.0
+          },
+          {
+            "date": "2026-06-15",
+            "display_date": "15-06-2026",
+            "day": 15,
+            "ops": 652815.2380666,
+            "ltr": 2784.0
+          },
+          {
+            "date": "2026-06-16",
+            "display_date": "16-06-2026",
+            "day": 16,
+            "ops": 617819.9999705,
+            "ltr": 2640.0
+          },
+          {
+            "date": "2026-06-17",
+            "display_date": "17-06-2026",
+            "day": 17,
+            "ops": 716810.4761552,
+            "ltr": 2963.0
+          },
+          {
+            "date": "2026-06-18",
+            "display_date": "18-06-2026",
+            "day": 18,
+            "ops": 656580.952351,
+            "ltr": 2697.0
+          }
+        ]
+      },
+      {
+        "label": "19-27",
+        "days": [
+          {
+            "date": "2026-06-19",
+            "display_date": "19-06-2026",
+            "day": 19,
+            "ops": 715184.7618736,
+            "ltr": 2938.0
+          },
+          {
+            "date": "2026-06-20",
+            "display_date": "20-06-2026",
+            "day": 20,
+            "ops": 627533.3333055,
+            "ltr": 2532.0
+          },
+          {
+            "date": "2026-06-21",
+            "display_date": "21-06-2026",
+            "day": 21,
+            "ops": 755308.5713923,
+            "ltr": 3136.0
+          },
+          {
+            "date": "2026-06-22",
+            "display_date": "22-06-2026",
+            "day": 22,
+            "ops": 638485.7142569,
+            "ltr": 2706.0
+          },
+          {
+            "date": "2026-06-23",
+            "display_date": "23-06-2026",
+            "day": 23,
+            "ops": 644330.4761599,
+            "ltr": 2712.0
+          },
+          {
+            "date": "2026-06-24",
+            "display_date": "24-06-2026",
+            "day": 24,
+            "ops": 703536.1904434,
+            "ltr": 2981.0
+          },
+          {
+            "date": "2026-06-25",
+            "display_date": "25-06-2026",
+            "day": 25,
+            "ops": 671083.8094922,
+            "ltr": 2871.0
+          },
+          {
+            "date": "2026-06-26",
+            "display_date": "26-06-2026",
+            "day": 26,
+            "ops": 0.0,
+            "ltr": 0.0
+          },
+          {
+            "date": "2026-06-27",
+            "display_date": "27-06-2026",
+            "day": 27,
+            "ops": 0.0,
+            "ltr": 0.0
+          }
+        ]
+      },
+      {
+        "label": "28-31",
+        "days": [
+          {
+            "date": "2026-06-28",
+            "display_date": "28-06-2026",
+            "day": 28,
+            "ops": 0.0,
+            "ltr": 0.0
+          },
+          {
+            "date": "2026-06-29",
+            "display_date": "29-06-2026",
+            "day": 29,
+            "ops": 0.0,
+            "ltr": 0.0
+          },
+          {
+            "date": "2026-06-30",
+            "display_date": "30-06-2026",
+            "day": 30,
+            "ops": 0.0,
+            "ltr": 0.0
+          }
+        ]
+      }
+    ],
+    "daily_total": {
+      "ops": 16746483.8088006,
+      "ltr": 69794.0
+    },
+    "rows": [
+      {
+        "item_head": "PREMIUM",
+        "product": "CANOLA 1L",
+        "item": "CANOLA 1L",
+        "inventory_item": "CANOLA 1L",
+        "qty": 9173.0,
+        "ltr": 9173.0,
+        "liters": 9173.0,
+        "value": 1869544.7618174,
+        "landing_amt": 1869544.7618174,
+        "drr_qty": 366.92,
+        "drr_ltr": 366.92,
+        "drr_liters": 366.92,
+        "drr_value": 74781.79047269601,
+        "cur_day_soh_units": 11835.0,
+        "cur_day_soh_ltr": 11835.0,
+        "doh": 32.254987463207236
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "CANOLA 5L",
+        "item": "CANOLA 5L",
+        "inventory_item": "CANOLA 5L",
+        "qty": 1174.0,
+        "ltr": 5870.0,
+        "liters": 5870.0,
+        "value": 1129276.1904706,
+        "landing_amt": 1129276.1904706,
+        "drr_qty": 46.96,
+        "drr_ltr": 234.8,
+        "drr_liters": 234.8,
+        "drr_value": 45171.047618824,
+        "cur_day_soh_units": 2852.0,
+        "cur_day_soh_ltr": 14260.0,
+        "doh": 60.73253833049404
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "EXTRA LIGHT 1L",
+        "item": "EXTRA LIGHT 1L",
+        "inventory_item": "EXTRA LIGHT 1L",
+        "qty": 3552.0,
+        "ltr": 3552.0,
+        "liters": 3552.0,
+        "value": 1765851.4284192,
+        "landing_amt": 1765851.4284192,
+        "drr_qty": 142.08,
+        "drr_ltr": 142.08,
+        "drr_liters": 142.08,
+        "drr_value": 70634.057136768,
+        "cur_day_soh_units": 4329.0,
+        "cur_day_soh_ltr": 4329.0,
+        "doh": 30.468749999999996
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "EXTRA LIGHT 2L",
+        "item": "EXTRA LIGHT 2L",
+        "inventory_item": "EXTRA LIGHT 2L",
+        "qty": 1912.0,
+        "ltr": 3824.0,
+        "liters": 3824.0,
+        "value": 1748114.2857416,
+        "landing_amt": 1748114.2857416,
+        "drr_qty": 76.48,
+        "drr_ltr": 152.96,
+        "drr_liters": 152.96,
+        "drr_value": 69924.57142966399,
+        "cur_day_soh_units": 3782.0,
+        "cur_day_soh_ltr": 7564.0,
+        "doh": 49.45083682008368
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "JIVO POMACE 1L",
+        "item": "JIVO POMACE 1L",
+        "inventory_item": "JIVO POMACE 1L",
+        "qty": 14039.0,
+        "ltr": 14039.0,
+        "liters": 14039.0,
+        "value": 4545961.9046282,
+        "landing_amt": 4545961.9046282,
+        "drr_qty": 561.56,
+        "drr_ltr": 561.56,
+        "drr_liters": 561.56,
+        "drr_value": 181838.476185128,
+        "cur_day_soh_units": 12107.0,
+        "cur_day_soh_ltr": 12107.0,
+        "doh": 21.559584015955554
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "JIVO POMACE 5L",
+        "item": "JIVO POMACE 5L",
+        "inventory_item": "JIVO POMACE 5L",
+        "qty": 636.0,
+        "ltr": 3180.0,
+        "liters": 3180.0,
+        "value": 1120571.428632,
+        "landing_amt": 1120571.428632,
+        "drr_qty": 25.44,
+        "drr_ltr": 127.2,
+        "drr_liters": 127.2,
+        "drr_value": 44822.85714528,
+        "cur_day_soh_units": 3099.0,
+        "cur_day_soh_ltr": 15495.0,
+        "doh": 121.81603773584905
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "MUSTARD 1L",
+        "item": "MUSTARD 1L",
+        "inventory_item": "MUSTARD 1L",
+        "qty": 18380.0,
+        "ltr": 18380.0,
+        "liters": 18380.0,
+        "value": 2713238.094888,
+        "landing_amt": 2713238.094888,
+        "drr_qty": 735.2,
+        "drr_ltr": 735.2,
+        "drr_liters": 735.2,
+        "drr_value": 108529.52379552,
+        "cur_day_soh_units": 11608.0,
+        "cur_day_soh_ltr": 11608.0,
+        "doh": 15.788900979325353
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "MUSTARD 5L",
+        "item": "MUSTARD 5L",
+        "inventory_item": "MUSTARD 5L",
+        "qty": 1577.0,
+        "ltr": 7885.0,
+        "liters": 7885.0,
+        "value": 1216542.8570978,
+        "landing_amt": 1216542.8570978,
+        "drr_qty": 63.08,
+        "drr_ltr": 315.4,
+        "drr_liters": 315.4,
+        "drr_value": 48661.714283912,
+        "cur_day_soh_units": 1328.0,
+        "cur_day_soh_ltr": 6640.0,
+        "doh": 21.05263157894737
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "SUNFLOWER 1L",
+        "item": "SUNFLOWER 1L",
+        "inventory_item": "SUNFLOWER 1L",
+        "qty": 3891.0,
+        "ltr": 3891.0,
+        "liters": 3891.0,
+        "value": 637382.8571058,
+        "landing_amt": 637382.8571058,
+        "drr_qty": 155.64,
+        "drr_ltr": 155.64,
+        "drr_liters": 155.64,
+        "drr_value": 25495.314284231998,
+        "cur_day_soh_units": 2128.0,
+        "cur_day_soh_ltr": 2128.0,
+        "doh": 13.672577743510667
+      }
+    ],
+    "items": [
+      {
+        "item_head": "PREMIUM",
+        "product": "CANOLA 1L",
+        "item": "CANOLA 1L",
+        "inventory_item": "CANOLA 1L",
+        "qty": 9173.0,
+        "ltr": 9173.0,
+        "liters": 9173.0,
+        "value": 1869544.7618174,
+        "landing_amt": 1869544.7618174,
+        "drr_qty": 366.92,
+        "drr_ltr": 366.92,
+        "drr_liters": 366.92,
+        "drr_value": 74781.79047269601,
+        "cur_day_soh_units": 11835.0,
+        "cur_day_soh_ltr": 11835.0,
+        "doh": 32.254987463207236
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "CANOLA 5L",
+        "item": "CANOLA 5L",
+        "inventory_item": "CANOLA 5L",
+        "qty": 1174.0,
+        "ltr": 5870.0,
+        "liters": 5870.0,
+        "value": 1129276.1904706,
+        "landing_amt": 1129276.1904706,
+        "drr_qty": 46.96,
+        "drr_ltr": 234.8,
+        "drr_liters": 234.8,
+        "drr_value": 45171.047618824,
+        "cur_day_soh_units": 2852.0,
+        "cur_day_soh_ltr": 14260.0,
+        "doh": 60.73253833049404
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "EXTRA LIGHT 1L",
+        "item": "EXTRA LIGHT 1L",
+        "inventory_item": "EXTRA LIGHT 1L",
+        "qty": 3552.0,
+        "ltr": 3552.0,
+        "liters": 3552.0,
+        "value": 1765851.4284192,
+        "landing_amt": 1765851.4284192,
+        "drr_qty": 142.08,
+        "drr_ltr": 142.08,
+        "drr_liters": 142.08,
+        "drr_value": 70634.057136768,
+        "cur_day_soh_units": 4329.0,
+        "cur_day_soh_ltr": 4329.0,
+        "doh": 30.468749999999996
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "EXTRA LIGHT 2L",
+        "item": "EXTRA LIGHT 2L",
+        "inventory_item": "EXTRA LIGHT 2L",
+        "qty": 1912.0,
+        "ltr": 3824.0,
+        "liters": 3824.0,
+        "value": 1748114.2857416,
+        "landing_amt": 1748114.2857416,
+        "drr_qty": 76.48,
+        "drr_ltr": 152.96,
+        "drr_liters": 152.96,
+        "drr_value": 69924.57142966399,
+        "cur_day_soh_units": 3782.0,
+        "cur_day_soh_ltr": 7564.0,
+        "doh": 49.45083682008368
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "JIVO POMACE 1L",
+        "item": "JIVO POMACE 1L",
+        "inventory_item": "JIVO POMACE 1L",
+        "qty": 14039.0,
+        "ltr": 14039.0,
+        "liters": 14039.0,
+        "value": 4545961.9046282,
+        "landing_amt": 4545961.9046282,
+        "drr_qty": 561.56,
+        "drr_ltr": 561.56,
+        "drr_liters": 561.56,
+        "drr_value": 181838.476185128,
+        "cur_day_soh_units": 12107.0,
+        "cur_day_soh_ltr": 12107.0,
+        "doh": 21.559584015955554
+      },
+      {
+        "item_head": "PREMIUM",
+        "product": "JIVO POMACE 5L",
+        "item": "JIVO POMACE 5L",
+        "inventory_item": "JIVO POMACE 5L",
+        "qty": 636.0,
+        "ltr": 3180.0,
+        "liters": 3180.0,
+        "value": 1120571.428632,
+        "landing_amt": 1120571.428632,
+        "drr_qty": 25.44,
+        "drr_ltr": 127.2,
+        "drr_liters": 127.2,
+        "drr_value": 44822.85714528,
+        "cur_day_soh_units": 3099.0,
+        "cur_day_soh_ltr": 15495.0,
+        "doh": 121.81603773584905
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "MUSTARD 1L",
+        "item": "MUSTARD 1L",
+        "inventory_item": "MUSTARD 1L",
+        "qty": 18380.0,
+        "ltr": 18380.0,
+        "liters": 18380.0,
+        "value": 2713238.094888,
+        "landing_amt": 2713238.094888,
+        "drr_qty": 735.2,
+        "drr_ltr": 735.2,
+        "drr_liters": 735.2,
+        "drr_value": 108529.52379552,
+        "cur_day_soh_units": 11608.0,
+        "cur_day_soh_ltr": 11608.0,
+        "doh": 15.788900979325353
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "MUSTARD 5L",
+        "item": "MUSTARD 5L",
+        "inventory_item": "MUSTARD 5L",
+        "qty": 1577.0,
+        "ltr": 7885.0,
+        "liters": 7885.0,
+        "value": 1216542.8570978,
+        "landing_amt": 1216542.8570978,
+        "drr_qty": 63.08,
+        "drr_ltr": 315.4,
+        "drr_liters": 315.4,
+        "drr_value": 48661.714283912,
+        "cur_day_soh_units": 1328.0,
+        "cur_day_soh_ltr": 6640.0,
+        "doh": 21.05263157894737
+      },
+      {
+        "item_head": "COMMODITY",
+        "product": "SUNFLOWER 1L",
+        "item": "SUNFLOWER 1L",
+        "inventory_item": "SUNFLOWER 1L",
+        "qty": 3891.0,
+        "ltr": 3891.0,
+        "liters": 3891.0,
+        "value": 637382.8571058,
+        "landing_amt": 637382.8571058,
+        "drr_qty": 155.64,
+        "drr_ltr": 155.64,
+        "drr_liters": 155.64,
+        "drr_value": 25495.314284231998,
+        "cur_day_soh_units": 2128.0,
+        "cur_day_soh_ltr": 2128.0,
+        "doh": 13.672577743510667
+      }
+    ],
+    "total": {
+      "qty": 54334.0,
+      "ltr": 69794.0,
+      "liters": 69794.0,
+      "value": 16746483.8088006,
+      "landing_amt": 16746483.8088006,
+      "drr_qty": 2173.36,
+      "drr_ltr": 2791.76,
+      "drr_liters": 2791.76,
+      "drr_value": 669859.352352024,
+      "cur_day_soh_units": 53068.0,
+      "cur_day_soh_ltr": 85966.0,
+      "doh": null
+    },
+    "totals": {
+      "qty": 54334.0,
+      "ltr": 69794.0,
+      "liters": 69794.0,
+      "value": 16746483.8088006,
+      "landing_amt": 16746483.8088006,
+      "drr_qty": 2173.36,
+      "drr_ltr": 2791.76,
+      "drr_liters": 2791.76,
+      "drr_value": 669859.352352024,
+      "cur_day_soh_units": 53068.0,
+      "cur_day_soh_ltr": 85966.0,
+      "doh": null
+    },
+    "show_blinkit_drr": true,
+    "show_value_column": false,
+    "value_source_note": "VALUE and OPS use SecMaster.sales_amt_exc to match DRR DATABASE column S.",
+    "doh_note": "DOH follows the DRR sheet: current SOH units divided by DRR qty."
+  }
+}

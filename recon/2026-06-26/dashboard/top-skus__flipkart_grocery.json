@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "flipkart_grocery",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 17818.0,
+        "prev_ltrs": 1579.0,
+        "delta_pct": 1028.4,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 1120.0,
+        "prev_ltrs": 480.0,
+        "delta_pct": 133.3,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 768.0,
+        "prev_ltrs": 464.0,
+        "delta_pct": 65.5,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 360.0,
+        "prev_ltrs": 340.0,
+        "delta_pct": 5.9,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 2L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 60.0,
+        "prev_ltrs": 60.0,
+        "delta_pct": 0.0,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 2L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 40.0,
+        "prev_ltrs": 0.0,
+        "delta_pct": null,
+        "is_new": true
+      }
+    ],
+    "top_riser": {
+      "name": "MUSTARD 1L",
+      "head": "COMMODITY",
+      "code": null,
+      "brand": null,
+      "ltrs": 17818.0,
+      "prev_ltrs": 1579.0,
+      "delta_pct": 1028.4,
+      "is_new": false
+    },
+    "top_faller": null,
+    "errors": []
+  }
+}

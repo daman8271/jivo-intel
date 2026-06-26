@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": null,
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 84108.0,
+        "prev_ltrs": 111558.0,
+        "delta_pct": -24.6,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 83361.0,
+        "prev_ltrs": 118991.0,
+        "delta_pct": -29.9,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 54411.0,
+        "prev_ltrs": 69064.0,
+        "delta_pct": -21.2,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 35270.0,
+        "prev_ltrs": 68290.0,
+        "delta_pct": -48.4,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 29000.0,
+        "prev_ltrs": 59465.0,
+        "delta_pct": -51.2,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 20400.0,
+        "prev_ltrs": 70515.0,
+        "delta_pct": -71.1,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 19394.0,
+        "prev_ltrs": 56818.0,
+        "delta_pct": -65.9,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 15465.0,
+        "prev_ltrs": 34455.0,
+        "delta_pct": -55.1,
+        "is_new": false
+      },
+      {
+        "name": "SOYABEAN 1L POUCH",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 15059.0,
+        "prev_ltrs": 15287.0,
+        "delta_pct": -1.5,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 11930.0,
+        "prev_ltrs": 22602.0,
+        "delta_pct": -47.2,
+        "is_new": false
+      }
+    ],
+    "top_riser": {
+      "name": "EXTRA VIRGIN 500ML",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 35.5,
+      "prev_ltrs": 8.0,
+      "delta_pct": 343.8,
+      "is_new": false
+    },
+    "top_faller": {
+      "name": "EXTRA LIGHT 5L",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 95.0,
+      "prev_ltrs": 6855.0,
+      "delta_pct": -98.6,
+      "is_new": false
+    },
+    "errors": []
+  }
+}

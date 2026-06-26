@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": null,
+    "month": 6,
+    "year": 2026,
+    "premium": {
+      "categories": [
+        {
+          "name": "GROUNDNUT",
+          "ltrs": 123669.2
+        },
+        {
+          "name": "OLIVE",
+          "ltrs": 75372.5
+        },
+        {
+          "name": "CANOLA",
+          "ltrs": 26809.0
+        },
+        {
+          "name": "SESAME OIL",
+          "ltrs": 3680.0
+        },
+        {
+          "name": "MUSTARD",
+          "ltrs": 2837.0
+        },
+        {
+          "name": "BLENDED",
+          "ltrs": 1034.0
+        }
+      ],
+      "sub_categories": [
+        {
+          "name": "GROUNDNUT",
+          "ltrs": 123669.2
+        },
+        {
+          "name": "JIVO POMACE",
+          "ltrs": 35957.0
+        },
+        {
+          "name": "CANOLA",
+          "ltrs": 26809.0
+        },
+        {
+          "name": "SANO POMACE",
+          "ltrs": 17045.0
+        },
+        {
+          "name": "EXTRA LIGHT",
+          "ltrs": 16061.0
+        },
+        {
+          "name": "EXTRA VIRGIN",
+          "ltrs": 6309.5
+        },
+        {
+          "name": "SESAME OIL",
+          "ltrs": 3680.0
+        },
+        {
+          "name": "YELLOW MUSTARD",
+          "ltrs": 2837.0
+        },
+        {
+          "name": "SO OLIVE",
+          "ltrs": 1034.0
+        }
+      ],
+      "total_ltrs": 233401.7
+    },
+    "commodity": {
+      "categories": [
+        {
+          "name": "MUSTARD",
+          "ltrs": 104808.0
+        },
+        {
+          "name": "SUNFLOWER",
+          "ltrs": 89681.0
+        },
+        {
+          "name": "SOYABEAN",
+          "ltrs": 16010.0
+        },
+        {
+          "name": "BLENDED",
+          "ltrs": 9776.0
+        },
+        {
+          "name": "RICE BRAN",
+          "ltrs": 5027.0
+        }
+      ],
+      "sub_categories": [
+        {
+          "name": "MUSTARD KACCHI GHANI",
+          "ltrs": 104808.0
+        },
+        {
+          "name": "SUNFLOWER",
+          "ltrs": 89681.0
+        },
+        {
+          "name": "SOYABEAN",
+          "ltrs": 16010.0
+        },
+        {
+          "name": "GOLD",
+          "ltrs": 9776.0
+        },
+        {
+          "name": "RICE BRAN",
+          "ltrs": 5027.0
+        }
+      ],
+      "total_ltrs": 225302.0
+    },
+    "errors": []
+  }
+}

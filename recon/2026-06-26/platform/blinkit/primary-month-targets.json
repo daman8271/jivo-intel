@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 19,
+        "format": "BLINKIT",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-24",
+        "targets": 70000.0,
+        "done_ltrs": 13704.0,
+        "achieved_pct": 0.195771,
+        "est_ltr": 17130.0,
+        "est_ltr_pct": 0.244714,
+        "drr": 571.0,
+        "require_drr": 9382.67,
+        "pending_ltr": 56296.0,
+        "dp_ltrs": 70000.0,
+        "created_at": "2026-06-04T07:44:54.200011+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 18,
+        "format": "BLINKIT",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-24",
+        "targets": 120000.0,
+        "done_ltrs": 16494.0,
+        "achieved_pct": 0.13745,
+        "est_ltr": 20617.5,
+        "est_ltr_pct": 0.171813,
+        "drr": 687.25,
+        "require_drr": 17251.0,
+        "pending_ltr": 103506.0,
+        "dp_ltrs": 120000.0,
+        "created_at": "2026-06-04T07:44:53.069074+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 3,
+        "format": "BLINKIT",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-31",
+        "targets": 50000.0,
+        "done_ltrs": 62704.0,
+        "achieved_pct": 1.25408,
+        "est_ltr": 62704.0,
+        "est_ltr_pct": 1.25408,
+        "drr": 2022.71,
+        "require_drr": 0.0,
+        "pending_ltr": 0.0,
+        "dp_ltrs": 62704.0,
+        "created_at": "2026-05-30T12:30:37.140730+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      },
+      {
+        "id": 2,
+        "format": "BLINKIT",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-31",
+        "targets": 100000.0,
+        "done_ltrs": 118846.0,
+        "achieved_pct": 1.18846,
+        "est_ltr": 118846.0,
+        "est_ltr_pct": 1.18846,
+        "drr": 3833.74,
+        "require_drr": 0.0,
+        "pending_ltr": 0.0,
+        "dp_ltrs": 118846.0,
+        "created_at": "2026-05-30T12:30:22.617252+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      }
+    ],
+    "format": "BLINKIT",
+    "type": "prim",
+    "source": "master_po"
+  }
+}

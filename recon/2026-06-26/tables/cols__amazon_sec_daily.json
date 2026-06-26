@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "business",
+      "asin",
+      "product_title",
+      "brand",
+      "ordered_revenue",
+      "ordered_units",
+      "shipped_revenue",
+      "shipped_cogs",
+      "shipped_units",
+      "customer_returns",
+      "report_date",
+      "created_at"
+    ],
+    "sample": {
+      "id": 5584,
+      "business": "JIVO WELLNESS PVT. LTD",
+      "asin": "B0CKFFGC31",
+      "product_title": "Jivo Groundnut Oil 5 Litre | Cold Pressed, Unrefined Peanut Oil for Cooking | Vitamin A \u0026 D Fortified, Chemical-Free Ground Nut Oil",
+      "brand": "Jivo",
+      "ordered_revenue": 544784.96,
+      "ordered_units": 573,
+      "shipped_revenue": 0.0,
+      "shipped_cogs": 0.0,
+      "shipped_units": 424,
+      "customer_returns": 17,
+      "report_date": "2026-05-11",
+      "created_at": "2026-05-14T09:36:32.030369"
+    }
+  }
+}

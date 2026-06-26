@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 32,
+        "format": "CITY MALL",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-09",
+        "targets": 150000.0,
+        "done_ltrs": 17603.0,
+        "achieved_pct": 0.117353,
+        "est_ltr": 58676.67,
+        "est_ltr_pct": 0.391178,
+        "drr": 1955.89,
+        "require_drr": 6304.62,
+        "pending_ltr": 132397.0,
+        "dp_ltrs": 150000.0,
+        "created_at": "2026-06-05T07:02:47.352858+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 31,
+        "format": "CITY MALL",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-09",
+        "targets": 2000.0,
+        "done_ltrs": 112.0,
+        "achieved_pct": 0.056,
+        "est_ltr": 373.33,
+        "est_ltr_pct": 0.186667,
+        "drr": 12.44,
+        "require_drr": 89.9,
+        "pending_ltr": 1888.0,
+        "dp_ltrs": 2000.0,
+        "created_at": "2026-06-05T07:02:40.260020+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 13,
+        "format": "CITY MALL",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-22",
+        "targets": 50000.0,
+        "done_ltrs": 48309.0,
+        "achieved_pct": 0.96618,
+        "est_ltr": 68071.77,
+        "est_ltr_pct": 1.361435,
+        "drr": 2195.86,
+        "require_drr": 187.89,
+        "pending_ltr": 1691.0,
+        "dp_ltrs": 50000.0,
+        "created_at": "2026-05-30T12:34:58.743302+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      },
+      {
+        "id": 12,
+        "format": "CITY MALL",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-22",
+        "targets": 20000.0,
+        "done_ltrs": 780.0,
+        "achieved_pct": 0.039,
+        "est_ltr": 1099.09,
+        "est_ltr_pct": 0.054955,
+        "drr": 35.45,
+        "require_drr": 2135.56,
+        "pending_ltr": 19220.0,
+        "dp_ltrs": 20000.0,
+        "created_at": "2026-05-30T12:34:48.106309+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      }
+    ],
+    "format": "CITY MALL",
+    "type": "prim",
+    "source": "master_po"
+  }
+}

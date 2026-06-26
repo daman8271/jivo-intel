@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "results": [
+      {
+        "fc_id": 15,
+        "fc_code": "DED3",
+        "fc_name": null,
+        "city": "GURGAON",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 3,
+        "fc_code": "DED5",
+        "fc_name": null,
+        "city": "GURUGRAM",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 1,
+        "fc_code": "HBA4",
+        "fc_name": null,
+        "city": "BHIWANDI",
+        "state": "MAHARASHTRA",
+        "region": null
+      },
+      {
+        "fc_id": 11,
+        "fc_code": "HBL4",
+        "fc_name": null,
+        "city": "KOLAR",
+        "state": "KARNATAKA",
+        "region": null
+      },
+      {
+        "fc_id": 10,
+        "fc_code": "HCC2",
+        "fc_name": null,
+        "city": "HOOGHLY",
+        "state": "WEST BENGAL",
+        "region": null
+      },
+      {
+        "fc_id": 9,
+        "fc_code": "HCC5",
+        "fc_name": null,
+        "city": "KOLKATA",
+        "state": "WEST BENGAL",
+        "region": null
+      },
+      {
+        "fc_id": 18,
+        "fc_code": "HCC6",
+        "fc_name": null,
+        "city": "KOLKATA",
+        "state": "WEST BENGAL",
+        "region": null
+      },
+      {
+        "fc_id": 17,
+        "fc_code": "HCI2",
+        "fc_name": null,
+        "city": "CHENNAI",
+        "state": "TAMIL NADU",
+        "region": null
+      },
+      {
+        "fc_id": 7,
+        "fc_code": "HDL2",
+        "fc_name": null,
+        "city": "SONEPAT",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 8,
+        "fc_code": "HHR7",
+        "fc_name": null,
+        "city": "SONIPAT",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 16,
+        "fc_code": "HHS1",
+        "fc_name": null,
+        "city": "GURGAON",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 13,
+        "fc_code": "HHY7",
+        "fc_name": null,
+        "city": "HYDERABAD",
+        "state": "TELANGANA",
+        "region": null
+      },
+      {
+        "fc_id": 4,
+        "fc_code": "HKA2",
+        "fc_name": null,
+        "city": "BENGALURU",
+        "state": "KARNATAKA",
+        "region": null
+      },
+      {
+        "fc_id": 14,
+        "fc_code": "HKR2",
+        "fc_name": null,
+        "city": "BENGALURU",
+        "state": "KARNATAKA",
+        "region": null
+      },
+      {
+        "fc_id": 19,
+        "fc_code": "HLK1",
+        "fc_name": null,
+        "city": "#N/A",
+        "state": "#N/A",
+        "region": null
+      },
+      {
+        "fc_id": 5,
+        "fc_code": "HMH4",
+        "fc_name": null,
+        "city": "KALYAN",
+        "state": "MAHARASHTRA",
+        "region": null
+      },
+      {
+        "fc_id": 6,
+        "fc_code": "HMU5",
+        "fc_name": null,
+        "city": "BHIWANDI",
+        "state": "MAHARASHTRA",
+        "region": null
+      },
+      {
+        "fc_id": 2,
+        "fc_code": "HNR4",
+        "fc_name": null,
+        "city": "DADRI TOE",
+        "state": "HARYANA",
+        "region": null
+      },
+      {
+        "fc_id": 12,
+        "fc_code": "HPN6",
+        "fc_name": null,
+        "city": "PUNE",
+        "state": "MAHARASHTRA",
+        "region": null
+      }
+    ],
+    "count": 19,
+    "page": 0,
+    "page_size": 50
+  }
+}

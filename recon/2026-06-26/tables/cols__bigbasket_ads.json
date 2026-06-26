@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date",
+      "product_id",
+      "campaign_id",
+      "product_name",
+      "campaign_name",
+      "brand_name",
+      "category",
+      "ad_spend",
+      "ad_impressions",
+      "cpm",
+      "add_to_cart",
+      "orders_sku",
+      "ad_revenue",
+      "roas",
+      "other_sku_orders",
+      "same_category_orders",
+      "other_sku_ad_revenue",
+      "format",
+      "uploaded_at"
+    ],
+    "sample": {
+      "id": 1,
+      "date": "2026-04-30",
+      "product_id": "40166397",
+      "campaign_id": "5039800",
+      "product_name": "Jivo Extra Light Olive Oil Tin 5 L",
+      "campaign_name": "EXTRA LIGHT OLIVE OIL",
+      "brand_name": "jivo",
+      "category": "foodgrains-oil-masala\u003eedible-oils-ghee\u003eolive-canola-oils",
+      "ad_spend": 1236.26,
+      "ad_impressions": 447.0,
+      "cpm": 2765.68,
+      "add_to_cart": 0.0,
+      "orders_sku": 0.0,
+      "ad_revenue": 0.0,
+      "roas": 0.0,
+      "other_sku_orders": 0.0,
+      "same_category_orders": 0.0,
+      "other_sku_ad_revenue": 0.0,
+      "format": "BIGBASKET",
+      "uploaded_at": "2026-05-20T12:24:59.077210Z"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "po_number",
+      "po_date",
+      "po_expiry_date",
+      "grn_date",
+      "vendor_name",
+      "status",
+      "sku_code",
+      "sku_name",
+      "order_qty",
+      "delivered_qty",
+      "basic_rate",
+      "landing_rate",
+      "location",
+      "format",
+      "remark"
+    ],
+    "sample": {
+      "id": 33512,
+      "po_number": "P1705798",
+      "po_date": "2025-08-14",
+      "po_expiry_date": "2025-09-04",
+      "grn_date": null,
+      "vendor_name": "CHIRAG ENTERPRISES",
+      "status": "EXPIRED",
+      "sku_code": "06C8F55B-13A5-4D9B-8990-A418E63C89AD",
+      "sku_name": "Jivo Sunflower Cold Pressed Oil | Healthy Cooking Oil - 1 pc (1 L)",
+      "order_qty": 160.0,
+      "delivered_qty": 0.0,
+      "basic_rate": 141.9,
+      "landing_rate": 149.0,
+      "location": "MUM-DRY-MH-SHAKTI",
+      "format": "ZEPTO",
+      "remark": ""
+    }
+  }
+}

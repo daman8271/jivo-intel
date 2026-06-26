@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "inventory_date": "2026-01-01",
+        "sku_code": "10150509",
+        "item": "MUSTARD 1L",
+        "item_head": "COMMODITY",
+        "brand": "JIVO",
+        "soh_unit": 0,
+        "soh_ltr": 0.0,
+        "location": "Ludhiana - Feeder Warehouse",
+        "format": "BLINKIT"
+      },
+      {
+        "inventory_date": "2026-01-01",
+        "sku_code": "10048295",
+        "item": "CANOLA 5L",
+        "item_head": "PREMIUM",
+        "brand": "JIVO",
+        "soh_unit": 0,
+        "soh_ltr": 0.0,
+        "location": "Rajpura - Feeder Warehouse",
+        "format": "BLINKIT"
+      },
+      {
+        "inventory_date": "2026-01-01",
+        "sku_code": "10048295",
+        "item": "CANOLA 5L",
+        "item_head": "PREMIUM",
+        "brand": "JIVO",
+        "soh_unit": 123,
+        "soh_ltr": 615.0,
+        "location": "Rajpura R2 - Feeder Warehouse",
+        "format": "BLINKIT"
+      }
+    ],
+    "count": 176769,
+    "page": 0,
+    "page_size": 3,
+    "max_date": null
+  }
+}

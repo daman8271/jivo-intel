@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "platform": "bigbasket",
+    "format": "BIG BASKET",
+    "po_month": "JUNE",
+    "year": 2026,
+    "defaulted_to_latest": true,
+    "totals": {
+      "pending_units": 4889.0,
+      "pending_ltrs": 2469.0,
+      "open_units": 4889.0,
+      "open_ltrs": 2469.0,
+      "open_pos": 8,
+      "rows": 83
+    },
+    "max_po_date": "26-06-2026",
+    "min_po_date": "15-06-2026",
+    "by_city": [
+      {
+        "city": "Sonipat",
+        "pending_units": 1726.0,
+        "pending_ltrs": 850.0,
+        "open_units": 1726.0,
+        "open_ltrs": 850.0,
+        "order_value": 202127.74,
+        "open_pos": 1
+      },
+      {
+        "city": "NOIDA",
+        "pending_units": 1140.0,
+        "pending_ltrs": 792.0,
+        "open_units": 1140.0,
+        "open_ltrs": 792.0,
+        "order_value": 162073.56,
+        "open_pos": 1
+      },
+      {
+        "city": "BENGALURU",
+        "pending_units": 958.0,
+        "pending_ltrs": 568.0,
+        "open_units": 958.0,
+        "open_ltrs": 568.0,
+        "order_value": 131130.4,
+        "open_pos": 4
+      },
+      {
+        "city": "LUCKNOW",
+        "pending_units": 85.0,
+        "pending_ltrs": 149.0,
+        "open_units": 85.0,
+        "open_ltrs": 149.0,
+        "order_value": 27759.59,
+        "open_pos": 1
+      },
+      {
+        "city": "KOLKATA",
+        "pending_units": 980.0,
+        "pending_ltrs": 110.0,
+        "open_units": 980.0,
+        "open_ltrs": 110.0,
+        "order_value": 69811.88,
+        "open_pos": 1
+      }
+    ],
+    "by_sku": [
+      {
+        "sku_code": "40249993",
+        "sku_name": "Jivo Cold Pressed Sunflower Oil 1 L Bottle",
+        "item": "SUNFLOWER 1L",
+        "pending_units": 840.0,
+        "pending_ltrs": 840.0,
+        "open_units": 840.0,
+        "open_ltrs": 840.0,
+        "order_value": 125183.6,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40249992",
+        "sku_name": "Jivo Sunflower Oil - Cold Pressed, Fortified With Vitamins A \u0026 D, Chemical Free 5 L Jar",
+        "item": "SUNFLOWER 5L",
+        "pending_units": 104.0,
+        "pending_ltrs": 520.0,
+        "open_units": 104.0,
+        "open_ltrs": 520.0,
+        "order_value": 78462.8,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40166395",
+        "sku_name": "Jivo Cold Press Kachi Ghani Mustard Oil 1 L Bottle",
+        "item": "MUSTARD 1L",
+        "pending_units": 327.0,
+        "pending_ltrs": 327.0,
+        "open_units": 327.0,
+        "open_ltrs": 327.0,
+        "order_value": 53059.98,
+        "open_pos": 3
+      },
+      {
+        "sku_code": "282779",
+        "sku_name": "Jivo Canola Oil - Cold Pressed 1 L",
+        "item": "CANOLA 1L",
+        "pending_units": 242.0,
+        "pending_ltrs": 242.0,
+        "open_units": 242.0,
+        "open_ltrs": 242.0,
+        "order_value": 53003.32,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40309979",
+        "sku_name": "Jivo Canola Omega-3 Rich Cooking Oil 1 L 1 L Pouch",
+        "item": "CANOLA 1L POUCH",
+        "pending_units": 180.0,
+        "pending_ltrs": 180.0,
+        "open_units": 180.0,
+        "open_ltrs": 180.0,
+        "order_value": 33501.24,
+        "open_pos": 2
+      },
+      {
+        "sku_code": "40197820",
+        "sku_name": "Jivo Pomace Olive Oil 1 L",
+        "item": "JIVO POMACE 1L",
+        "pending_units": 96.0,
+        "pending_ltrs": 96.0,
+        "open_units": 96.0,
+        "open_ltrs": 96.0,
+        "order_value": 39332.48,
+        "open_pos": 3
+      },
+      {
+        "sku_code": "40166398",
+        "sku_name": "Jivo Extra Light Olive Oil 1 L Bottle",
+        "item": "EXTRA LIGHT 1L",
+        "pending_units": 84.0,
+        "pending_ltrs": 84.0,
+        "open_units": 84.0,
+        "open_ltrs": 84.0,
+        "order_value": 44615.88,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40166396",
+        "sku_name": "Jivo Cold Press Kachi Ghani Mustard Oil 5 L Bottle",
+        "item": "MUSTARD 5L",
+        "pending_units": 13.0,
+        "pending_ltrs": 65.0,
+        "open_units": 13.0,
+        "open_ltrs": 65.0,
+        "order_value": 11916.71,
+        "open_pos": 1
+      },
+      {
+        "sku_code": "282780",
+        "sku_name": "Jivo Canola Oil - Cold Pressed 5 L Bottle",
+        "item": "CANOLA 5L",
+        "pending_units": 11.0,
+        "pending_ltrs": 55.0,
+        "open_units": 11.0,
+        "open_ltrs": 55.0,
+        "order_value": 12047.64,
+        "open_pos": 2
+      },
+      {
+        "sku_code": "40250809",
+        "sku_name": "Jivo Extra Light Olive Oil - Antioxidants Rich, Light Cooking Medium, For Frying, Grilling 2 L",
+        "item": "EXTRA LIGHT 2L",
+        "pending_units": 20.0,
+        "pending_ltrs": 40.0,
+        "open_units": 20.0,
+        "open_ltrs": 40.0,
+        "order_value": 20392.2,
+        "open_pos": 2
+      },
+      {
+        "sku_code": "40309980",
+        "sku_name": "Jivo Pomace Olive Oil 2 L",
+        "item": "JIVO POMACE 2L",
+        "pending_units": 10.0,
+        "pending_ltrs": 20.0,
+        "open_units": 10.0,
+        "open_ltrs": 20.0,
+        "order_value": 8219.6,
+        "open_pos": 1
+      },
+      {
+        "sku_code": "40335330",
+        "sku_name": "Jivo Ginger Ale Healthy Wheatgrass Juice - Sugar Free 200 ml",
+        "item": "WG GINGER ALE 200ML",
+        "pending_units": 334.0,
+        "pending_ltrs": 0.0,
+        "open_units": 334.0,
+        "open_ltrs": 0.0,
+        "order_value": 10814.92,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40335335",
+        "sku_name": "Jivo Blueberry Healthy Wheatgrass Juice 200 ml",
+        "item": "WG BLUEBERRY JUICE 200ML",
+        "pending_units": 312.0,
+        "pending_ltrs": 0.0,
+        "open_units": 312.0,
+        "open_ltrs": 0.0,
+        "order_value": 10103.52,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40335329",
+        "sku_name": "Jivo Apple Healthy Wheatgrass Juice - Sugar Free 200 ml",
+        "item": "WG APPLE JUICE SF 200ML",
+        "pending_units": 305.0,
+        "pending_ltrs": 0.0,
+        "open_units": 305.0,
+        "open_ltrs": 0.0,
+        "order_value": 10973.18,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40335331",
+        "sku_name": "Jivo Mojito Healthy Wheatgrass Juice - Sugar Free 200 ml",
+        "item": "WG MOJITO SF 200ML",
+        "pending_units": 288.0,
+        "pending_ltrs": 0.0,
+        "open_units": 288.0,
+        "open_ltrs": 0.0,
+        "order_value": 10795.2,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335337",
+        "sku_name": "Jivo Mojito Healthy Wheatgrass Juice 200 ml",
+        "item": "WG MOJITO 200ML",
+        "pending_units": 264.0,
+        "pending_ltrs": 0.0,
+        "open_units": 264.0,
+        "open_ltrs": 0.0,
+        "order_value": 9649.2,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335340",
+        "sku_name": "Jivo Mango Healthy Wheatgrass Juice 500 ml",
+        "item": "WG MANGO JUICE 500ML",
+        "pending_units": 252.0,
+        "pending_ltrs": 0.0,
+        "open_units": 252.0,
+        "open_ltrs": 0.0,
+        "order_value": 20436.48,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335332",
+        "sku_name": "Jivo Fizzy Water Flavoured With Lemon 750 ml",
+        "item": "LEMON 750ML",
+        "pending_units": 245.0,
+        "pending_ltrs": 0.0,
+        "open_units": 245.0,
+        "open_ltrs": 0.0,
+        "order_value": 6686.42,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335338",
+        "sku_name": "Jivo Rose Healthy Wheatgrass Juice 200 ml",
+        "item": "WG ROSE 200ML",
+        "pending_units": 240.0,
+        "pending_ltrs": 0.0,
+        "open_units": 240.0,
+        "open_ltrs": 0.0,
+        "order_value": 8870.88,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40335333",
+        "sku_name": "Jivo Fizzy Water Flavoured With Peach 750 ml",
+        "item": "WATER PEACH 750ML",
+        "pending_units": 230.0,
+        "pending_ltrs": 0.0,
+        "open_units": 230.0,
+        "open_ltrs": 0.0,
+        "order_value": 6278.48,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335336",
+        "sku_name": "Jivo Mango Healthy Wheatgrass Juice 200 ml",
+        "item": "WG MANGO JUICE 200ML",
+        "pending_units": 228.0,
+        "pending_ltrs": 0.0,
+        "open_units": 228.0,
+        "open_ltrs": 0.0,
+        "order_value": 8479.56,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "40335334",
+        "sku_name": "Jivo Apple Healthy Wheatgrass Juice 200 ml",
+        "item": "WG APPLE JUICE 200ML",
+        "pending_units": 192.0,
+        "pending_ltrs": 0.0,
+        "open_units": 192.0,
+        "open_ltrs": 0.0,
+        "order_value": 7135.56,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "40335339",
+        "sku_name": "Jivo Indian Tonic Water 200 ml",
+        "item": "TONIC WATER 200ML",
+        "pending_units": 72.0,
+        "pending_ltrs": 0.0,
+        "open_units": 72.0,
+        "open_ltrs": 0.0,
+        "order_value": 2944.32,
+        "open_pos": 2
+      }
+    ],
+    "by_warehouse": [
+      {
+        "warehouse": "Sonipat",
+        "pending_units": 1726.0,
+        "pending_ltrs": 850.0,
+        "open_units": 1726.0,
+        "open_ltrs": 850.0,
+        "order_value": 202127.74,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Noida",
+        "pending_units": 1140.0,
+        "pending_ltrs": 792.0,
+        "open_units": 1140.0,
+        "open_ltrs": 792.0,
+        "order_value": 162073.56,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Bengaluru",
+        "pending_units": 958.0,
+        "pending_ltrs": 568.0,
+        "open_units": 958.0,
+        "open_ltrs": 568.0,
+        "order_value": 131130.4,
+        "open_pos": 4
+      },
+      {
+        "warehouse": "Lucknow",
+        "pending_units": 85.0,
+        "pending_ltrs": 149.0,
+        "open_units": 85.0,
+        "open_ltrs": 149.0,
+        "order_value": 27759.59,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Kolkata",
+        "pending_units": 980.0,
+        "pending_ltrs": 110.0,
+        "open_units": 980.0,
+        "open_ltrs": 110.0,
+        "order_value": 69811.88,
+        "open_pos": 1
+      }
+    ],
+    "by_distributor": [
+      {
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "pending_units": 2951.0,
+        "pending_ltrs": 1791.0,
+        "open_units": 2951.0,
+        "open_ltrs": 1791.0,
+        "order_value": 391960.89,
+        "open_pos": 3
+      },
+      {
+        "distributor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+        "pending_units": 958.0,
+        "pending_ltrs": 568.0,
+        "open_units": 958.0,
+        "open_ltrs": 568.0,
+        "order_value": 131130.4,
+        "open_pos": 4
+      },
+      {
+        "distributor": "BABA LOKENATH TRADERS",
+        "pending_units": 980.0,
+        "pending_ltrs": 110.0,
+        "open_units": 980.0,
+        "open_ltrs": 110.0,
+        "order_value": 69811.88,
+        "open_pos": 1
+      }
+    ],
+    "by_po": [
+      {
+        "po_number": "IRA39709850",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "20-06-2026",
+        "po_expiry_date": "05-07-2026",
+        "pending_units": 1726.0,
+        "pending_ltrs": 850.0,
+        "open_units": 1726.0,
+        "open_ltrs": 850.0,
+        "order_value": 202127.74,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA40006030",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "26-06-2026",
+        "po_expiry_date": "11-07-2026",
+        "pending_units": 1140.0,
+        "pending_ltrs": 792.0,
+        "open_units": 1140.0,
+        "open_ltrs": 792.0,
+        "order_value": 162073.56,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA39509180",
+        "distributor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+        "po_date": "16-06-2026",
+        "po_expiry_date": "01-07-2026",
+        "pending_units": 758.0,
+        "pending_ltrs": 312.0,
+        "open_units": 758.0,
+        "open_ltrs": 312.0,
+        "order_value": 81383.36,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA39460571",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "15-06-2026",
+        "po_expiry_date": "15-07-2026",
+        "pending_units": 85.0,
+        "pending_ltrs": 149.0,
+        "open_units": 85.0,
+        "open_ltrs": 149.0,
+        "order_value": 27759.59,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA39804294",
+        "distributor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+        "po_date": "22-06-2026",
+        "po_expiry_date": "07-07-2026",
+        "pending_units": 56.0,
+        "pending_ltrs": 136.0,
+        "open_units": 56.0,
+        "open_ltrs": 136.0,
+        "order_value": 28050.56,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA39855445",
+        "distributor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+        "po_date": "23-06-2026",
+        "po_expiry_date": "08-07-2026",
+        "pending_units": 120.0,
+        "pending_ltrs": 120.0,
+        "open_units": 120.0,
+        "open_ltrs": 120.0,
+        "order_value": 20919.36,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA40005330",
+        "distributor": "BABA LOKENATH TRADERS",
+        "po_date": "26-06-2026",
+        "po_expiry_date": "11-07-2026",
+        "pending_units": 980.0,
+        "pending_ltrs": 110.0,
+        "open_units": 980.0,
+        "open_ltrs": 110.0,
+        "order_value": 69811.88,
+        "open_pos": 1
+      },
+      {
+        "po_number": "IRA39854978",
+        "distributor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+        "po_date": "23-06-2026",
+        "po_expiry_date": "08-07-2026",
+        "pending_units": 24.0,
+        "pending_ltrs": 0.0,
+        "open_units": 24.0,
+        "open_ltrs": 0.0,
+        "order_value": 777.12,
+        "open_pos": 1
+      }
+    ]
+  }
+}

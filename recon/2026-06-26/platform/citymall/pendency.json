@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "platform": "citymall",
+    "format": "CITY MALL",
+    "po_month": "JUNE",
+    "year": 2026,
+    "defaulted_to_latest": true,
+    "totals": {
+      "pending_units": 45372.0,
+      "pending_ltrs": 51756.0,
+      "open_units": 45372.0,
+      "open_ltrs": 51756.0,
+      "open_pos": 5,
+      "rows": 63
+    },
+    "max_po_date": "21-06-2026",
+    "min_po_date": "21-06-2026",
+    "by_city": [
+      {
+        "city": "Dadri",
+        "pending_units": 9884.0,
+        "pending_ltrs": 11484.0,
+        "open_units": 9884.0,
+        "open_ltrs": 11484.0,
+        "order_value": 1632663.76,
+        "open_pos": 1
+      },
+      {
+        "city": "GURUGRAM",
+        "pending_units": 9272.0,
+        "pending_ltrs": 10520.0,
+        "open_units": 9272.0,
+        "open_ltrs": 10520.0,
+        "order_value": 1503794.84,
+        "open_pos": 1
+      },
+      {
+        "city": "Sonipat",
+        "pending_units": 8712.0,
+        "pending_ltrs": 10120.0,
+        "open_units": 8712.0,
+        "open_ltrs": 10120.0,
+        "order_value": 1439424.68,
+        "open_pos": 1
+      },
+      {
+        "city": "Bahadurgarh",
+        "pending_units": 8968.0,
+        "pending_ltrs": 9848.0,
+        "open_units": 8968.0,
+        "open_ltrs": 9848.0,
+        "order_value": 1412815.84,
+        "open_pos": 1
+      },
+      {
+        "city": "LUCKNOW",
+        "pending_units": 8536.0,
+        "pending_ltrs": 9784.0,
+        "open_units": 8536.0,
+        "open_ltrs": 9784.0,
+        "order_value": 1386658.32,
+        "open_pos": 1
+      }
+    ],
+    "by_sku": [
+      {
+        "sku_code": "CM02456490",
+        "sku_name": "Jivo Soyabean Oil 1 L (Pouch)",
+        "item": "SOYABEAN 1L POUCH",
+        "pending_units": 35532.0,
+        "pending_ltrs": 35532.0,
+        "open_units": 35532.0,
+        "open_ltrs": 35532.0,
+        "order_value": 4872858.48,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456487",
+        "sku_name": "Jivo Cold Press Kachi Ghani Mustard Oil 5 L (Jar)",
+        "item": "MUSTARD 5L",
+        "pending_units": 600.0,
+        "pending_ltrs": 3000.0,
+        "open_units": 600.0,
+        "open_ltrs": 3000.0,
+        "order_value": 457140.0,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02975981",
+        "sku_name": "Jivo Cold Press Kachi Ghani",
+        "item": "MUSTARD POUCH 1L",
+        "pending_units": 2800.0,
+        "pending_ltrs": 2800.0,
+        "open_units": 2800.0,
+        "open_ltrs": 2800.0,
+        "order_value": 421344.0,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456495",
+        "sku_name": "Jivo Soyabean Oil 5 L (Jar)",
+        "item": "SOYABEAN 5L",
+        "pending_units": 468.0,
+        "pending_ltrs": 2340.0,
+        "open_units": 468.0,
+        "open_ltrs": 2340.0,
+        "order_value": 356569.2,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456486",
+        "sku_name": "Jivo Soyabean Oil 1 L (Bottle)",
+        "item": "SOYABEAN 1L",
+        "pending_units": 2100.0,
+        "pending_ltrs": 2100.0,
+        "open_units": 2100.0,
+        "open_ltrs": 2100.0,
+        "order_value": 319998.0,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456488",
+        "sku_name": "Jivo Rice Bran Oil 5 L (Jar)",
+        "item": "RICE BRAN 5L",
+        "pending_units": 376.0,
+        "pending_ltrs": 1880.0,
+        "open_units": 376.0,
+        "open_ltrs": 1880.0,
+        "order_value": 282894.88,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456496",
+        "sku_name": "Jivo Rice Bran Oil 1 L (Bottle)",
+        "item": "RICE BRAN 1L",
+        "pending_units": 992.0,
+        "pending_ltrs": 992.0,
+        "open_units": 992.0,
+        "open_ltrs": 992.0,
+        "order_value": 149276.16,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "CM02456493",
+        "sku_name": "Jivo Cold Press Kachi Ghani Mustard Oil 1 L (Bottle)",
+        "item": "MUSTARD 1L",
+        "pending_units": 880.0,
+        "pending_ltrs": 880.0,
+        "open_units": 880.0,
+        "open_ltrs": 880.0,
+        "order_value": 129905.6,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "CM02456497",
+        "sku_name": "Jivo Cold Press Sunflower Oil 5 L",
+        "item": "SUNFLOWER 5L",
+        "pending_units": 152.0,
+        "pending_ltrs": 760.0,
+        "open_units": 152.0,
+        "open_ltrs": 760.0,
+        "order_value": 119427.92,
+        "open_pos": 2
+      },
+      {
+        "sku_code": "CM02456491",
+        "sku_name": "Jivo Cold Press Sunflower Oil 1 L (Bottle)",
+        "item": "SUNFLOWER 1L",
+        "pending_units": 480.0,
+        "pending_ltrs": 480.0,
+        "open_units": 480.0,
+        "open_ltrs": 480.0,
+        "order_value": 76800.0,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "CM02456489",
+        "sku_name": "Jivo Cold Press Groundnut Oil 1 L",
+        "item": "GROUNDNUT 1L",
+        "pending_units": 432.0,
+        "pending_ltrs": 432.0,
+        "open_units": 432.0,
+        "open_ltrs": 432.0,
+        "order_value": 86400.0,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456494",
+        "sku_name": "Jivo Gold Multisource Oil 1 L",
+        "item": "GOLD 1L",
+        "pending_units": 280.0,
+        "pending_ltrs": 280.0,
+        "open_units": 280.0,
+        "open_ltrs": 280.0,
+        "order_value": 41333.6,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "CM02456500",
+        "sku_name": "Jivo So-Olive Multisource Olive Oil 1 L (Bottle)",
+        "item": "SO OLIVE 1L",
+        "pending_units": 128.0,
+        "pending_ltrs": 128.0,
+        "open_units": 128.0,
+        "open_ltrs": 128.0,
+        "order_value": 24381.44,
+        "open_pos": 5
+      },
+      {
+        "sku_code": "CM02456498",
+        "sku_name": "Jivo Cold Press Canola Oil 1 L (Bottle)",
+        "item": "CANOLA 1L",
+        "pending_units": 120.0,
+        "pending_ltrs": 120.0,
+        "open_units": 120.0,
+        "open_ltrs": 120.0,
+        "order_value": 25142.4,
+        "open_pos": 4
+      },
+      {
+        "sku_code": "CM02456492",
+        "sku_name": "Jivo Pomace Olive Oil 1 L (Bottle)",
+        "item": "JIVO POMACE 1L",
+        "pending_units": 32.0,
+        "pending_ltrs": 32.0,
+        "open_units": 32.0,
+        "open_ltrs": 32.0,
+        "order_value": 11885.76,
+        "open_pos": 1
+      }
+    ],
+    "by_warehouse": [
+      {
+        "warehouse": "Dadri",
+        "pending_units": 9884.0,
+        "pending_ltrs": 11484.0,
+        "open_units": 9884.0,
+        "open_ltrs": 11484.0,
+        "order_value": 1632663.76,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Gurugram",
+        "pending_units": 9272.0,
+        "pending_ltrs": 10520.0,
+        "open_units": 9272.0,
+        "open_ltrs": 10520.0,
+        "order_value": 1503794.84,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Sonipat",
+        "pending_units": 8712.0,
+        "pending_ltrs": 10120.0,
+        "open_units": 8712.0,
+        "open_ltrs": 10120.0,
+        "order_value": 1439424.68,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Bahadurgarh",
+        "pending_units": 8968.0,
+        "pending_ltrs": 9848.0,
+        "open_units": 8968.0,
+        "open_ltrs": 9848.0,
+        "order_value": 1412815.84,
+        "open_pos": 1
+      },
+      {
+        "warehouse": "Lucknow",
+        "pending_units": 8536.0,
+        "pending_ltrs": 9784.0,
+        "open_units": 8536.0,
+        "open_ltrs": 9784.0,
+        "order_value": 1386658.32,
+        "open_pos": 1
+      }
+    ],
+    "by_distributor": [
+      {
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "pending_units": 45372.0,
+        "pending_ltrs": 51756.0,
+        "open_units": 45372.0,
+        "open_ltrs": 51756.0,
+        "order_value": 7375357.44,
+        "open_pos": 5
+      }
+    ],
+    "by_po": [
+      {
+        "po_number": "PO-1420774",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "21-06-2026",
+        "po_expiry_date": "29-06-2026",
+        "pending_units": 9884.0,
+        "pending_ltrs": 11484.0,
+        "open_units": 9884.0,
+        "open_ltrs": 11484.0,
+        "order_value": 1632663.76,
+        "open_pos": 1
+      },
+      {
+        "po_number": "PO-1420776",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "21-06-2026",
+        "po_expiry_date": "29-06-2026",
+        "pending_units": 9272.0,
+        "pending_ltrs": 10520.0,
+        "open_units": 9272.0,
+        "open_ltrs": 10520.0,
+        "order_value": 1503794.84,
+        "open_pos": 1
+      },
+      {
+        "po_number": "PO-1420787",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "21-06-2026",
+        "po_expiry_date": "29-06-2026",
+        "pending_units": 8712.0,
+        "pending_ltrs": 10120.0,
+        "open_units": 8712.0,
+        "open_ltrs": 10120.0,
+        "order_value": 1439424.68,
+        "open_pos": 1
+      },
+      {
+        "po_number": "PO-1420772",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "21-06-2026",
+        "po_expiry_date": "29-06-2026",
+        "pending_units": 8968.0,
+        "pending_ltrs": 9848.0,
+        "open_units": 8968.0,
+        "open_ltrs": 9848.0,
+        "order_value": 1412815.84,
+        "open_pos": 1
+      },
+      {
+        "po_number": "PO-1420780",
+        "distributor": "SUSTAINQUEST PRIVATE LIMITED",
+        "po_date": "21-06-2026",
+        "po_expiry_date": "01-07-2026",
+        "pending_units": 8536.0,
+        "pending_ltrs": 9784.0,
+        "open_units": 8536.0,
+        "open_ltrs": 9784.0,
+        "order_value": 1386658.32,
+        "open_pos": 1
+      }
+    ]
+  }
+}

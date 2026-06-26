@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "BRAND",
+      "ORDERED_DATE",
+      "CITY",
+      "AREA_NAME",
+      "STORE_ID",
+      "L1_CATEGORY",
+      "L2_CATEGORY",
+      "L3_CATEGORY",
+      "PRODUCT_NAME",
+      "VARIANT",
+      "ITEM_CODE",
+      "COMBO",
+      "COMBO_ITEM_CODE",
+      "COMBO_UNITS_SOLD",
+      "BASE_MRP",
+      "UNITS_SOLD",
+      "GMV"
+    ],
+    "sample": {
+      "id": 1791834,
+      "BRAND": "jivo",
+      "ORDERED_DATE": "2026-06-07",
+      "CITY": "Vizag",
+      "AREA_NAME": "dwarka nagar",
+      "STORE_ID": "1382440",
+      "L1_CATEGORY": "edible oils and ghee",
+      "L2_CATEGORY": "edible oils",
+      "L3_CATEGORY": "rice bran oil",
+      "PRODUCT_NAME": "jivo ricebran oil 1l",
+      "VARIANT": "1 ltr",
+      "ITEM_CODE": "958164",
+      "COMBO": "No",
+      "COMBO_ITEM_CODE": null,
+      "COMBO_UNITS_SOLD": null,
+      "BASE_MRP": 285.0,
+      "UNITS_SOLD": 3,
+      "GMV": 855.0
+    }
+  }
+}

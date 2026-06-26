@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "item_id",
+      "item_name",
+      "manufacturer_id",
+      "manufacturer_name",
+      "city_id",
+      "city_name",
+      "category",
+      "date",
+      "qty_sold",
+      "mrp",
+      "id"
+    ],
+    "sample": {
+      "item_id": 10048295,
+      "item_name": "Jivo Cold Pressed Canola Oil (5 l)(Pack)",
+      "manufacturer_id": 176,
+      "manufacturer_name": "Jivo Wellness Pvt. Ltd.",
+      "city_id": 110,
+      "city_name": "Mohali",
+      "category": "Dry Fruits, Masala \u0026 Oil",
+      "date": "2026-02-01",
+      "qty_sold": 1,
+      "mrp": 1650,
+      "id": 121301
+    }
+  }
+}

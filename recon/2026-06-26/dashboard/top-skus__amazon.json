@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "amazon",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "SUNFLOWER 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 21690.0,
+        "prev_ltrs": 44975.0,
+        "delta_pct": -51.8,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 20483.0,
+        "prev_ltrs": 18328.0,
+        "delta_pct": 11.8,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 19220.0,
+        "prev_ltrs": 40775.0,
+        "delta_pct": -52.9,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 18222.0,
+        "prev_ltrs": 23742.0,
+        "delta_pct": -23.2,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 14877.0,
+        "prev_ltrs": 26080.0,
+        "delta_pct": -43.0,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 13220.0,
+        "prev_ltrs": 41095.0,
+        "delta_pct": -67.8,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 3632.0,
+        "prev_ltrs": 10142.0,
+        "delta_pct": -64.2,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 2630.0,
+        "prev_ltrs": 6977.0,
+        "delta_pct": -62.3,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 2147.0,
+        "prev_ltrs": 5175.0,
+        "delta_pct": -58.5,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1+1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 2100.0,
+        "prev_ltrs": 562.0,
+        "delta_pct": 273.7,
+        "is_new": false
+      }
+    ],
+    "top_riser": {
+      "name": "EXTRA VIRGIN 500ML",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 35.5,
+      "prev_ltrs": 8.0,
+      "delta_pct": 343.8,
+      "is_new": false
+    },
+    "top_faller": {
+      "name": "GOLD 1L",
+      "head": "COMMODITY",
+      "code": null,
+      "brand": null,
+      "ltrs": 96.0,
+      "prev_ltrs": 8944.0,
+      "delta_pct": -98.9,
+      "is_new": false
+    },
+    "errors": []
+  }
+}

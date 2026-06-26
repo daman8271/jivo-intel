@@ -1,0 +1,1 @@
+Error: GET /api/platform/bigbasket/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."]

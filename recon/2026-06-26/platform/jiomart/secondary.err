@@ -1,0 +1,1 @@
+Error: GET /api/platform/jiomart/sec-dashboard returned HTTP 400: ["Sec Dashboard is available only for Amazon, Big Basket, Blinkit, Swiggy, Zepto, Flipkart and Flipkart Grocery."]

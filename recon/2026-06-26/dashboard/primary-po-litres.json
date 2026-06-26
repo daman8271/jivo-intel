@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "platforms": [
+      {
+        "format": "SWIGGY",
+        "delivered_ltrs": 125838.0
+      },
+      {
+        "format": "ZEPTO",
+        "delivered_ltrs": 88599.2
+      },
+      {
+        "format": "BLINKIT",
+        "delivered_ltrs": 30198.0
+      },
+      {
+        "format": "ZOMATO",
+        "delivered_ltrs": 26495.0
+      },
+      {
+        "format": "BIG BASKET",
+        "delivered_ltrs": 21246.0
+      },
+      {
+        "format": "FLIPKART GROCERY",
+        "delivered_ltrs": 20166.0
+      },
+      {
+        "format": "CITY MALL",
+        "delivered_ltrs": 17715.0
+      },
+      {
+        "format": "AMAZON",
+        "delivered_ltrs": 128446.5
+      }
+    ],
+    "errors": [],
+    "month": "JUNE",
+    "year": 2026
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date",
+      "item_code",
+      "combo_item_code",
+      "brand",
+      "city",
+      "l1_category",
+      "l2_category",
+      "l3_category",
+      "product_name",
+      "variant",
+      "combo",
+      "combo_units_sold",
+      "base_mrp",
+      "units_sold",
+      "gmv",
+      "discount_spend",
+      "format",
+      "uploaded_at"
+    ],
+    "sample": {
+      "id": 9501,
+      "date": "2026-05-03",
+      "item_code": "83633.00000",
+      "combo_item_code": "",
+      "brand": "Jivo",
+      "city": "Hyderabad",
+      "l1_category": "Edible Oils And Ghee",
+      "l2_category": "Edible Oils",
+      "l3_category": "Sunflower Oil",
+      "product_name": "Jivo Cold Pressed Chemical Free Sunflower Oil",
+      "variant": "ltr",
+      "combo": "No",
+      "combo_units_sold": null,
+      "base_mrp": 14025.0,
+      "units_sold": 501.0,
+      "gmv": 137775.0,
+      "discount_spend": 0.0,
+      "format": "SWIGGY",
+      "uploaded_at": "2026-05-21T12:31:55.771719Z"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "asin",
+      "margin_category",
+      "margin_pct",
+      "created_at",
+      "updated_at"
+    ],
+    "sample": {
+      "id": 1,
+      "asin": "B0B2RW9N9F",
+      "margin_category": "A2 Ghee 1kg",
+      "margin_pct": 20.0,
+      "created_at": "2026-05-13T07:15:41.982063Z",
+      "updated_at": "2026-05-13T07:15:41.982063Z"
+    }
+  }
+}

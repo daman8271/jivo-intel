@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "state": null,
+    "metric": "units",
+    "metric_label": "Units sold",
+    "metric_unit": "units",
+    "mode": "single",
+    "month": 6,
+    "year": 2026,
+    "platform": null,
+    "brands": [],
+    "categories": [],
+    "sub_categories": [],
+    "limit": 50,
+    "offset": 0,
+    "total_rows": 0,
+    "total_units": 0,
+    "total_value": 0,
+    "rows": [],
+    "errors": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "inventory_date",
+      "sku_code",
+      "item",
+      "item_head",
+      "brand",
+      "soh_unit",
+      "soh_ltr",
+      "location",
+      "format"
+    ],
+    "sample": {
+      "inventory_date": "2026-01-01",
+      "sku_code": "10150509",
+      "item": "MUSTARD 1L",
+      "item_head": "COMMODITY",
+      "brand": "JIVO",
+      "soh_unit": 0,
+      "soh_ltr": 0.0,
+      "location": "Ludhiana - Feeder Warehouse",
+      "format": "BLINKIT"
+    }
+  }
+}

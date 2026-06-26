@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 1,
+        "inventory_date": "2026-01-01",
+        "raw_created_at": "31-12-2025",
+        "uploaded_at": "2026-01-01T11:58:15.089471Z",
+        "backend_facility_id": "1320",
+        "backend_facility_name": "Ludhiana - Feeder Warehouse",
+        "item_id": "10150509",
+        "item_name": "Jivo Kachi Ghani Cold Pressed Mustard Oil 1 l - Rs 255",
+        "backend_inv_qty": 0,
+        "frontend_inv_qty": 0,
+        "total_inv_qty": 0
+      },
+      {
+        "id": 2,
+        "inventory_date": "2026-01-01",
+        "raw_created_at": "31-12-2025",
+        "uploaded_at": "2026-01-01T11:58:15.089471Z",
+        "backend_facility_id": "2078",
+        "backend_facility_name": "Rajpura - Feeder Warehouse",
+        "item_id": "10048295",
+        "item_name": "Jivo Cold Pressed Canola Oil (5 l)(Pack) 5 l - Rs 1650",
+        "backend_inv_qty": 0,
+        "frontend_inv_qty": 0,
+        "total_inv_qty": 0
+      },
+      {
+        "id": 3,
+        "inventory_date": "2026-01-01",
+        "raw_created_at": "31-12-2025",
+        "uploaded_at": "2026-01-01T11:58:15.089471Z",
+        "backend_facility_id": "4571",
+        "backend_facility_name": "Rajpura R2 - Feeder Warehouse",
+        "item_id": "10048295",
+        "item_name": "Jivo Cold Pressed Canola Oil (5 l)(Pack) 5 l - Rs 1650",
+        "backend_inv_qty": 20,
+        "frontend_inv_qty": 103,
+        "total_inv_qty": 123
+      }
+    ],
+    "count": 29161,
+    "page": 0,
+    "page_size": 3,
+    "max_date": null
+  }
+}

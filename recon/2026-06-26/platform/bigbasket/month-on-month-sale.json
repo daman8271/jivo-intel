@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "SecMaster",
+    "format": "BIG BASKET",
+    "dashboard_title": "Big Basket Month On Month Analysis",
+    "defaulted_to_latest": true,
+    "month": 6,
+    "year": 2026,
+    "max_date": "2026-06-25",
+    "elapsed_days": 25,
+    "days_in_month": 30,
+    "projection_days": 30,
+    "target_summary": [
+      {
+        "item_head": "PREMIUM",
+        "target": 5000.0
+      },
+      {
+        "item_head": "COMMODITY",
+        "target": 12000.0
+      },
+      {
+        "item_head": "TOTAL",
+        "target": 17000.0
+      }
+    ],
+    "comparison_months": [
+      {
+        "key": "current",
+        "month": 6,
+        "year": 2026,
+        "label": "JUNE"
+      },
+      {
+        "key": "previous_1",
+        "month": 5,
+        "year": 2026,
+        "label": "MAY"
+      },
+      {
+        "key": "previous_2",
+        "month": 4,
+        "year": 2026,
+        "label": "APRIL"
+      },
+      {
+        "key": "previous_3",
+        "month": 3,
+        "year": 2026,
+        "label": "MARCH"
+      },
+      {
+        "key": "previous_4",
+        "month": 2,
+        "year": 2026,
+        "label": "FEBRUARY"
+      }
+    ],
+    "groups": [
+      {
+        "sub_category": "CANOLA",
+        "rows": [
+          {
+            "sub_category": "CANOLA",
+            "item": "CANOLA 1L",
+            "item_head": "PREMIUM",
+            "target": 1000.0,
+            "current_done_ltr": 714.0,
+            "estimated_ltr": 856.8,
+            "previous_1_ltr": 894.0,
+            "previous_2_ltr": 911.0,
+            "previous_3_ltr": 906.0,
+            "previous_4_ltr": 1212.0
+          },
+          {
+            "sub_category": "CANOLA",
+            "item": "CANOLA 1L POUCH",
+            "item_head": "PREMIUM",
+            "target": 500.0,
+            "current_done_ltr": 52.0,
+            "estimated_ltr": 62.400000000000006,
+            "previous_1_ltr": 120.0,
+            "previous_2_ltr": 174.0,
+            "previous_3_ltr": 235.0,
+            "previous_4_ltr": 207.0
+          },
+          {
+            "sub_category": "CANOLA",
+            "item": "CANOLA 5L",
+            "item_head": "PREMIUM",
+            "target": 1000.0,
+            "current_done_ltr": 525.0,
+            "estimated_ltr": 630.0,
+            "previous_1_ltr": 810.0,
+            "previous_2_ltr": 590.0,
+            "previous_3_ltr": 950.0,
+            "previous_4_ltr": 1015.0
+          }
+        ],
+        "total": {
+          "target": 2500.0,
+          "current_done_ltr": 1291.0,
+          "estimated_ltr": 1549.2,
+          "previous_1_ltr": 1824.0,
+          "previous_2_ltr": 1675.0,
+          "previous_3_ltr": 2091.0,
+          "previous_4_ltr": 2434.0
+        }
+      },
+      {
+        "sub_category": "EXTRA LIGHT",
+        "rows": [
+          {
+            "sub_category": "EXTRA LIGHT",
+            "item": "EXTRA LIGHT 1L",
+            "item_head": "PREMIUM",
+            "target": 800.0,
+            "current_done_ltr": 242.0,
+            "estimated_ltr": 290.4,
+            "previous_1_ltr": 362.0,
+            "previous_2_ltr": 366.0,
+            "previous_3_ltr": 353.0,
+            "previous_4_ltr": 452.0
+          },
+          {
+            "sub_category": "EXTRA LIGHT",
+            "item": "EXTRA LIGHT 2L",
+            "item_head": "PREMIUM",
+            "target": 500.0,
+            "current_done_ltr": 134.0,
+            "estimated_ltr": 160.8,
+            "previous_1_ltr": 228.0,
+            "previous_2_ltr": 196.0,
+            "previous_3_ltr": 220.0,
+            "previous_4_ltr": 364.0
+          },
+          {
+            "sub_category": "EXTRA LIGHT",
+            "item": "EXTRA LIGHT 5L",
+            "item_head": "PREMIUM",
+            "target": 100.0,
+            "current_done_ltr": 10.0,
+            "estimated_ltr": 12.0,
+            "previous_1_ltr": 20.0,
+            "previous_2_ltr": 30.0,
+            "previous_3_ltr": 20.0,
+            "previous_4_ltr": 10.0
+          }
+        ],
+        "total": {
+          "target": 1400.0,
+          "current_done_ltr": 386.0,
+          "estimated_ltr": 463.2,
+          "previous_1_ltr": 610.0,
+          "previous_2_ltr": 592.0,
+          "previous_3_ltr": 593.0,
+          "previous_4_ltr": 826.0
+        }
+      },
+      {
+        "sub_category": "EXTRA VIRGIN",
+        "rows": [
+          {
+            "sub_category": "EXTRA VIRGIN",
+            "item": "EXTRA VIRGIN 1L",
+            "item_head": "PREMIUM",
+            "target": 100.0,
+            "current_done_ltr": 15.0,
+            "estimated_ltr": 18.0,
+            "previous_1_ltr": 19.0,
+            "previous_2_ltr": 22.0,
+            "previous_3_ltr": 29.0,
+            "previous_4_ltr": 32.0
+          },
+          {
+            "sub_category": "EXTRA VIRGIN",
+            "item": "EXTRA VIRGIN 5L",
+            "item_head": "PREMIUM",
+            "target": 0.0,
+            "current_done_ltr": 0.0,
+            "estimated_ltr": 0.0,
+            "previous_1_ltr": 0.0,
+            "previous_2_ltr": 0.0,
+            "previous_3_ltr": 0.0,
+            "previous_4_ltr": 5.0
+          }
+        ],
+        "total": {
+          "target": 100.0,
+          "current_done_ltr": 15.0,
+          "estimated_ltr": 18.0,
+          "previous_1_ltr": 19.0,
+          "previous_2_ltr": 22.0,
+          "previous_3_ltr": 29.0,
+          "previous_4_ltr": 37.0
+        }
+      },
+      {
+        "sub_category": "JIVO POMACE",
+        "rows": [
+          {
+            "sub_category": "JIVO POMACE",
+            "item": "JIVO POMACE 1L",
+            "item_head": "PREMIUM",
+            "target": 800.0,
+            "current_done_ltr": 296.0,
+            "estimated_ltr": 355.2,
+            "previous_1_ltr": 440.0,
+            "previous_2_ltr": 428.0,
+            "previous_3_ltr": 430.0,
+            "previous_4_ltr": 590.0
+          },
+          {
+            "sub_category": "JIVO POMACE",
+            "item": "JIVO POMACE 2L",
+            "item_head": "PREMIUM",
+            "target": 100.0,
+            "current_done_ltr": 34.0,
+            "estimated_ltr": 40.800000000000004,
+            "previous_1_ltr": 42.0,
+            "previous_2_ltr": 40.0,
+            "previous_3_ltr": 46.0,
+            "previous_4_ltr": 34.0
+          },
+          {
+            "sub_category": "JIVO POMACE",
+            "item": "JIVO POMACE 5L",
+            "item_head": "PREMIUM",
+            "target": 100.0,
+            "current_done_ltr": 45.0,
+            "estimated_ltr": 54.0,
+            "previous_1_ltr": 25.0,
+            "previous_2_ltr": 25.0,
+            "previous_3_ltr": 55.0,
+            "previous_4_ltr": 75.0
+          }
+        ],
+        "total": {
+          "target": 1000.0,
+          "current_done_ltr": 375.0,
+          "estimated_ltr": 450.0,
+          "previous_1_ltr": 507.0,
+          "previous_2_ltr": 493.0,
+          "previous_3_ltr": 531.0,
+          "previous_4_ltr": 699.0
+        }
+      },
+      {
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "rows": [
+          {
+            "sub_category": "MUSTARD KACCHI GHANI",
+            "item": "MUSTARD 1L",
+            "item_head": "COMMODITY",
+            "target": 1000.0,
+            "current_done_ltr": 568.0,
+            "estimated_ltr": 681.5999999999999,
+            "previous_1_ltr": 878.0,
+            "previous_2_ltr": 452.0,
+            "previous_3_ltr": 493.0,
+            "previous_4_ltr": 685.0
+          },
+          {
+            "sub_category": "MUSTARD KACCHI GHANI",
+            "item": "MUSTARD 5L",
+            "item_head": "COMMODITY",
+            "target": 1500.0,
+            "current_done_ltr": 930.0,
+            "estimated_ltr": 1116.0,
+            "previous_1_ltr": 1095.0,
+            "previous_2_ltr": 860.0,
+            "previous_3_ltr": 1055.0,
+            "previous_4_ltr": 1405.0
+          }
+        ],
+        "total": {
+          "target": 2500.0,
+          "current_done_ltr": 1498.0,
+          "estimated_ltr": 1797.6,
+          "previous_1_ltr": 1973.0,
+          "previous_2_ltr": 1312.0,
+          "previous_3_ltr": 1548.0,
+          "previous_4_ltr": 2090.0
+        }
+      },
+      {
+        "sub_category": "SOYABEAN",
+        "rows": [
+          {
+            "sub_category": "SOYABEAN",
+            "item": "SOYABEAN 1L",
+            "item_head": "COMMODITY",
+            "target": 0.0,
+            "current_done_ltr": 0.0,
+            "estimated_ltr": 0.0,
+            "previous_1_ltr": 0.0,
+            "previous_2_ltr": 0.0,
+            "previous_3_ltr": 0.0,
+            "previous_4_ltr": 0.0
+          },
+          {
+            "sub_category": "SOYABEAN",
+            "item": "SOYABEAN 5L",
+            "item_head": "COMMODITY",
+            "target": 0.0,
+            "current_done_ltr": 0.0,
+            "estimated_ltr": 0.0,
+            "previous_1_ltr": 0.0,
+            "previous_2_ltr": 0.0,
+            "previous_3_ltr": 0.0,
+            "previous_4_ltr": 0.0
+          }
+        ],
+        "total": {
+          "target": 0.0,
+          "current_done_ltr": 0.0,
+          "estimated_ltr": 0.0,
+          "previous_1_ltr": 0.0,
+          "previous_2_ltr": 0.0,
+          "previous_3_ltr": 0.0,
+          "previous_4_ltr": 0.0
+        }
+      },
+      {
+        "sub_category": "SUNFLOWER",
+        "rows": [
+          {
+            "sub_category": "SUNFLOWER",
+            "item": "SUNFLOWER 1L",
+            "item_head": "COMMODITY",
+            "target": 6500.0,
+            "current_done_ltr": 4084.0,
+            "estimated_ltr": 4900.8,
+            "previous_1_ltr": 7734.0,
+            "previous_2_ltr": 6142.0,
+            "previous_3_ltr": 6382.0,
+            "previous_4_ltr": 7520.0
+          },
+          {
+            "sub_category": "SUNFLOWER",
+            "item": "SUNFLOWER 5L",
+            "item_head": "COMMODITY",
+            "target": 3000.0,
+            "current_done_ltr": 1645.0,
+            "estimated_ltr": 1974.0,
+            "previous_1_ltr": 2125.0,
+            "previous_2_ltr": 2230.0,
+            "previous_3_ltr": 3260.0,
+            "previous_4_ltr": 3315.0
+          }
+        ],
+        "total": {
+          "target": 9500.0,
+          "current_done_ltr": 5729.0,
+          "estimated_ltr": 6874.8,
+          "previous_1_ltr": 9859.0,
+          "previous_2_ltr": 8372.0,
+          "previous_3_ltr": 9642.0,
+          "previous_4_ltr": 10835.0
+        }
+      }
+    ],
+    "grand_total": {
+      "target": 17000.0,
+      "current_done_ltr": 9294.0,
+      "estimated_ltr": 11152.8,
+      "previous_1_ltr": 14792.0,
+      "previous_2_ltr": 12466.0,
+      "previous_3_ltr": 14434.0,
+      "previous_4_ltr": 16921.0
+    },
+    "estimation_note": "Estimated LTR uses Excel formula: Done LTR / day(max date) * 30."
+  }
+}

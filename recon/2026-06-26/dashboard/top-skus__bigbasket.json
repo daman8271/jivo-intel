@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "bigbasket",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 9952.0,
+        "prev_ltrs": 4412.0,
+        "delta_pct": 125.6,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 5285.0,
+        "prev_ltrs": 1215.0,
+        "delta_pct": 335.0,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 2340.0,
+        "prev_ltrs": 900.0,
+        "delta_pct": 160.0,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 1224.0,
+        "prev_ltrs": 400.0,
+        "delta_pct": 206.0,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 841.0,
+        "prev_ltrs": 473.0,
+        "delta_pct": 77.8,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 660.0,
+        "prev_ltrs": 400.0,
+        "delta_pct": 65.0,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 416.0,
+        "prev_ltrs": 241.0,
+        "delta_pct": 72.6,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 308.0,
+        "prev_ltrs": 148.0,
+        "delta_pct": 108.1,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 2L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 140.0,
+        "prev_ltrs": 140.0,
+        "delta_pct": 0.0,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 40.0,
+        "prev_ltrs": 20.0,
+        "delta_pct": 100.0,
+        "is_new": false
+      }
+    ],
+    "top_riser": {
+      "name": "SUNFLOWER 5L",
+      "head": "COMMODITY",
+      "code": null,
+      "brand": null,
+      "ltrs": 5285.0,
+      "prev_ltrs": 1215.0,
+      "delta_pct": 335.0,
+      "is_new": false
+    },
+    "top_faller": null,
+    "errors": []
+  }
+}

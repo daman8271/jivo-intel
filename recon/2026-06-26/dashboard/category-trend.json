@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": null,
+    "months": 6,
+    "series": [
+      {
+        "month": 1,
+        "year": 2026,
+        "label": "Jan '26",
+        "premium_ltrs": 144480.75,
+        "commodity_ltrs": 227653.0,
+        "total_ltrs": 372133.75
+      },
+      {
+        "month": 2,
+        "year": 2026,
+        "label": "Feb '26",
+        "premium_ltrs": 142305.5,
+        "commodity_ltrs": 269645.0,
+        "total_ltrs": 411950.5
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "label": "Mar '26",
+        "premium_ltrs": 308168.6,
+        "commodity_ltrs": 344710.0,
+        "total_ltrs": 652878.6
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "label": "Apr '26",
+        "premium_ltrs": 232971.2,
+        "commodity_ltrs": 215649.0,
+        "total_ltrs": 448620.2
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "label": "May '26",
+        "premium_ltrs": 488661.65,
+        "commodity_ltrs": 449716.0,
+        "total_ltrs": 938377.65
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "label": "Jun '26",
+        "premium_ltrs": 233401.7,
+        "commodity_ltrs": 225302.0,
+        "total_ltrs": 458703.7
+      }
+    ],
+    "errors": []
+  }
+}

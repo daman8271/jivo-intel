@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "head": "premium",
+    "dimension": "sub_category",
+    "name": "Uncategorized",
+    "platform": "zepto",
+    "month": 6,
+    "year": 2026,
+    "months": [
+      {
+        "key": "2026-06",
+        "month": 6,
+        "year": 2026,
+        "label": "Jun 2026"
+      }
+    ],
+    "skus": [],
+    "total_units": 0,
+    "total_ltrs": 0,
+    "errors": []
+  }
+}

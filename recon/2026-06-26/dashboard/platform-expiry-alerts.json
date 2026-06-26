@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "platforms": [
+      {
+        "format": "CITY MALL",
+        "slug": "citymall",
+        "po_count": 5,
+        "total_litrs": 51756.0,
+        "total_units": 7375357.44,
+        "total_order_units": 45372.0
+      },
+      {
+        "format": "SWIGGY",
+        "slug": "swiggy",
+        "po_count": 31,
+        "total_litrs": 12326.0,
+        "total_units": 2380410.78,
+        "total_order_units": 10236.0
+      },
+      {
+        "format": "ZEPTO",
+        "slug": "zepto",
+        "po_count": 3,
+        "total_litrs": 988.8,
+        "total_units": 221488.16,
+        "total_order_units": 1104.0
+      },
+      {
+        "format": "ZOMATO",
+        "slug": "zomato",
+        "po_count": 2,
+        "total_litrs": 890.0,
+        "total_units": 171800.0,
+        "total_order_units": 310.0
+      },
+      {
+        "format": "BLINKIT",
+        "slug": "blinkit",
+        "po_count": 7,
+        "total_litrs": 888.0,
+        "total_units": 171654.08,
+        "total_order_units": 872.0
+      },
+      {
+        "format": "BIG BASKET",
+        "slug": "bigbasket",
+        "po_count": 1,
+        "total_litrs": 312.0,
+        "total_units": 81383.36,
+        "total_order_units": 758.0
+      },
+      {
+        "format": "AMAZON",
+        "slug": "amazon",
+        "po_count": 4,
+        "total_litrs": 15794.5,
+        "total_units": 9121.0,
+        "total_order_units": 9121.0
+      }
+    ],
+    "errors": [],
+    "month": "JUNE",
+    "year": 2026
+  }
+}

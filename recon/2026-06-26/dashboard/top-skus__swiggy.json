@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "swiggy",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "GROUNDNUT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 31854.0,
+        "prev_ltrs": 74327.0,
+        "delta_pct": -57.1,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 25196.0,
+        "prev_ltrs": 33715.0,
+        "delta_pct": -25.3,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 18734.0,
+        "prev_ltrs": 21150.0,
+        "delta_pct": -11.4,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 9780.0,
+        "prev_ltrs": 18690.0,
+        "delta_pct": -47.7,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 8295.0,
+        "prev_ltrs": 18580.0,
+        "delta_pct": -55.4,
+        "is_new": false
+      },
+      {
+        "name": "GOLD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 6440.0,
+        "prev_ltrs": 19604.0,
+        "delta_pct": -67.1,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 3424.0,
+        "prev_ltrs": 3264.0,
+        "delta_pct": 4.9,
+        "is_new": false
+      },
+      {
+        "name": "SESAME OIL 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 3100.0,
+        "prev_ltrs": 1347.0,
+        "delta_pct": 130.1,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 2700.0,
+        "prev_ltrs": 3020.0,
+        "delta_pct": -10.6,
+        "is_new": false
+      },
+      {
+        "name": "GOLD 5L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 2680.0,
+        "prev_ltrs": 3530.0,
+        "delta_pct": -24.1,
+        "is_new": false
+      }
+    ],
+    "top_riser": {
+      "name": "SESAME OIL 1L",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 3100.0,
+      "prev_ltrs": 1347.0,
+      "delta_pct": 130.1,
+      "is_new": false
+    },
+    "top_faller": {
+      "name": "EXTRA LIGHT 5L",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 15.0,
+      "prev_ltrs": 440.0,
+      "delta_pct": -96.6,
+      "is_new": false
+    },
+    "errors": []
+  }
+}

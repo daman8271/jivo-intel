@@ -1,0 +1,1 @@
+Error: GET /api/platform/citymall/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."]

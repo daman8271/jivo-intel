@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "user": {
+      "id": 18,
+      "email": "ecom4@jivo.in",
+      "first_name": "Punkirat",
+      "last_name": "",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "groups": [
+        "Super Admin",
+        "Platform Admin",
+        "Operations Manager",
+        "Dispatch Operator",
+        "Finance Analyst",
+        "Viewer",
+        "Blinkit User",
+        "Zepto User",
+        "JioMart User",
+        "Amazon User",
+        "BigBasket User",
+        "Swiggy User",
+        "Flipkart User",
+        "Uploader"
+      ],
+      "permissions": [
+        "*"
+      ],
+      "platforms": [
+        "amazon",
+        "bigbasket",
+        "blinkit",
+        "citymall",
+        "flipkart",
+        "flipkart_grocery",
+        "jiomart",
+        "swiggy",
+        "zepto",
+        "zomato"
+      ],
+      "created_at": "2026-05-28T17:52:46.065314+05:30"
+    }
+  }
+}

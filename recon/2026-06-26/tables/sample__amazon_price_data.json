@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 1,
+        "upload_date": "2026-05-12",
+        "url": "https://amz.cx/3ZBf",
+        "asin": "B0152TWWSQ",
+        "product": "CANOLA 1+1L",
+        "margin_basis": "ASP",
+        "mrp": 750.0,
+        "asp": 533.0,
+        "margin_pct": 25.0,
+        "tax_pct": 5.0,
+        "cost_without_tax": 380.95,
+        "url_price": 469.0,
+        "stock_status": "In Stock",
+        "seller": "RK World Infocom Pvt Ltd",
+        "rk_price": 234.0,
+        "jm_price": 319.0,
+        "svd_price": 489.0,
+        "bau_price": 509.0,
+        "art_price": 469.0,
+        "created_at": "2026-05-12T11:38:25.692272Z",
+        "updated_at": "2026-05-12T11:38:25.692272Z"
+      },
+      {
+        "id": 2,
+        "upload_date": "2026-05-12",
+        "url": "https://amz.cx/3Ujc",
+        "asin": "B077ZN4G28",
+        "product": "CANOLA 5L",
+        "margin_basis": "ASP",
+        "mrp": 1650.0,
+        "asp": 1333.0,
+        "margin_pct": 25.0,
+        "tax_pct": 5.0,
+        "cost_without_tax": 952.38,
+        "url_price": 1099.0,
+        "stock_status": "In Stock",
+        "seller": "RK World Infocom Pvt Ltd",
+        "rk_price": 219.0,
+        "jm_price": 293.0,
+        "svd_price": 1239.0,
+        "bau_price": 1289.0,
+        "art_price": 1099.0,
+        "created_at": "2026-05-12T11:38:25.702700Z",
+        "updated_at": "2026-05-12T11:38:25.702700Z"
+      },
+      {
+        "id": 3,
+        "upload_date": "2026-05-12",
+        "url": "https://amz.cx/3b3p",
+        "asin": "B078T3Q3SH",
+        "product": "CANOLA 3L",
+        "margin_basis": "ASP",
+        "mrp": 690.0,
+        "asp": 835.0,
+        "margin_pct": 25.0,
+        "tax_pct": 5.0,
+        "cost_without_tax": 571.43,
+        "url_price": null,
+        "stock_status": "Out of Stock",
+        "seller": null,
+        "rk_price": null,
+        "jm_price": null,
+        "svd_price": 739.0,
+        "bau_price": 769.0,
+        "art_price": 709.0,
+        "created_at": "2026-05-12T11:38:25.711689Z",
+        "updated_at": "2026-05-12T11:38:25.711689Z"
+      }
+    ],
+    "count": 192,
+    "page": 0,
+    "page_size": 3,
+    "max_date": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "flipkart",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [],
+    "top_riser": null,
+    "top_faller": null,
+    "errors": []
+  }
+}

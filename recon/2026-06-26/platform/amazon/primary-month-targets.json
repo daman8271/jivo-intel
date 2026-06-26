@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": null,
+        "format": "AMAZON",
+        "type": "sec",
+        "item_head": "PREMIUM",
+        "month": 6,
+        "year": 2026,
+        "targets": 160000.0,
+        "done_ltrs": 93307.2,
+        "date": "2026-06-26",
+        "achieved_pct": 0.58317,
+        "est_ltr": 107662.15384615384,
+        "est_ltr_pct": 0.6728884615384615,
+        "drr": 3588.7384615384617,
+        "require_drr": 16673.2,
+        "pending_ltr": 66692.8,
+        "dp_ltrs": 160000.0
+      },
+      {
+        "id": null,
+        "format": "AMAZON",
+        "type": "sec",
+        "item_head": "COMMODITY",
+        "month": 6,
+        "year": 2026,
+        "targets": 180000.0,
+        "done_ltrs": 101987.0,
+        "date": "2026-06-26",
+        "achieved_pct": 0.5665944444444444,
+        "est_ltr": 117677.30769230769,
+        "est_ltr_pct": 0.6537628205128205,
+        "drr": 3922.576923076923,
+        "require_drr": 19503.25,
+        "pending_ltr": 78013.0,
+        "dp_ltrs": 180000.0
+      }
+    ],
+    "format": "AMAZON",
+    "type": "prim",
+    "source": "master_po"
+  }
+}

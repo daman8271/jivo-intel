@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "SecMaster",
+    "format": "SWIGGY",
+    "detail_rows_fixed": true,
+    "defaulted_to_latest": true,
+    "month": 6,
+    "year": 2026,
+    "selected_date": null,
+    "max_date": "2026-06-25",
+    "previous_month": 5,
+    "previous_year": 2026,
+    "summary": [
+      {
+        "item_head": "PREMIUM",
+        "shipped_units": 67533.0,
+        "shipped_ltr": 78642.5,
+        "shipped_value": 18121165.0,
+        "per_liter_shpd": 230.4245795848301
+      },
+      {
+        "item_head": "COMMODITY",
+        "shipped_units": 54758.0,
+        "shipped_ltr": 68026.0,
+        "shipped_value": 10786971.0,
+        "per_liter_shpd": 158.5712962690736
+      },
+      {
+        "item_head": "OTHER",
+        "shipped_units": 166.0,
+        "shipped_ltr": 0.0,
+        "shipped_value": 0.0,
+        "per_liter_shpd": 0.0
+      }
+    ],
+    "summary_total": {
+      "shipped_units": 122457.0,
+      "shipped_ltr": 146668.5,
+      "shipped_value": 28908136.0,
+      "per_liter_shpd": 197.098463541933
+    },
+    "details": [
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "GROUNDNUT",
+        "sub_category": "GROUNDNUT",
+        "per_ltr": "1 LTR",
+        "shipped_value": 10015590.0,
+        "shipped_units": 51362.0,
+        "shipped_ltr": 51362.0,
+        "per_liter_shpd": 195.0,
+        "last_month": 27308.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "GROUNDNUT",
+        "sub_category": "GROUNDNUT",
+        "per_ltr": "5 LTR",
+        "shipped_value": 2496000.0,
+        "shipped_units": 2560.0,
+        "shipped_ltr": 12800.0,
+        "per_liter_shpd": 195.0,
+        "last_month": 14485.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "per_ltr": "1 LTR",
+        "shipped_value": 1935500.0,
+        "shipped_units": 3871.0,
+        "shipped_ltr": 3654.0,
+        "per_liter_shpd": 529.6934865900383,
+        "last_month": 4481.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "CANOLA",
+        "sub_category": "CANOLA",
+        "per_ltr": "1 LTR",
+        "shipped_value": 517290.0,
+        "shipped_units": 2406.0,
+        "shipped_ltr": 2386.0,
+        "per_liter_shpd": 216.802179379715,
+        "last_month": 2689.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "per_ltr": "1 LTR",
+        "shipped_value": 852930.0,
+        "shipped_units": 2187.0,
+        "shipped_ltr": 2187.0,
+        "per_liter_shpd": 390.0,
+        "last_month": 2405.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "CANOLA",
+        "sub_category": "CANOLA",
+        "per_ltr": "6 LTR",
+        "shipped_value": 252840.0,
+        "shipped_units": 196.0,
+        "shipped_ltr": 1176.0,
+        "per_liter_shpd": 215.0,
+        "last_month": 1290.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "per_ltr": "5 LTR",
+        "shipped_value": 352800.0,
+        "shipped_units": 147.0,
+        "shipped_ltr": 735.0,
+        "per_liter_shpd": 480.0,
+        "last_month": 905.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "BLENDED",
+        "sub_category": "SO OLIVE",
+        "per_ltr": "1 LTR",
+        "shipped_value": 183750.0,
+        "shipped_units": 875.0,
+        "shipped_ltr": 875.0,
+        "per_liter_shpd": 210.0,
+        "last_month": 1082.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "per_ltr": "2 LTR",
+        "shipped_value": 287140.0,
+        "shipped_units": 293.0,
+        "shipped_ltr": 586.0,
+        "per_liter_shpd": 490.0,
+        "last_month": 836.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "per_ltr": "5 LTR",
+        "shipped_value": 205200.0,
+        "shipped_units": 108.0,
+        "shipped_ltr": 540.0,
+        "per_liter_shpd": 380.0,
+        "last_month": 745.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "per_ltr": "2 LTR",
+        "shipped_value": 227920.0,
+        "shipped_units": 296.0,
+        "shipped_ltr": 592.0,
+        "per_liter_shpd": 385.0,
+        "last_month": 844.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA VIRGIN",
+        "per_ltr": "250 MLS",
+        "shipped_value": 439110.0,
+        "shipped_units": 2142.0,
+        "shipped_ltr": 535.5,
+        "per_liter_shpd": 820.0,
+        "last_month": 573.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA VIRGIN",
+        "per_ltr": "1 LTR",
+        "shipped_value": 93010.0,
+        "shipped_units": 131.0,
+        "shipped_ltr": 131.0,
+        "per_liter_shpd": 710.0,
+        "last_month": 272.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "BLENDED",
+        "sub_category": "SO OLIVE",
+        "per_ltr": "5 LTR",
+        "shipped_value": 32550.0,
+        "shipped_units": 31.0,
+        "shipped_ltr": 155.0,
+        "per_liter_shpd": 210.0,
+        "last_month": 185.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "PREMIUM",
+        "category": "GHEE",
+        "sub_category": "DESI GHEE",
+        "per_ltr": "1 LTR",
+        "shipped_value": 560.0,
+        "shipped_units": 1.0,
+        "shipped_ltr": 1.0,
+        "per_liter_shpd": 560.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "BLUEBERRY",
+        "per_ltr": "200 MLS",
+        "shipped_value": 0.0,
+        "shipped_units": 0.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "JEERA",
+        "per_ltr": "160 MLS",
+        "shipped_value": 0.0,
+        "shipped_units": 0.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "MINERAL WATER",
+        "per_ltr": "1 LTR",
+        "shipped_value": 0.0,
+        "shipped_units": 163.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "MOJITO",
+        "per_ltr": "200 MLS",
+        "shipped_value": 0.0,
+        "shipped_units": 3.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "SODA",
+        "per_ltr": "750 MLS",
+        "shipped_value": 0.0,
+        "shipped_units": 0.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "OTHER",
+        "category": "DRINKS",
+        "sub_category": "TONIC WATER",
+        "per_ltr": "200 MLS",
+        "shipped_value": 0.0,
+        "shipped_units": 0.0,
+        "shipped_ltr": 0.0,
+        "per_liter_shpd": 0.0,
+        "last_month": 0.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "BLENDED",
+        "sub_category": "GOLD",
+        "per_ltr": "1 LTR",
+        "shipped_value": 930696.0,
+        "shipped_units": 6123.0,
+        "shipped_ltr": 6123.0,
+        "per_liter_shpd": 152.0,
+        "last_month": 15004.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "MUSTARD",
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "per_ltr": "1 LTR",
+        "shipped_value": 3962994.0,
+        "shipped_units": 25242.0,
+        "shipped_ltr": 25242.0,
+        "per_liter_shpd": 157.0,
+        "last_month": 21182.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "SUNFLOWER",
+        "sub_category": "SUNFLOWER",
+        "per_ltr": "1 LTR",
+        "shipped_value": 2982096.0,
+        "shipped_units": 18408.0,
+        "shipped_ltr": 18408.0,
+        "per_liter_shpd": 162.0,
+        "last_month": 16578.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "SUNFLOWER",
+        "sub_category": "SUNFLOWER",
+        "per_ltr": "5 LTR",
+        "shipped_value": 1925370.0,
+        "shipped_units": 2377.0,
+        "shipped_ltr": 11885.0,
+        "per_liter_shpd": 162.0,
+        "last_month": 13575.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "BLENDED",
+        "sub_category": "GOLD",
+        "per_ltr": "5 LTR",
+        "shipped_value": 266760.0,
+        "shipped_units": 351.0,
+        "shipped_ltr": 1755.0,
+        "per_liter_shpd": 152.0,
+        "last_month": 5455.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "MUSTARD",
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "per_ltr": "5 LTR",
+        "shipped_value": 317140.0,
+        "shipped_units": 404.0,
+        "shipped_ltr": 2020.0,
+        "per_liter_shpd": 157.0,
+        "last_month": 4560.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "RICE BRAN",
+        "sub_category": "RICE BRAN",
+        "per_ltr": "1 LTR",
+        "shipped_value": 258540.0,
+        "shipped_units": 1668.0,
+        "shipped_ltr": 1668.0,
+        "per_liter_shpd": 155.0,
+        "last_month": 2530.0
+      },
+      {
+        "format": "SWIGGY",
+        "item_head": "COMMODITY",
+        "category": "RICE BRAN",
+        "sub_category": "RICE BRAN",
+        "per_ltr": "5 LTR",
+        "shipped_value": 143375.0,
+        "shipped_units": 185.0,
+        "shipped_ltr": 925.0,
+        "per_liter_shpd": 155.0,
+        "last_month": 2115.0
+      }
+    ],
+    "detail_total": {
+      "shipped_units": 121530.0,
+      "shipped_ltr": 145741.5,
+      "shipped_value": 28679161.0,
+      "per_liter_shpd": 196.78101981933767,
+      "last_month": 139099.0
+    },
+    "top_items": [
+      {
+        "item": "GROUNDNUT 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 51362,
+        "shipped_ltr": 51362.0,
+        "shipped_value": 10015590.0
+      },
+      {
+        "item": "MUSTARD 1L",
+        "item_head": "COMMODITY",
+        "shipped_units": 25242,
+        "shipped_ltr": 25242.0,
+        "shipped_value": 3962994.0
+      },
+      {
+        "item": "SUNFLOWER 1L",
+        "item_head": "COMMODITY",
+        "shipped_units": 18408,
+        "shipped_ltr": 18408.0,
+        "shipped_value": 2982096.0
+      },
+      {
+        "item": "GROUNDNUT 5L",
+        "item_head": "PREMIUM",
+        "shipped_units": 2560,
+        "shipped_ltr": 12800.0,
+        "shipped_value": 2496000.0
+      },
+      {
+        "item": "SUNFLOWER 5L",
+        "item_head": "COMMODITY",
+        "shipped_units": 2377,
+        "shipped_ltr": 11885.0,
+        "shipped_value": 1925370.0
+      },
+      {
+        "item": "GOLD 1L",
+        "item_head": "COMMODITY",
+        "shipped_units": 6123,
+        "shipped_ltr": 6123.0,
+        "shipped_value": 930696.0
+      },
+      {
+        "item": "EXTRA LIGHT 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 3871,
+        "shipped_ltr": 3654.0,
+        "shipped_value": 1935500.0
+      },
+      {
+        "item": "CANOLA 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 2406,
+        "shipped_ltr": 2386.0,
+        "shipped_value": 517290.0
+      }
+    ],
+    "show_format_column": false,
+    "show_last_month": true,
+    "show_ratio_column": false,
+    "dashboard_title": "Swiggy Secondary Dashboard",
+    "detail_subtitle": "Excel rows 8-36 from SECONDARY DASHBOARD",
+    "summary_note": "VALUE uses SecMaster.sales_amt to match workbook DATABASE column P.",
+    "value_source_note": "VALUE and DONE VALUE use SecMaster.sales_amt to match workbook DATABASE column P.",
+    "kpi_labels": {
+      "units": "Qty",
+      "litres": "Liter",
+      "value": "Value"
+    },
+    "summary_labels": {
+      "item_head": "Category",
+      "value": "Value",
+      "units": "Qty",
+      "litres": "Liter"
+    },
+    "detail_labels": {
+      "per_ltr": "Per Unit",
+      "value": "Done Value",
+      "units": "Done Qty",
+      "litres": "Done Liters",
+      "last_month": "Last Month"
+    }
+  }
+}

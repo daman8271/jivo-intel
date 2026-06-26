@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "secondary",
+    "metric": "ltrs",
+    "anchor_month": 6,
+    "anchor_month_label": "June",
+    "anchor_year": 2026,
+    "defaulted_to_latest": true,
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "rows": [
+      {
+        "slug": "amazon",
+        "name": "Amazon",
+        "values": {
+          "2024": {
+            "actual": 115716.5,
+            "value": 28433382.56191089,
+            "units": 40414.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2024-06-30",
+            "source": "amazon_sec_range_master_view"
+          },
+          "2025": {
+            "actual": 194997.6,
+            "value": 43625083.39647204,
+            "units": 77862.0,
+            "has_data": true,
+            "growth_pct": 68.51,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2025-06-30",
+            "source": "amazon_sec_range_master_view"
+          },
+          "2026": {
+            "actual": 195294.2,
+            "value": 44937655.844602235,
+            "units": 114720.0,
+            "has_data": true,
+            "growth_pct": 0.15,
+            "projection": 244117.75,
+            "elapsed_day": 24,
+            "days_in_month": 30,
+            "max_date": "2026-06-24",
+            "source": "amazon_sec_range_master_view"
+          }
+        }
+      },
+      {
+        "slug": "amazon_mp",
+        "name": "Amazon MP",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2026": {
+            "actual": 4820.05,
+            "value": null,
+            "units": 1653.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": 5784.06,
+            "elapsed_day": 25,
+            "days_in_month": 30,
+            "max_date": "2026-06-25",
+            "source": "amazon_mp_master"
+          }
+        }
+      },
+      {
+        "slug": "blinkit",
+        "name": "Blinkit",
+        "values": {
+          "2024": {
+            "actual": 22789.0,
+            "value": 17385894.0,
+            "units": 15810.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2024-06-30",
+            "source": "SecMaster"
+          },
+          "2025": {
+            "actual": 64666.0,
+            "value": 38947064.0,
+            "units": 48662.0,
+            "has_data": true,
+            "growth_pct": 183.76,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2025-06-30",
+            "source": "SecMaster"
+          },
+          "2026": {
+            "actual": 69794.0,
+            "value": 16746484.0,
+            "units": 54334.0,
+            "has_data": true,
+            "growth_pct": 7.93,
+            "projection": 83752.8,
+            "elapsed_day": 25,
+            "days_in_month": 30,
+            "max_date": "2026-06-25",
+            "source": "SecMaster"
+          }
+        }
+      },
+      {
+        "slug": "swiggy",
+        "name": "Swiggy",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2026": {
+            "actual": 146668.5,
+            "value": 27531312.0,
+            "units": 122457.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": 176002.2,
+            "elapsed_day": 25,
+            "days_in_month": 30,
+            "max_date": "2026-06-25",
+            "source": "SecMaster"
+          }
+        }
+      },
+      {
+        "slug": "zepto",
+        "name": "Zepto",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2026": {
+            "actual": 64852.40011473,
+            "value": 14836172.0,
+            "units": 91653.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": 77822.88,
+            "elapsed_day": 25,
+            "days_in_month": 30,
+            "max_date": "2026-06-25",
+            "source": "SecMaster"
+          }
+        }
+      },
+      {
+        "slug": "bigbasket",
+        "name": "BigBasket",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": 9295.0,
+            "value": 2816542.0,
+            "units": 8185.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2025-06-30",
+            "source": "SecMaster"
+          },
+          "2026": {
+            "actual": 9294.0,
+            "value": 1654469.1,
+            "units": 6977.0,
+            "has_data": true,
+            "growth_pct": -0.01,
+            "projection": 11152.8,
+            "elapsed_day": 25,
+            "days_in_month": 30,
+            "max_date": "2026-06-25",
+            "source": "SecMaster"
+          }
+        }
+      },
+      {
+        "slug": "flipkart",
+        "name": "Flipkart",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": 26978.0,
+            "value": 6205145.0,
+            "units": 8554.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": "2025-06-30",
+            "source": "flipkart_secondary_all"
+          },
+          "2026": {
+            "actual": 19286.0,
+            "value": 5802470.0,
+            "units": 5398.0,
+            "has_data": true,
+            "growth_pct": -28.51,
+            "projection": 24107.5,
+            "elapsed_day": 24,
+            "days_in_month": 30,
+            "max_date": "2026-06-24",
+            "source": "flipkart_secondary_all"
+          }
+        }
+      },
+      {
+        "slug": "flipkart_grocery",
+        "name": "Flipkart Grocery",
+        "values": {
+          "2024": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2025": {
+            "actual": null,
+            "value": null,
+            "units": null,
+            "has_data": false,
+            "growth_pct": null,
+            "projection": null,
+            "elapsed_day": null,
+            "days_in_month": null,
+            "max_date": null
+          },
+          "2026": {
+            "actual": 16129.0,
+            "value": 2551462.8571428573,
+            "units": 15322.0,
+            "has_data": true,
+            "growth_pct": null,
+            "projection": 20161.25,
+            "elapsed_day": 24,
+            "days_in_month": 30,
+            "max_date": "2026-06-24",
+            "source": "flipkart_grocery_master"
+          }
+        }
+      }
+    ],
+    "totals": {
+      "2024": {
+        "actual": 138505.5,
+        "projection": null,
+        "growth_pct": null,
+        "has_data": true
+      },
+      "2025": {
+        "actual": 295936.6,
+        "projection": null,
+        "growth_pct": 113.66,
+        "has_data": true
+      },
+      "2026": {
+        "actual": 526138.15011473,
+        "projection": 642901.24,
+        "growth_pct": 77.79,
+        "has_data": true
+      }
+    },
+    "errors": []
+  }
+}

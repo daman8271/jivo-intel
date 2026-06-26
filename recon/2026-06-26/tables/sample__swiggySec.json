@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 1791834,
+        "BRAND": "jivo",
+        "ORDERED_DATE": "2026-06-07",
+        "CITY": "Vizag",
+        "AREA_NAME": "dwarka nagar",
+        "STORE_ID": "1382440",
+        "L1_CATEGORY": "edible oils and ghee",
+        "L2_CATEGORY": "edible oils",
+        "L3_CATEGORY": "rice bran oil",
+        "PRODUCT_NAME": "jivo ricebran oil 1l",
+        "VARIANT": "1 ltr",
+        "ITEM_CODE": "958164",
+        "COMBO": "No",
+        "COMBO_ITEM_CODE": null,
+        "COMBO_UNITS_SOLD": null,
+        "BASE_MRP": 285.0,
+        "UNITS_SOLD": 3,
+        "GMV": 855.0
+      },
+      {
+        "id": 1793259,
+        "BRAND": "jivo",
+        "ORDERED_DATE": "2026-06-07",
+        "CITY": "Hyderabad",
+        "AREA_NAME": "kompally",
+        "STORE_ID": "1386717",
+        "L1_CATEGORY": "edible oils and ghee",
+        "L2_CATEGORY": "edible oils",
+        "L3_CATEGORY": "rice bran oil",
+        "PRODUCT_NAME": "jivo ricebran oil 1l",
+        "VARIANT": "1 ltr",
+        "ITEM_CODE": "958164",
+        "COMBO": "No",
+        "COMBO_ITEM_CODE": null,
+        "COMBO_UNITS_SOLD": null,
+        "BASE_MRP": 285.0,
+        "UNITS_SOLD": 2,
+        "GMV": 570.0
+      },
+      {
+        "id": 1792840,
+        "BRAND": "jivo",
+        "ORDERED_DATE": "2026-06-07",
+        "CITY": "Delhi",
+        "AREA_NAME": "rajouri garden",
+        "STORE_ID": "1062420",
+        "L1_CATEGORY": "edible oils and ghee",
+        "L2_CATEGORY": "edible oils",
+        "L3_CATEGORY": "mustard oil",
+        "PRODUCT_NAME": "jivo cold press kachi ghani mustard oil",
+        "VARIANT": "1 ltr",
+        "ITEM_CODE": "60711",
+        "COMBO": "No",
+        "COMBO_ITEM_CODE": null,
+        "COMBO_UNITS_SOLD": null,
+        "BASE_MRP": 255.0,
+        "UNITS_SOLD": 1,
+        "GMV": 255.0
+      }
+    ],
+    "count": 537624,
+    "page": 0,
+    "page_size": 3,
+    "max_date": null
+  }
+}

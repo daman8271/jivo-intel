@@ -1,0 +1,2686 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "SecMaster",
+    "format": "BLINKIT",
+    "sec_trend": {
+      "day": {
+        "all": [
+          {
+            "date": "2026-06-01",
+            "period": "2026-06-01",
+            "label": "01",
+            "day": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 582759.9999742,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2372.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1917.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-02",
+            "period": "2026-06-02",
+            "label": "02",
+            "day": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 634046.666642,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2622.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1964.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-03",
+            "period": "2026-06-03",
+            "label": "03",
+            "day": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 673383.8094967,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2789.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2104.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-04",
+            "period": "2026-06-04",
+            "label": "04",
+            "day": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 616351.4285478999,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2507.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1911.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-05",
+            "period": "2026-06-05",
+            "label": "05",
+            "day": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 692911.4285434,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2958.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2194.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-06",
+            "period": "2026-06-06",
+            "label": "06",
+            "day": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 662446.6666405001,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2722.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2105.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-07",
+            "period": "2026-06-07",
+            "label": "07",
+            "day": 7,
+            "values": {
+              "order": 0.0,
+              "deliver": 811348.5713956,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 3378.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2605.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-08",
+            "period": "2026-06-08",
+            "label": "08",
+            "day": 8,
+            "values": {
+              "order": 0.0,
+              "deliver": 634967.61902,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2589.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2034.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-09",
+            "period": "2026-06-09",
+            "label": "09",
+            "day": 9,
+            "values": {
+              "order": 0.0,
+              "deliver": 609650.4761663,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2471.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1945.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-10",
+            "period": "2026-06-10",
+            "label": "10",
+            "day": 10,
+            "values": {
+              "order": 0.0,
+              "deliver": 663560.9523522999,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2823.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2183.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-11",
+            "period": "2026-06-11",
+            "label": "11",
+            "day": 11,
+            "values": {
+              "order": 0.0,
+              "deliver": 639656.1904519,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2585.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1993.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-12",
+            "period": "2026-06-12",
+            "label": "12",
+            "day": 12,
+            "values": {
+              "order": 0.0,
+              "deliver": 679942.8571134,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2916.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2242.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-13",
+            "period": "2026-06-13",
+            "label": "13",
+            "day": 13,
+            "values": {
+              "order": 0.0,
+              "deliver": 656951.4285464999,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2693.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2081.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-14",
+            "period": "2026-06-14",
+            "label": "14",
+            "day": 14,
+            "values": {
+              "order": 0.0,
+              "deliver": 789016.1904428,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 3409.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2639.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-15",
+            "period": "2026-06-15",
+            "label": "15",
+            "day": 15,
+            "values": {
+              "order": 0.0,
+              "deliver": 652815.2380666,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2784.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2166.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-16",
+            "period": "2026-06-16",
+            "label": "16",
+            "day": 16,
+            "values": {
+              "order": 0.0,
+              "deliver": 617819.9999705,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2640.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2073.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-17",
+            "period": "2026-06-17",
+            "label": "17",
+            "day": 17,
+            "values": {
+              "order": 0.0,
+              "deliver": 716810.4761552,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2963.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2332.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-18",
+            "period": "2026-06-18",
+            "label": "18",
+            "day": 18,
+            "values": {
+              "order": 0.0,
+              "deliver": 656580.9523509999,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2697.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2184.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-19",
+            "period": "2026-06-19",
+            "label": "19",
+            "day": 19,
+            "values": {
+              "order": 0.0,
+              "deliver": 715184.7618736001,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2938.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2236.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-20",
+            "period": "2026-06-20",
+            "label": "20",
+            "day": 20,
+            "values": {
+              "order": 0.0,
+              "deliver": 627533.3333055,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2532.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1982.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-21",
+            "period": "2026-06-21",
+            "label": "21",
+            "day": 21,
+            "values": {
+              "order": 0.0,
+              "deliver": 755308.5713923,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 3136.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2484.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-22",
+            "period": "2026-06-22",
+            "label": "22",
+            "day": 22,
+            "values": {
+              "order": 0.0,
+              "deliver": 638485.7142569,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2706.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2106.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-23",
+            "period": "2026-06-23",
+            "label": "23",
+            "day": 23,
+            "values": {
+              "order": 0.0,
+              "deliver": 644330.4761599,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2712.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2179.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-24",
+            "period": "2026-06-24",
+            "label": "24",
+            "day": 24,
+            "values": {
+              "order": 0.0,
+              "deliver": 703536.1904434001,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2981.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2367.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-25",
+            "period": "2026-06-25",
+            "label": "25",
+            "day": 25,
+            "values": {
+              "order": 0.0,
+              "deliver": 671083.8094921999,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 2871.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 2308.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-26",
+            "period": "2026-06-26",
+            "label": "26",
+            "day": 26,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-27",
+            "period": "2026-06-27",
+            "label": "27",
+            "day": 27,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-28",
+            "period": "2026-06-28",
+            "label": "28",
+            "day": 28,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-29",
+            "period": "2026-06-29",
+            "label": "29",
+            "day": 29,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-30",
+            "period": "2026-06-30",
+            "label": "30",
+            "day": 30,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "premium": [
+          {
+            "date": "2026-06-01",
+            "period": "2026-06-01",
+            "label": "01",
+            "day": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 442771.4285596,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1445.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1146.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-02",
+            "period": "2026-06-02",
+            "label": "02",
+            "day": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 479121.9047514,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1600.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1190.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-03",
+            "period": "2026-06-03",
+            "label": "03",
+            "day": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 491933.3333221,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1595.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1234.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-04",
+            "period": "2026-06-04",
+            "label": "04",
+            "day": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 461999.9999905,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1489.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1145.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-05",
+            "period": "2026-06-05",
+            "label": "05",
+            "day": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 498100.95237,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1674.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1274.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-06",
+            "period": "2026-06-06",
+            "label": "06",
+            "day": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 504209.5237977,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1683.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1286.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-07",
+            "period": "2026-06-07",
+            "label": "07",
+            "day": 7,
+            "values": {
+              "order": 0.0,
+              "deliver": 591053.3333204,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1928.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1487.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-08",
+            "period": "2026-06-08",
+            "label": "08",
+            "day": 8,
+            "values": {
+              "order": 0.0,
+              "deliver": 463759.9999882,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1464.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1129.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-09",
+            "period": "2026-06-09",
+            "label": "09",
+            "day": 9,
+            "values": {
+              "order": 0.0,
+              "deliver": 458445.7142759,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1474.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1140.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-10",
+            "period": "2026-06-10",
+            "label": "10",
+            "day": 10,
+            "values": {
+              "order": 0.0,
+              "deliver": 470737.1428461,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1553.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1205.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-11",
+            "period": "2026-06-11",
+            "label": "11",
+            "day": 11,
+            "values": {
+              "order": 0.0,
+              "deliver": 493137.1428465,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1619.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1235.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-12",
+            "period": "2026-06-12",
+            "label": "12",
+            "day": 12,
+            "values": {
+              "order": 0.0,
+              "deliver": 477731.428562,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1575.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1157.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-13",
+            "period": "2026-06-13",
+            "label": "13",
+            "day": 13,
+            "values": {
+              "order": 0.0,
+              "deliver": 489308.5714197,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1586.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1190.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-14",
+            "period": "2026-06-14",
+            "label": "14",
+            "day": 14,
+            "values": {
+              "order": 0.0,
+              "deliver": 541079.9999904,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1770.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1332.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-15",
+            "period": "2026-06-15",
+            "label": "15",
+            "day": 15,
+            "values": {
+              "order": 0.0,
+              "deliver": 467666.6666566,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1556.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1154.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-16",
+            "period": "2026-06-16",
+            "label": "16",
+            "day": 16,
+            "values": {
+              "order": 0.0,
+              "deliver": 436655.2380831,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1442.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1123.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-17",
+            "period": "2026-06-17",
+            "label": "17",
+            "day": 17,
+            "values": {
+              "order": 0.0,
+              "deliver": 512220.9523648,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1612.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1285.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-18",
+            "period": "2026-06-18",
+            "label": "18",
+            "day": 18,
+            "values": {
+              "order": 0.0,
+              "deliver": 488161.9047492,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1582.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1217.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-19",
+            "period": "2026-06-19",
+            "label": "19",
+            "day": 19,
+            "values": {
+              "order": 0.0,
+              "deliver": 514679.999987,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1617.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1235.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-20",
+            "period": "2026-06-20",
+            "label": "20",
+            "day": 20,
+            "values": {
+              "order": 0.0,
+              "deliver": 471847.6190345,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1505.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1163.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-21",
+            "period": "2026-06-21",
+            "label": "21",
+            "day": 21,
+            "values": {
+              "order": 0.0,
+              "deliver": 545310.4761745,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1747.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1371.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-22",
+            "period": "2026-06-22",
+            "label": "22",
+            "day": 22,
+            "values": {
+              "order": 0.0,
+              "deliver": 452228.5714177,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1472.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1140.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-23",
+            "period": "2026-06-23",
+            "label": "23",
+            "day": 23,
+            "values": {
+              "order": 0.0,
+              "deliver": 460521.9047495,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1497.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1164.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-24",
+            "period": "2026-06-24",
+            "label": "24",
+            "day": 24,
+            "values": {
+              "order": 0.0,
+              "deliver": 494074.285702,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1593.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1255.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-25",
+            "period": "2026-06-25",
+            "label": "25",
+            "day": 25,
+            "values": {
+              "order": 0.0,
+              "deliver": 472561.9047496,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1560.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1229.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-26",
+            "period": "2026-06-26",
+            "label": "26",
+            "day": 26,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-27",
+            "period": "2026-06-27",
+            "label": "27",
+            "day": 27,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-28",
+            "period": "2026-06-28",
+            "label": "28",
+            "day": 28,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-29",
+            "period": "2026-06-29",
+            "label": "29",
+            "day": 29,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-30",
+            "period": "2026-06-30",
+            "label": "30",
+            "day": 30,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "commodity": [
+          {
+            "date": "2026-06-01",
+            "period": "2026-06-01",
+            "label": "01",
+            "day": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 139988.5714146,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 927.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 771.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-02",
+            "period": "2026-06-02",
+            "label": "02",
+            "day": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 154924.7618906,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1022.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 774.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-03",
+            "period": "2026-06-03",
+            "label": "03",
+            "day": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 181450.4761746,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1194.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 870.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-04",
+            "period": "2026-06-04",
+            "label": "04",
+            "day": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 154351.4285574,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1018.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 766.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-05",
+            "period": "2026-06-05",
+            "label": "05",
+            "day": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 194810.4761734,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1284.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 920.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-06",
+            "period": "2026-06-06",
+            "label": "06",
+            "day": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 158237.1428428,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1039.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 819.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-07",
+            "period": "2026-06-07",
+            "label": "07",
+            "day": 7,
+            "values": {
+              "order": 0.0,
+              "deliver": 220295.2380752,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1450.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1118.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-08",
+            "period": "2026-06-08",
+            "label": "08",
+            "day": 8,
+            "values": {
+              "order": 0.0,
+              "deliver": 171207.6190318,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1125.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 905.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-09",
+            "period": "2026-06-09",
+            "label": "09",
+            "day": 9,
+            "values": {
+              "order": 0.0,
+              "deliver": 151204.7618904,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 997.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 805.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-10",
+            "period": "2026-06-10",
+            "label": "10",
+            "day": 10,
+            "values": {
+              "order": 0.0,
+              "deliver": 192823.8095062,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1270.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 978.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-11",
+            "period": "2026-06-11",
+            "label": "11",
+            "day": 11,
+            "values": {
+              "order": 0.0,
+              "deliver": 146519.0476054,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 966.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 758.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-12",
+            "period": "2026-06-12",
+            "label": "12",
+            "day": 12,
+            "values": {
+              "order": 0.0,
+              "deliver": 202211.4285514,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1341.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1085.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-13",
+            "period": "2026-06-13",
+            "label": "13",
+            "day": 13,
+            "values": {
+              "order": 0.0,
+              "deliver": 167642.8571268,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1107.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 891.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-14",
+            "period": "2026-06-14",
+            "label": "14",
+            "day": 14,
+            "values": {
+              "order": 0.0,
+              "deliver": 247936.1904524,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1639.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1307.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-15",
+            "period": "2026-06-15",
+            "label": "15",
+            "day": 15,
+            "values": {
+              "order": 0.0,
+              "deliver": 185148.57141,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1228.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1012.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-16",
+            "period": "2026-06-16",
+            "label": "16",
+            "day": 16,
+            "values": {
+              "order": 0.0,
+              "deliver": 181164.7618874,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1198.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 950.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-17",
+            "period": "2026-06-17",
+            "label": "17",
+            "day": 17,
+            "values": {
+              "order": 0.0,
+              "deliver": 204589.5237904,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1351.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1047.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-18",
+            "period": "2026-06-18",
+            "label": "18",
+            "day": 18,
+            "values": {
+              "order": 0.0,
+              "deliver": 168419.0476018,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1115.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 967.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-19",
+            "period": "2026-06-19",
+            "label": "19",
+            "day": 19,
+            "values": {
+              "order": 0.0,
+              "deliver": 200504.7618866,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1321.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1001.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-20",
+            "period": "2026-06-20",
+            "label": "20",
+            "day": 20,
+            "values": {
+              "order": 0.0,
+              "deliver": 155685.714271,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1027.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 819.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-21",
+            "period": "2026-06-21",
+            "label": "21",
+            "day": 21,
+            "values": {
+              "order": 0.0,
+              "deliver": 209998.0952178,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1389.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1113.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-22",
+            "period": "2026-06-22",
+            "label": "22",
+            "day": 22,
+            "values": {
+              "order": 0.0,
+              "deliver": 186257.1428392,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1234.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 966.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-23",
+            "period": "2026-06-23",
+            "label": "23",
+            "day": 23,
+            "values": {
+              "order": 0.0,
+              "deliver": 183808.5714104,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1215.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1015.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-24",
+            "period": "2026-06-24",
+            "label": "24",
+            "day": 24,
+            "values": {
+              "order": 0.0,
+              "deliver": 209461.9047414,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1388.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1112.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-25",
+            "period": "2026-06-25",
+            "label": "25",
+            "day": 25,
+            "values": {
+              "order": 0.0,
+              "deliver": 198521.9047426,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 1311.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 1079.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-26",
+            "period": "2026-06-26",
+            "label": "26",
+            "day": 26,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-27",
+            "period": "2026-06-27",
+            "label": "27",
+            "day": 27,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-28",
+            "period": "2026-06-28",
+            "label": "28",
+            "day": 28,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-29",
+            "period": "2026-06-29",
+            "label": "29",
+            "day": 29,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          },
+          {
+            "date": "2026-06-30",
+            "period": "2026-06-30",
+            "label": "30",
+            "day": 30,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            }
+          }
+        ]
+      },
+      "month": {
+        "all": [
+          {
+            "period": "2026-01-01",
+            "label": "JAN",
+            "month": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 66457.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 54082.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-02-01",
+            "label": "FEB",
+            "month": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 772800.0000000002,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 63920.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 48961.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-03-01",
+            "label": "MAR",
+            "month": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 76199.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 54939.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-04-01",
+            "label": "APR",
+            "month": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 7779447.619047619,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 28858.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 21211.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-05-01",
+            "label": "MAY",
+            "month": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 22114939.047619052,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 86601.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 66317.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-06-01",
+            "label": "JUN",
+            "month": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 16746483.808800606,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 69794.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 54334.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "premium": [
+          {
+            "period": "2026-01-01",
+            "label": "JAN",
+            "month": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 40838.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 32195.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-02-01",
+            "label": "FEB",
+            "month": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 772800.0000000002,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 37630.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 29203.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-03-01",
+            "label": "MAR",
+            "month": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 44593.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 33981.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-04-01",
+            "label": "APR",
+            "month": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 6412209.523809523,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 19375.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 14820.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-05-01",
+            "label": "MAY",
+            "month": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 17277310.476190474,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 53106.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 39258.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-06-01",
+            "label": "JUN",
+            "month": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 12179319.999709,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 39638.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 30486.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "commodity": [
+          {
+            "period": "2026-01-01",
+            "label": "JAN",
+            "month": 1,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 25619.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 21887.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-02-01",
+            "label": "FEB",
+            "month": 2,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 26290.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 19758.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-03-01",
+            "label": "MAR",
+            "month": 3,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 31606.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 20958.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-04-01",
+            "label": "APR",
+            "month": 4,
+            "values": {
+              "order": 0.0,
+              "deliver": 1367238.0952380951,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 9483.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 6391.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-05-01",
+            "label": "MAY",
+            "month": 5,
+            "values": {
+              "order": 0.0,
+              "deliver": 4837628.57142857,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 33495.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 27059.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026-06-01",
+            "label": "JUN",
+            "month": 6,
+            "values": {
+              "order": 0.0,
+              "deliver": 4567163.8090916,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 30156.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 23848.0,
+              "return": 0.0
+            }
+          }
+        ]
+      },
+      "year": {
+        "all": [
+          {
+            "period": "2024",
+            "label": "2024",
+            "year": 2024,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 302822.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 204613.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2025",
+            "label": "2025",
+            "year": 2025,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 694388.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 518699.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026",
+            "label": "2026",
+            "year": 2026,
+            "values": {
+              "order": 0.0,
+              "deliver": 47413670.475467265,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 391829.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 299844.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "premium": [
+          {
+            "period": "2024",
+            "label": "2024",
+            "year": 2024,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 263602.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 174873.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2025",
+            "label": "2025",
+            "year": 2025,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 440453.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 323240.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026",
+            "label": "2026",
+            "year": 2026,
+            "values": {
+              "order": 0.0,
+              "deliver": 36641639.999708995,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 235180.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 179943.0,
+              "return": 0.0
+            }
+          }
+        ],
+        "commodity": [
+          {
+            "period": "2024",
+            "label": "2024",
+            "year": 2024,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 39220.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 29740.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2025",
+            "label": "2025",
+            "year": 2025,
+            "values": {
+              "order": 0.0,
+              "deliver": 0.0,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 253935.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 195459.0,
+              "return": 0.0
+            }
+          },
+          {
+            "period": "2026",
+            "label": "2026",
+            "year": 2026,
+            "values": {
+              "order": 0.0,
+              "deliver": 10772030.475758271,
+              "return": 0.0
+            },
+            "ltrs": {
+              "order": 0.0,
+              "deliver": 156649.0,
+              "return": 0.0
+            },
+            "quantity": {
+              "order": 0.0,
+              "deliver": 119901.0,
+              "return": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "detail_rows_fixed": true,
+    "defaulted_to_latest": true,
+    "month": 6,
+    "year": 2026,
+    "selected_date": null,
+    "max_date": "2026-06-25",
+    "elapsed_day": 25,
+    "days_in_month": 30,
+    "summary": [
+      {
+        "item_head": "PREMIUM",
+        "shipped_units": 30486.0,
+        "shipped_ltr": 39638.0,
+        "shipped_value": 12179319.999709,
+        "per_liter_shpd": 399.5053467069803
+      },
+      {
+        "item_head": "COMMODITY",
+        "shipped_units": 23848.0,
+        "shipped_ltr": 30156.0,
+        "shipped_value": 4567163.8090916,
+        "per_liter_shpd": 191.51139756338475
+      },
+      {
+        "item_head": "OTHER",
+        "shipped_units": 0.0,
+        "shipped_ltr": 0.0,
+        "shipped_value": 0.0,
+        "per_liter_shpd": null
+      }
+    ],
+    "summary_total": {
+      "shipped_units": 54334.0,
+      "shipped_ltr": 69794.0,
+      "shipped_value": 16746483.8088006,
+      "per_liter_shpd": 308.21371165017484
+    },
+    "details": [
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "CANOLA",
+        "sub_category": "CANOLA",
+        "per_ltr": "1 LTR",
+        "shipped_value": 1869544.7618174,
+        "shipped_units": 9173.0,
+        "shipped_ltr": 9173.0,
+        "per_liter_shpd": 203.80952380000002,
+        "last_month": 12644
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "CANOLA",
+        "sub_category": "CANOLA",
+        "per_ltr": "5 LTR",
+        "shipped_value": 1129276.1904706,
+        "shipped_units": 1174.0,
+        "shipped_ltr": 5870.0,
+        "per_liter_shpd": 961.9047619,
+        "last_month": 6255
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "per_ltr": "1 LTR",
+        "shipped_value": 1765851.4284192,
+        "shipped_units": 3552.0,
+        "shipped_ltr": 3552.0,
+        "per_liter_shpd": 497.1428571,
+        "last_month": 3948
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "EXTRA LIGHT",
+        "per_ltr": "2 LTR",
+        "shipped_value": 1748114.2857416,
+        "shipped_units": 1912.0,
+        "shipped_ltr": 3824.0,
+        "per_liter_shpd": 914.2857143,
+        "last_month": 5232
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "per_ltr": "1 LTR",
+        "shipped_value": 4545961.9046282,
+        "shipped_units": 14039.0,
+        "shipped_ltr": 14039.0,
+        "per_liter_shpd": 323.8095238,
+        "last_month": 12774
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "PREMIUM",
+        "category": "OLIVE",
+        "sub_category": "JIVO POMACE",
+        "per_ltr": "5 LTR",
+        "shipped_value": 1120571.428632,
+        "shipped_units": 636.0,
+        "shipped_ltr": 3180.0,
+        "per_liter_shpd": 1761.904762,
+        "last_month": 3740
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "COMMODITY",
+        "category": "MUSTARD",
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "per_ltr": "1 LTR",
+        "shipped_value": 2713238.094888,
+        "shipped_units": 18380.0,
+        "shipped_ltr": 18380.0,
+        "per_liter_shpd": 147.6190476,
+        "last_month": 15382
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "COMMODITY",
+        "category": "MUSTARD",
+        "sub_category": "MUSTARD KACCHI GHANI",
+        "per_ltr": "5 LTR",
+        "shipped_value": 1216542.8570978,
+        "shipped_units": 1577.0,
+        "shipped_ltr": 7885.0,
+        "per_liter_shpd": 771.4285713999999,
+        "last_month": 13310
+      },
+      {
+        "format": "BLINKIT",
+        "item_head": "COMMODITY",
+        "category": "SUNFLOWER",
+        "sub_category": "SUNFLOWER",
+        "per_ltr": "1 LTR",
+        "shipped_value": 637382.8571058,
+        "shipped_units": 3891.0,
+        "shipped_ltr": 3891.0,
+        "per_liter_shpd": 163.8095238,
+        "last_month": 2914
+      }
+    ],
+    "detail_total": {
+      "shipped_units": 54334.0,
+      "shipped_ltr": 69794.0,
+      "shipped_value": 16746483.8088006,
+      "per_liter_shpd": 308.21371165017484,
+      "last_month": 76199.0
+    },
+    "top_items": [
+      {
+        "item": "MUSTARD 1L",
+        "item_head": "COMMODITY",
+        "shipped_units": 18380.0,
+        "shipped_ltr": 18380.0,
+        "shipped_value": 2713238.094888
+      },
+      {
+        "item": "JIVO POMACE 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 14039.0,
+        "shipped_ltr": 14039.0,
+        "shipped_value": 4545961.9046282
+      },
+      {
+        "item": "CANOLA 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 9173.0,
+        "shipped_ltr": 9173.0,
+        "shipped_value": 1869544.7618174
+      },
+      {
+        "item": "MUSTARD 5L",
+        "item_head": "COMMODITY",
+        "shipped_units": 1577.0,
+        "shipped_ltr": 7885.0,
+        "shipped_value": 1216542.8570978
+      },
+      {
+        "item": "CANOLA 5L",
+        "item_head": "PREMIUM",
+        "shipped_units": 1174.0,
+        "shipped_ltr": 5870.0,
+        "shipped_value": 1129276.1904706
+      },
+      {
+        "item": "SUNFLOWER 1L",
+        "item_head": "COMMODITY",
+        "shipped_units": 3891.0,
+        "shipped_ltr": 3891.0,
+        "shipped_value": 637382.8571058
+      },
+      {
+        "item": "EXTRA LIGHT 2L",
+        "item_head": "PREMIUM",
+        "shipped_units": 1912.0,
+        "shipped_ltr": 3824.0,
+        "shipped_value": 1748114.2857416
+      },
+      {
+        "item": "EXTRA LIGHT 1L",
+        "item_head": "PREMIUM",
+        "shipped_units": 3552.0,
+        "shipped_ltr": 3552.0,
+        "shipped_value": 1765851.4284192
+      }
+    ],
+    "show_format_column": true,
+    "show_last_month": true,
+    "dashboard_title": "Blinkit Secondary Dashboard",
+    "detail_subtitle": "Excel rows 12-20 from SECONDARY DASHBOARD",
+    "trends": {
+      "day": [],
+      "month": [],
+      "year": []
+    }
+  }
+}

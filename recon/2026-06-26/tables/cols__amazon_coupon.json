@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date",
+      "coupon_name",
+      "start_date",
+      "end_date",
+      "clips",
+      "redemptions",
+      "total_discount",
+      "budget_spent",
+      "budget_remaining",
+      "budget_used",
+      "total_budget",
+      "format",
+      "created_at",
+      "updated_at"
+    ],
+    "sample": {
+      "id": 1,
+      "date": "2026-05-22",
+      "coupon_name": "A2 1",
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-31",
+      "clips": 7,
+      "redemptions": 2,
+      "total_discount": 226.2,
+      "budget_spent": 226.2,
+      "budget_remaining": 4773.8,
+      "budget_used": 0.0452,
+      "total_budget": 5000.0,
+      "format": "AMAZON",
+      "created_at": "2026-05-22T06:53:08.078611Z",
+      "updated_at": "2026-05-22T06:53:08.078611Z"
+    }
+  }
+}

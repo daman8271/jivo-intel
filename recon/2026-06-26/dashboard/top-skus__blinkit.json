@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "blinkit",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 11400.0,
+        "prev_ltrs": 36244.0,
+        "delta_pct": -68.5,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 4740.0,
+        "prev_ltrs": 14760.0,
+        "delta_pct": -67.9,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 4208.0,
+        "prev_ltrs": 35854.0,
+        "delta_pct": -88.3,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 3110.0,
+        "prev_ltrs": 24260.0,
+        "delta_pct": -87.2,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 2800.0,
+        "prev_ltrs": 22205.0,
+        "delta_pct": -87.4,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 2304.0,
+        "prev_ltrs": 7975.0,
+        "delta_pct": -71.1,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 836.0,
+        "prev_ltrs": 9755.0,
+        "delta_pct": -91.4,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 2L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 800.0,
+        "prev_ltrs": 12012.0,
+        "delta_pct": -93.3,
+        "is_new": false
+      }
+    ],
+    "top_riser": null,
+    "top_faller": {
+      "name": "EXTRA LIGHT 2L",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 800.0,
+      "prev_ltrs": 12012.0,
+      "delta_pct": -93.3,
+      "is_new": false
+    },
+    "errors": []
+  }
+}

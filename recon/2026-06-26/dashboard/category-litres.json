@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "head": "premium",
+    "platform": null,
+    "month": 6,
+    "year": 2026,
+    "total_ltrs": 233401.7,
+    "categories": [
+      {
+        "category": "GROUNDNUT",
+        "ltrs": 123669.2
+      },
+      {
+        "category": "OLIVE",
+        "ltrs": 75372.5
+      },
+      {
+        "category": "CANOLA",
+        "ltrs": 26809.0
+      },
+      {
+        "category": "SESAME OIL",
+        "ltrs": 3680.0
+      },
+      {
+        "category": "MUSTARD",
+        "ltrs": 2837.0
+      },
+      {
+        "category": "BLENDED",
+        "ltrs": 1034.0
+      }
+    ],
+    "errors": []
+  }
+}

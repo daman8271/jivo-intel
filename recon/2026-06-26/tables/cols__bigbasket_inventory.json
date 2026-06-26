@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "uploaded_at",
+      "city",
+      "sku_id",
+      "brand_name",
+      "sku_name",
+      "sku_weight",
+      "sku_pack_type",
+      "sku_description",
+      "top_category_name",
+      "mid_category_name",
+      "leaf_category_name",
+      "soh",
+      "soh_value"
+    ],
+    "sample": {
+      "id": 1,
+      "inventory_date": "2026-01-01",
+      "uploaded_at": "2026-01-01T12:14:57.738193Z",
+      "city": "Kolkata",
+      "sku_id": "40335331",
+      "brand_name": "Jivo",
+      "sku_name": "Mojito Healthy Wheatgrass Juice - Sugar Free",
+      "sku_weight": "200 ml",
+      "sku_pack_type": "\u0026",
+      "sku_description": "Jivo mojito-healthy-wheatgrass-juice-sugar-free 200 ml",
+      "top_category_name": "Beverages",
+      "mid_category_name": "Fruit Juices \u0026 Drinks",
+      "leaf_category_name": "Unsweetened, Cold Press",
+      "soh": 29,
+      "soh_value": 1450.0
+    }
+  }
+}

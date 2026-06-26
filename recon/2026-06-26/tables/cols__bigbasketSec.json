@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "date_range",
+      "source_city_name",
+      "brand_name",
+      "top_slug",
+      "mid_slug",
+      "leaf_slug",
+      "source_sku_id",
+      "sku_description",
+      "sku_weight",
+      "total_quantity",
+      "total_mrp",
+      "total_sales"
+    ],
+    "sample": {
+      "id": 1,
+      "date_range": "2026-01-01",
+      "source_city_name": "Allahabad",
+      "brand_name": "Jivo",
+      "top_slug": "foodgrains-oil-masala",
+      "mid_slug": "edible-oils-ghee",
+      "leaf_slug": "olive-canola-oils",
+      "source_sku_id": "40166398",
+      "sku_description": "Jivo extra-light-olive-oil 1 L Bottle",
+      "sku_weight": "1 L",
+      "total_quantity": 1,
+      "total_mrp": 1499.0,
+      "total_sales": 697.29
+    }
+  }
+}

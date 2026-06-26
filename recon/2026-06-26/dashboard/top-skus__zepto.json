@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "source": "primary",
+    "platform": "zepto",
+    "month": 6,
+    "year": 2026,
+    "prev_month": 5,
+    "prev_year": 2026,
+    "skus": [
+      {
+        "name": "GROUNDNUT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 30912.0,
+        "prev_ltrs": 25808.0,
+        "delta_pct": 19.8,
+        "is_new": false
+      },
+      {
+        "name": "GROUNDNUT 200ML",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 11308.2,
+        "prev_ltrs": 9154.4,
+        "delta_pct": 23.5,
+        "is_new": false
+      },
+      {
+        "name": "MUSTARD 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 10248.0,
+        "prev_ltrs": 13918.0,
+        "delta_pct": -26.4,
+        "is_new": false
+      },
+      {
+        "name": "SUNFLOWER 1L",
+        "head": "COMMODITY",
+        "code": null,
+        "brand": null,
+        "ltrs": 8224.0,
+        "prev_ltrs": 8787.0,
+        "delta_pct": -6.4,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 6370.0,
+        "prev_ltrs": 5548.0,
+        "delta_pct": 14.8,
+        "is_new": false
+      },
+      {
+        "name": "JIVO POMACE 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 5780.0,
+        "prev_ltrs": 480.0,
+        "delta_pct": 1104.2,
+        "is_new": false
+      },
+      {
+        "name": "EXTRA LIGHT 1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 5135.0,
+        "prev_ltrs": 3904.0,
+        "delta_pct": 31.5,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 15L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 3510.0,
+        "prev_ltrs": 2340.0,
+        "delta_pct": 50.0,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 5L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 1960.0,
+        "prev_ltrs": 900.0,
+        "delta_pct": 117.8,
+        "is_new": false
+      },
+      {
+        "name": "CANOLA 1+1L",
+        "head": "PREMIUM",
+        "code": null,
+        "brand": null,
+        "ltrs": 1732.0,
+        "prev_ltrs": 1280.0,
+        "delta_pct": 35.3,
+        "is_new": false
+      }
+    ],
+    "top_riser": {
+      "name": "JIVO POMACE 5L",
+      "head": "PREMIUM",
+      "code": null,
+      "brand": null,
+      "ltrs": 5780.0,
+      "prev_ltrs": 480.0,
+      "delta_pct": 1104.2,
+      "is_new": false
+    },
+    "top_faller": {
+      "name": "MUSTARD 1L",
+      "head": "COMMODITY",
+      "code": null,
+      "brand": null,
+      "ltrs": 10248.0,
+      "prev_ltrs": 13918.0,
+      "delta_pct": -26.4,
+      "is_new": false
+    },
+    "errors": []
+  }
+}

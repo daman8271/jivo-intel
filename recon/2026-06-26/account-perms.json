@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "permissions": [
+      {
+        "module": "*",
+        "count": 1,
+        "permissions": [
+          "*"
+        ]
+      }
+    ]
+  }
+}

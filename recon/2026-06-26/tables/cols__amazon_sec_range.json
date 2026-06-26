@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "business",
+      "asin",
+      "product_title",
+      "brand",
+      "ordered_revenue",
+      "ordered_units",
+      "shipped_revenue",
+      "shipped_cogs",
+      "shipped_units",
+      "customer_returns",
+      "from_date",
+      "to_date",
+      "created_at"
+    ],
+    "sample": {
+      "id": 7048,
+      "business": "Jivo Mart Private Limited",
+      "asin": "B0991VMDB1",
+      "product_title": "Jivo Cold Pressed Unrefined Sunflower Oil - 5 Litres | Chemical-Free Oil for Cooking | Ideal for Roasting, Frying, Baking, and All Types of Cuisines.",
+      "brand": "JIVO",
+      "ordered_revenue": 9087612.88,
+      "ordered_units": 10268,
+      "shipped_revenue": 55886.9,
+      "shipped_cogs": 46311.2,
+      "shipped_units": 10121,
+      "customer_returns": 432,
+      "from_date": "2026-05-01",
+      "to_date": "2026-05-31",
+      "created_at": "2026-06-02T05:27:22.923517"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 1,
+        "asin": "B0B2RW9N9F",
+        "margin_category": "A2 Ghee 1kg",
+        "margin_pct": 20.0,
+        "created_at": "2026-05-13T07:15:41.982063Z",
+        "updated_at": "2026-05-13T07:15:41.982063Z"
+      },
+      {
+        "id": 2,
+        "asin": "B0B2S1F6R8",
+        "margin_category": "A2 Ghee 500gm",
+        "margin_pct": 20.0,
+        "created_at": "2026-05-13T07:15:41.982063Z",
+        "updated_at": "2026-05-13T07:15:41.982063Z"
+      },
+      {
+        "id": 3,
+        "asin": "B0D8TN56P9",
+        "margin_category": "Basil seeds 200g",
+        "margin_pct": 25.0,
+        "created_at": "2026-05-13T07:15:41.982063Z",
+        "updated_at": "2026-05-13T07:15:41.982063Z"
+      }
+    ],
+    "count": 114,
+    "page": 0,
+    "page_size": 3,
+    "max_date": null
+  }
+}

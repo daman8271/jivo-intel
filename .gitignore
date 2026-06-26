@@ -7,3 +7,6 @@ logs/*.out
 *.part
 *.tmp
 __pycache__/
+vault-fixture/
+store/versioned-fixture/
+store/versioned.INCOMPLETE*

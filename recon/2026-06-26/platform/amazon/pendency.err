@@ -1,0 +1,1 @@
+Error: GET /api/platform/amazon/pendency-dashboard returned HTTP 400: ["Pendency dashboard is not yet enabled for platform 'amazon'."]

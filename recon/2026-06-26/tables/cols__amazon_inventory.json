@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "raw_viewing_range",
+      "uploaded_at",
+      "business",
+      "asin",
+      "product_title",
+      "brand",
+      "sourceable_product_oos_pct",
+      "vendor_confirmation_pct",
+      "net_received",
+      "net_received_units",
+      "open_purchase_order_quantity",
+      "receive_fill_pct",
+      "overall_vendor_lead_time_days",
+      "unfilled_customer_ordered_units",
+      "aged_90_days_sellable_inventory",
+      "aged_90_days_sellable_units",
+      "sellable_on_hand_inventory",
+      "sellable_on_hand_units",
+      "unsellable_on_hand_inventory",
+      "unsellable_on_hand_units"
+    ],
+    "sample": {
+      "id": 5,
+      "inventory_date": "2025-12-31",
+      "raw_viewing_range": "31/12/25 - 31/12/25",
+      "uploaded_at": "2026-01-02T10:05:06.998154Z",
+      "business": "JIVO MART PVT LTD",
+      "asin": "B0CF9RQ9PL",
+      "product_title": "SANO Pomace Olive Oil for Cooking 1 Litre Pet Bottle - Ideal for Frying, Roasting \u0026 Sautéing - Rich Flavour \u0026 High Smoke Point - Versatile Cooking Oil for Indian Cuisine",
+      "brand": "sano",
+      "sourceable_product_oos_pct": "0.00%",
+      "vendor_confirmation_pct": "0.00%",
+      "net_received": 135313.44,
+      "net_received_units": 444,
+      "open_purchase_order_quantity": 666,
+      "receive_fill_pct": "0.00%",
+      "overall_vendor_lead_time_days": 0,
+      "unfilled_customer_ordered_units": 76,
+      "aged_90_days_sellable_inventory": 1817.2,
+      "aged_90_days_sellable_units": 6,
+      "sellable_on_hand_inventory": 172386.58,
+      "sellable_on_hand_units": 566,
+      "unsellable_on_hand_inventory": 293.34,
+      "unsellable_on_hand_units": 1
+    }
+  }
+}

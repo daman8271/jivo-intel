@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "data": [
+      {
+        "id": 26,
+        "format": "FLIPKART GROCERY",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-23",
+        "targets": 200000.0,
+        "done_ltrs": 18178.0,
+        "achieved_pct": 0.09089,
+        "est_ltr": 23710.43,
+        "est_ltr_pct": 0.118552,
+        "drr": 790.35,
+        "require_drr": 25974.57,
+        "pending_ltr": 181822.0,
+        "dp_ltrs": 200000.0,
+        "created_at": "2026-06-04T09:06:00.722657+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 27,
+        "format": "FLIPKART GROCERY",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 6,
+        "year": 2026,
+        "date": "2026-06-23",
+        "targets": 2000.0,
+        "done_ltrs": 1988.0,
+        "achieved_pct": 0.994,
+        "est_ltr": 2593.04,
+        "est_ltr_pct": 1.296522,
+        "drr": 86.43,
+        "require_drr": 1.71,
+        "pending_ltr": 12.0,
+        "dp_ltrs": 2000.0,
+        "created_at": "2026-06-04T09:06:01.780678+00:00",
+        "updated_at": "2026-06-26T05:43:32.516507+00:00"
+      },
+      {
+        "id": 10,
+        "format": "FLIPKART GROCERY",
+        "type": "prim",
+        "item_head": "COMMODITY",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-15",
+        "targets": 52000.0,
+        "done_ltrs": 3263.0,
+        "achieved_pct": 0.06275,
+        "est_ltr": 6743.53,
+        "est_ltr_pct": 0.129683,
+        "drr": 217.53,
+        "require_drr": 3046.06,
+        "pending_ltr": 48737.0,
+        "dp_ltrs": 52000.0,
+        "created_at": "2026-05-30T12:33:12.501867+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      },
+      {
+        "id": 9,
+        "format": "FLIPKART GROCERY",
+        "type": "prim",
+        "item_head": "PREMIUM",
+        "month": 5,
+        "year": 2026,
+        "date": "2026-05-15",
+        "targets": 30000.0,
+        "done_ltrs": 1004.0,
+        "achieved_pct": 0.033467,
+        "est_ltr": 2074.93,
+        "est_ltr_pct": 0.069164,
+        "drr": 66.93,
+        "require_drr": 1812.25,
+        "pending_ltr": 28996.0,
+        "dp_ltrs": 30000.0,
+        "created_at": "2026-05-30T12:32:54.690881+00:00",
+        "updated_at": "2026-06-08T09:55:46.462453+00:00"
+      }
+    ],
+    "format": "FLIPKART GROCERY",
+    "type": "prim",
+    "source": "master_po"
+  }
+}

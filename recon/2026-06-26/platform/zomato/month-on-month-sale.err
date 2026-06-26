@@ -1,0 +1,1 @@
+Error: GET /api/platform/zomato/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."]

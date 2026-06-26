@@ -1,0 +1,1 @@
+Error: GET /api/platform/jiomart/primary-dashboard returned HTTP 400: ["Primary Dashboard is available only for primary sales platforms."]

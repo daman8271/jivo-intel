@@ -1,0 +1,271 @@
+group	cmd	args	exit	source	bytes	note
+dashboard	latest-month	dashboard latest-month	0	live	204	
+dashboard	fulfilment-health	dashboard fulfilment-health	0	live	2437	
+dashboard	state-sales	dashboard state-sales	0	live	16309	
+dashboard	state-sales-detail	dashboard state-sales-detail	0	live	441	
+dashboard	category-breakdown	dashboard category-breakdown	0	live	2339	
+dashboard	category-litres	dashboard category-litres	0	live	643	
+dashboard	category-platform-breakdown	dashboard category-platform-breakdown	0	live	286	
+dashboard	category-trend	dashboard category-trend	0	live	1296	
+dashboard	inventory-charts	dashboard inventory-charts	0	live	4740	
+dashboard	primary-po-litres	dashboard primary-po-litres	0	live	793	
+dashboard	secondary-yoy-growth	dashboard secondary-yoy-growth	0	live	9835	
+dashboard	platform-expiry-alerts	dashboard platform-expiry-alerts	0	live	1515	
+dashboard	top-skus	dashboard top-skus	0	live	2961	
+dashboard	top-skus:amazon	dashboard top-skus --platform amazon	0	live	2937	
+dashboard	cat-sku:amazon	dashboard category-sku-breakdown --platform amazon	0	live	442	
+dashboard	expiry:amazon	dashboard expiry-alerts amazon	0	live	78	
+dashboard	top-skus:blinkit	dashboard top-skus --platform blinkit	0	live	2290	
+dashboard	cat-sku:blinkit	dashboard category-sku-breakdown --platform blinkit	0	live	443	
+dashboard	expiry:blinkit	dashboard expiry-alerts blinkit	0	live	78	
+dashboard	top-skus:zepto	dashboard top-skus --platform zepto	0	live	2931	
+dashboard	cat-sku:zepto	dashboard category-sku-breakdown --platform zepto	0	live	441	
+dashboard	expiry:zepto	dashboard expiry-alerts zepto	0	live	78	
+dashboard	top-skus:swiggy	dashboard top-skus --platform swiggy	0	live	2931	
+dashboard	cat-sku:swiggy	dashboard category-sku-breakdown --platform swiggy	0	live	442	
+dashboard	expiry:swiggy	dashboard expiry-alerts swiggy	0	live	78	
+dashboard	top-skus:bigbasket	dashboard top-skus --platform bigbasket	0	live	2720	
+dashboard	cat-sku:bigbasket	dashboard category-sku-breakdown --platform bigbasket	0	live	445	
+dashboard	expiry:bigbasket	dashboard expiry-alerts bigbasket	0	live	78	
+dashboard	top-skus:flipkart	dashboard top-skus --platform flipkart	0	live	272	
+dashboard	cat-sku:flipkart	dashboard category-sku-breakdown --platform flipkart	0	live	444	
+dashboard	expiry:flipkart	dashboard expiry-alerts flipkart	0	live	78	
+dashboard	top-skus:jiomart	dashboard top-skus --platform jiomart	0	live	271	
+dashboard	cat-sku:jiomart	dashboard category-sku-breakdown --platform jiomart	0	live	443	
+dashboard	expiry:jiomart	dashboard expiry-alerts jiomart	0	live	78	
+dashboard	top-skus:flipkart_grocery	dashboard top-skus --platform flipkart_grocery	0	live	1822	
+dashboard	cat-sku:flipkart_grocery	dashboard category-sku-breakdown --platform flipkart_grocery	0	live	452	
+dashboard	expiry:flipkart_grocery	dashboard expiry-alerts flipkart_grocery	0	live	78	
+master	fcs	master fcs	0	live	3357	
+notifications	list	notifications list	0	live	95746	
+platform.amazon	ads	platform ads amazon	0	live	59220	
+platform.amazon	comparison	platform comparison amazon	0	live	15141	
+platform.amazon	coupon	platform coupon amazon	0	live	10970	
+platform.amazon	drr	platform drr amazon	0	live	194631	
+platform.amazon	inventory-match	platform inventory-match amazon	0	live	79	
+platform.amazon	marketplace	platform marketplace amazon	0	live	4496	
+platform.amazon	month-on-month-sale	platform month-on-month-sale amazon	5		0	Error: GET /api/platform/amazon/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.amazon	month-targets	platform month-targets amazon	0	live	2602	
+platform.amazon	pendency	platform pendency amazon	5		0	Error: GET /api/platform/amazon/pendency-dashboard returned HTTP 400: ["Pendency dashboard is not yet enabled for platform 'amazon'."] 
+platform.amazon	pos	platform pos amazon	0	live	128	
+platform.amazon	price	platform price amazon	0	live	64336	
+platform.amazon	primary	platform primary amazon	0	live	219391	
+platform.amazon	primary-month-targets	platform primary-month-targets amazon	0	live	1151	
+platform.amazon	region-doh	platform region-doh amazon	3		0	Error: GET /api/platform/amazon/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <h1
+platform.amazon	secondary	platform secondary amazon	0	live	295295	
+platform.amazon	secondary-monthly	platform secondary-monthly amazon	0	live	62828	
+platform.amazon	secondary-years	platform secondary-years amazon	0	live	135	
+platform.amazon	soh-doh	platform soh-doh amazon	0	live	82324	
+platform.amazon	stats	platform stats amazon	0	live	141	
+platform.bigbasket	ads	platform ads bigbasket	5		0	Error: GET /api/platform/bigbasket/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.bigbasket	comparison	platform comparison bigbasket	5		0	Error: GET /api/platform/bigbasket/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.bigbasket	coupon	platform coupon bigbasket	5		0	Error: GET /api/platform/bigbasket/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.bigbasket	drr	platform drr bigbasket	0	live	41531	
+platform.bigbasket	inventory-match	platform inventory-match bigbasket	0	live	79	
+platform.bigbasket	marketplace	platform marketplace bigbasket	5		0	Error: GET /api/platform/bigbasket/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.bigbasket	month-on-month-sale	platform month-on-month-sale bigbasket	0	live	10674	
+platform.bigbasket	month-targets	platform month-targets bigbasket	0	live	3789	
+platform.bigbasket	pendency	platform pendency bigbasket	0	live	13929	
+platform.bigbasket	pos	platform pos bigbasket	0	live	128	
+platform.bigbasket	price	platform price bigbasket	5		0	Error: GET /api/platform/bigbasket/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.bigbasket	primary	platform primary bigbasket	0	live	56696	
+platform.bigbasket	primary-month-targets	platform primary-month-targets bigbasket	0	live	2432	
+platform.bigbasket	region-doh	platform region-doh bigbasket	3		0	Error: GET /api/platform/bigbasket/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   
+platform.bigbasket	secondary	platform secondary bigbasket	0	live	73565	
+platform.bigbasket	secondary-monthly	platform secondary-monthly bigbasket	5		0	Error: GET /api/platform/bigbasket/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.bigbasket	secondary-years	platform secondary-years bigbasket	0	live	135	
+platform.bigbasket	soh-doh	platform soh-doh bigbasket	0	live	11236	
+platform.bigbasket	stats	platform stats bigbasket	0	live	141	
+platform.blinkit	ads	platform ads blinkit	5		0	Error: GET /api/platform/blinkit/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.blinkit	comparison	platform comparison blinkit	5		0	Error: GET /api/platform/blinkit/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.blinkit	coupon	platform coupon blinkit	5		0	Error: GET /api/platform/blinkit/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.blinkit	drr	platform drr blinkit	0	live	21677	
+platform.blinkit	inventory-match	platform inventory-match blinkit	0	live	79	
+platform.blinkit	marketplace	platform marketplace blinkit	5		0	Error: GET /api/platform/blinkit/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.blinkit	month-on-month-sale	platform month-on-month-sale blinkit	5		0	Error: GET /api/platform/blinkit/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.blinkit	month-targets	platform month-targets blinkit	0	live	3793	
+platform.blinkit	pendency	platform pendency blinkit	0	live	12988	
+platform.blinkit	pos	platform pos blinkit	0	live	128	
+platform.blinkit	price	platform price blinkit	5		0	Error: GET /api/platform/blinkit/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.blinkit	primary	platform primary blinkit	0	live	36828	
+platform.blinkit	primary-month-targets	platform primary-month-targets blinkit	0	live	2441	
+platform.blinkit	region-doh	platform region-doh blinkit	3		0	Error: GET /api/platform/blinkit/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <h
+platform.blinkit	secondary	platform secondary blinkit	0	live	68114	
+platform.blinkit	secondary-monthly	platform secondary-monthly blinkit	5		0	Error: GET /api/platform/blinkit/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.blinkit	secondary-years	platform secondary-years blinkit	0	live	135	
+platform.blinkit	soh-doh	platform soh-doh blinkit	0	live	5400	
+platform.blinkit	stats	platform stats blinkit	0	live	141	
+platform.citymall	ads	platform ads citymall	5		0	Error: GET /api/platform/citymall/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.citymall	comparison	platform comparison citymall	5		0	Error: GET /api/platform/citymall/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.citymall	coupon	platform coupon citymall	5		0	Error: GET /api/platform/citymall/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.citymall	drr	platform drr citymall	5		0	Error: GET /api/platform/citymall/drr-dashboard returned HTTP 400: ["DRR Dashboard is available only for Amazon, Blinkit, Zepto, Flipkart and Flipkart Grocery."
+platform.citymall	inventory-match	platform inventory-match citymall	0	live	79	
+platform.citymall	marketplace	platform marketplace citymall	5		0	Error: GET /api/platform/citymall/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.citymall	month-on-month-sale	platform month-on-month-sale citymall	5		0	Error: GET /api/platform/citymall/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.citymall	month-targets	platform month-targets citymall	0	live	2564	
+platform.citymall	pendency	platform pendency citymall	0	live	9698	
+platform.citymall	pos	platform pos citymall	0	live	96157	
+platform.citymall	price	platform price citymall	5		0	Error: GET /api/platform/citymall/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.citymall	primary	platform primary citymall	0	live	31120	
+platform.citymall	primary-month-targets	platform primary-month-targets citymall	0	live	2451	
+platform.citymall	region-doh	platform region-doh citymall	3		0	Error: GET /api/platform/citymall/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <
+platform.citymall	secondary	platform secondary citymall	5		0	Error: GET /api/platform/citymall/sec-dashboard returned HTTP 400: ["Sec Dashboard is available only for Amazon, Big Basket, Blinkit, Swiggy, Zepto, Flipkart an
+platform.citymall	secondary-monthly	platform secondary-monthly citymall	5		0	Error: GET /api/platform/citymall/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.citymall	secondary-years	platform secondary-years citymall	0	live	95	
+platform.citymall	soh-doh	platform soh-doh citymall	5		0	Error: GET /api/platform/citymall/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."] 
+platform.citymall	stats	platform stats citymall	0	live	140	
+platform.flipkart	ads	platform ads flipkart	5		0	Error: GET /api/platform/flipkart/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.flipkart	comparison	platform comparison flipkart	5		0	Error: GET /api/platform/flipkart/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.flipkart	coupon	platform coupon flipkart	5		0	Error: GET /api/platform/flipkart/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.flipkart	drr	platform drr flipkart	0	live	33483	
+platform.flipkart	inventory-match	platform inventory-match flipkart	0	live	79	
+platform.flipkart	marketplace	platform marketplace flipkart	5		0	Error: GET /api/platform/flipkart/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.flipkart	month-on-month-sale	platform month-on-month-sale flipkart	5		0	Error: GET /api/platform/flipkart/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.flipkart	month-targets	platform month-targets flipkart	0	live	3800	
+platform.flipkart	pendency	platform pendency flipkart	5		0	Error: GET /api/platform/flipkart/pendency-dashboard returned HTTP 400: ["Pendency dashboard is not yet enabled for platform 'flipkart'."] 
+platform.flipkart	pos	platform pos flipkart	0	live	128	
+platform.flipkart	price	platform price flipkart	5		0	Error: GET /api/platform/flipkart/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.flipkart	primary	platform primary flipkart	0	live	29622	
+platform.flipkart	primary-month-targets	platform primary-month-targets flipkart	0	live	149	
+platform.flipkart	region-doh	platform region-doh flipkart	3		0	Error: GET /api/platform/flipkart/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <
+platform.flipkart	secondary	platform secondary flipkart	0	live	92228	
+platform.flipkart	secondary-monthly	platform secondary-monthly flipkart	0	live	36944	
+platform.flipkart	secondary-years	platform secondary-years flipkart	0	live	123	
+platform.flipkart	soh-doh	platform soh-doh flipkart	5		0	Error: GET /api/platform/flipkart/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."] 
+platform.flipkart	stats	platform stats flipkart	0	live	137	
+platform.flipkart_grocery	ads	platform ads flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.flipkart_grocery	comparison	platform comparison flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.flipkart_grocery	coupon	platform coupon flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.flipkart_grocery	drr	platform drr flipkart_grocery	0	live	13879	
+platform.flipkart_grocery	inventory-match	platform inventory-match flipkart_grocery	0	live	79	
+platform.flipkart_grocery	marketplace	platform marketplace flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.flipkart_grocery	month-on-month-sale	platform month-on-month-sale flipkart_grocery	0	live	7799	
+platform.flipkart_grocery	month-targets	platform month-targets flipkart_grocery	0	live	3204	
+platform.flipkart_grocery	pendency	platform pendency flipkart_grocery	0	live	7912	
+platform.flipkart_grocery	pos	platform pos flipkart_grocery	0	live	97927	
+platform.flipkart_grocery	price	platform price flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.flipkart_grocery	primary	platform primary flipkart_grocery	0	live	29622	
+platform.flipkart_grocery	primary-month-targets	platform primary-month-targets flipkart_grocery	0	live	2487	
+platform.flipkart_grocery	region-doh	platform region-doh flipkart_grocery	3		0	Error: GET /api/platform/flipkart_grocery/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <b
+platform.flipkart_grocery	secondary	platform secondary flipkart_grocery	0	live	68943	
+platform.flipkart_grocery	secondary-monthly	platform secondary-monthly flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.flipkart_grocery	secondary-years	platform secondary-years flipkart_grocery	0	live	123	
+platform.flipkart_grocery	soh-doh	platform soh-doh flipkart_grocery	5		0	Error: GET /api/platform/flipkart_grocery/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."]
+platform.flipkart_grocery	stats	platform stats flipkart_grocery	0	live	140	
+platform.jiomart	ads	platform ads jiomart	5		0	Error: GET /api/platform/jiomart/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.jiomart	comparison	platform comparison jiomart	5		0	Error: GET /api/platform/jiomart/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.jiomart	coupon	platform coupon jiomart	5		0	Error: GET /api/platform/jiomart/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.jiomart	drr	platform drr jiomart	5		0	Error: GET /api/platform/jiomart/drr-dashboard returned HTTP 400: ["DRR Dashboard is available only for Amazon, Blinkit, Zepto, Flipkart and Flipkart Grocery."]
+platform.jiomart	inventory-match	platform inventory-match jiomart	0	live	79	
+platform.jiomart	marketplace	platform marketplace jiomart	5		0	Error: GET /api/platform/jiomart/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.jiomart	month-on-month-sale	platform month-on-month-sale jiomart	5		0	Error: GET /api/platform/jiomart/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.jiomart	month-targets	platform month-targets jiomart	5		0	Error: GET /api/platform/jiomart/month-targets returned HTTP 400: ["Platform 'jiomart' is out of scope for Monthly Targets."] 
+platform.jiomart	pendency	platform pendency jiomart	5		0	Error: GET /api/platform/jiomart/pendency-dashboard returned HTTP 400: ["Pendency dashboard is not yet enabled for platform 'jiomart'."] 
+platform.jiomart	pos	platform pos jiomart	0	live	128	
+platform.jiomart	price	platform price jiomart	5		0	Error: GET /api/platform/jiomart/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.jiomart	primary	platform primary jiomart	5		0	Error: GET /api/platform/jiomart/primary-dashboard returned HTTP 400: ["Primary Dashboard is available only for primary sales platforms."] 
+platform.jiomart	primary-month-targets	platform primary-month-targets jiomart	5		0	Error: GET /api/platform/jiomart/primary-month-targets returned HTTP 400: ["Platform 'jiomart' is out of scope for Primary Monthly Targets."] 
+platform.jiomart	region-doh	platform region-doh jiomart	3		0	Error: GET /api/platform/jiomart/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <h
+platform.jiomart	secondary	platform secondary jiomart	5		0	Error: GET /api/platform/jiomart/sec-dashboard returned HTTP 400: ["Sec Dashboard is available only for Amazon, Big Basket, Blinkit, Swiggy, Zepto, Flipkart and
+platform.jiomart	secondary-monthly	platform secondary-monthly jiomart	5		0	Error: GET /api/platform/jiomart/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.jiomart	secondary-years	platform secondary-years jiomart	0	live	95	
+platform.jiomart	soh-doh	platform soh-doh jiomart	5		0	Error: GET /api/platform/jiomart/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."] 
+platform.jiomart	stats	platform stats jiomart	0	live	140	
+platform.swiggy	ads	platform ads swiggy	5		0	Error: GET /api/platform/swiggy/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.swiggy	comparison	platform comparison swiggy	5		0	Error: GET /api/platform/swiggy/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.swiggy	coupon	platform coupon swiggy	5		0	Error: GET /api/platform/swiggy/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.swiggy	drr	platform drr swiggy	0	live	43126	
+platform.swiggy	inventory-match	platform inventory-match swiggy	0	live	79	
+platform.swiggy	marketplace	platform marketplace swiggy	5		0	Error: GET /api/platform/swiggy/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.swiggy	month-on-month-sale	platform month-on-month-sale swiggy	5		0	Error: GET /api/platform/swiggy/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.swiggy	month-targets	platform month-targets swiggy	0	live	3797	
+platform.swiggy	pendency	platform pendency swiggy	0	live	77763	
+platform.swiggy	pos	platform pos swiggy	0	live	128	
+platform.swiggy	price	platform price swiggy	5		0	Error: GET /api/platform/swiggy/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.swiggy	primary	platform primary swiggy	0	live	63666	
+platform.swiggy	primary-month-targets	platform primary-month-targets swiggy	0	live	2452	
+platform.swiggy	region-doh	platform region-doh swiggy	0	live	30219	
+platform.swiggy	secondary	platform secondary swiggy	0	live	13186	
+platform.swiggy	secondary-monthly	platform secondary-monthly swiggy	5		0	Error: GET /api/platform/swiggy/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.swiggy	secondary-years	platform secondary-years swiggy	0	live	123	
+platform.swiggy	soh-doh	platform soh-doh swiggy	0	live	11604	
+platform.swiggy	stats	platform stats swiggy	0	live	141	
+platform.zepto	ads	platform ads zepto	5		0	Error: GET /api/platform/zepto/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.zepto	comparison	platform comparison zepto	5		0	Error: GET /api/platform/zepto/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.zepto	coupon	platform coupon zepto	5		0	Error: GET /api/platform/zepto/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.zepto	drr	platform drr zepto	0	live	36699	
+platform.zepto	inventory-match	platform inventory-match zepto	0	live	79	
+platform.zepto	marketplace	platform marketplace zepto	5		0	Error: GET /api/platform/zepto/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.zepto	month-on-month-sale	platform month-on-month-sale zepto	5		0	Error: GET /api/platform/zepto/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.zepto	month-targets	platform month-targets zepto	0	live	3779	
+platform.zepto	pendency	platform pendency zepto	0	live	32235	
+platform.zepto	pos	platform pos zepto	0	live	128	
+platform.zepto	price	platform price zepto	5		0	Error: GET /api/platform/zepto/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.zepto	primary	platform primary zepto	0	live	61132	
+platform.zepto	primary-month-targets	platform primary-month-targets zepto	0	live	2442	
+platform.zepto	region-doh	platform region-doh zepto	0	live	18276	
+platform.zepto	secondary	platform secondary zepto	0	live	75155	
+platform.zepto	secondary-monthly	platform secondary-monthly zepto	5		0	Error: GET /api/platform/zepto/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.zepto	secondary-years	platform secondary-years zepto	0	live	123	
+platform.zepto	soh-doh	platform soh-doh zepto	0	live	9598	
+platform.zepto	stats	platform stats zepto	0	live	141	
+platform.zomato	ads	platform ads zomato	5		0	Error: GET /api/platform/zomato/ads-dashboard returned HTTP 400: ["Amazon Ads Dashboard is available only for Amazon."] 
+platform.zomato	comparison	platform comparison zomato	5		0	Error: GET /api/platform/zomato/comparison-dashboard returned HTTP 400: ["Comparison Dashboard is available only for Amazon."] 
+platform.zomato	coupon	platform coupon zomato	5		0	Error: GET /api/platform/zomato/coupon-dashboard returned HTTP 400: ["Coupon Dashboard is available only for Amazon."] 
+platform.zomato	drr	platform drr zomato	5		0	Error: GET /api/platform/zomato/drr-dashboard returned HTTP 400: ["DRR Dashboard is available only for Amazon, Blinkit, Zepto, Flipkart and Flipkart Grocery."] 
+platform.zomato	inventory-match	platform inventory-match zomato	0	live	79	
+platform.zomato	marketplace	platform marketplace zomato	5		0	Error: GET /api/platform/zomato/mp-dashboard returned HTTP 400: ["MP Dashboard is available only for Amazon."] 
+platform.zomato	month-on-month-sale	platform month-on-month-sale zomato	5		0	Error: GET /api/platform/zomato/month-on-month-sale returned HTTP 400: ["Month On Month Sale is available only for Big Basket and Flipkart Grocery."] 
+platform.zomato	month-targets	platform month-targets zomato	0	live	1923	
+platform.zomato	pendency	platform pendency zomato	0	live	3980	
+platform.zomato	pos	platform pos zomato	0	live	98452	
+platform.zomato	price	platform price zomato	5		0	Error: GET /api/platform/zomato/price-dashboard returned HTTP 400: ["Amazon Price Dashboard is available only for Amazon."] 
+platform.zomato	primary	platform primary zomato	0	live	38006	
+platform.zomato	primary-month-targets	platform primary-month-targets zomato	0	live	1303	
+platform.zomato	region-doh	platform region-doh zomato	3		0	Error: GET /api/platform/zomato/region-doh-dashboard returned HTTP 404:  <!doctype html> <html lang="en"> <head>   <title>Not Found</title> </head> <body>   <h1
+platform.zomato	secondary	platform secondary zomato	5		0	Error: GET /api/platform/zomato/sec-dashboard returned HTTP 400: ["Sec Dashboard is available only for Amazon, Big Basket, Blinkit, Swiggy, Zepto, Flipkart and 
+platform.zomato	secondary-monthly	platform secondary-monthly zomato	5		0	Error: GET /api/platform/zomato/sec-monthly-dashboard returned HTTP 400: ["Month Sale is available only for Amazon and Flipkart."] 
+platform.zomato	secondary-years	platform secondary-years zomato	0	live	95	
+platform.zomato	soh-doh	platform soh-doh zomato	5		0	Error: GET /api/platform/zomato/soh-doh-dashboard returned HTTP 400: ["SOH/DOH Dashboard is available only for Blinkit, Zepto, Swiggy and BigBasket."] 
+platform.zomato	stats	platform stats zomato	0	live	140	
+tables	columns:all_platform_inventory	tables columns all_platform_inventory	0	live	534	
+tables	columns:amazon_ads	tables columns amazon_ads	0	live	2392	
+tables	columns:amazon_coupon	tables columns amazon_coupon	0	live	858	
+tables	columns:amazon_inventory	tables columns amazon_inventory	0	live	1766	
+tables	columns:amazon_price_data	tables columns amazon_price_data	0	live	1114	
+tables	columns:amazon_sec_daily	tables columns amazon_sec_daily	0	live	912	
+tables	columns:amazon_sec_daily_master_view	tables columns amazon_sec_daily_master_view	0	live	1829	
+tables	columns:amazon_sec_range	tables columns amazon_sec_range	0	live	986	
+tables	columns:amazon_sec_range_margins	tables columns amazon_sec_range_margins	0	live	427	
+tables	columns:amazon_sec_range_master_view	tables columns amazon_sec_range_master_view	0	live	2361	
+tables	columns:bigbasketSec	tables columns bigbasketSec	0	live	818	
+tables	columns:bigbasket_ads	tables columns bigbasket_ads	0	live	1196	
+tables	columns:bigbasket_inventory	tables columns bigbasket_inventory	0	live	1006	
+tables	columns:blinkitSec	tables columns blinkitSec	0	live	668	
+tables	columns:blinkit_ads	tables columns blinkit_ads	0	live	729	
+tables	columns:blinkit_brandfund	tables columns blinkit_brandfund	0	live	1474	
+tables	columns:blinkit_inventory	tables columns blinkit_inventory	0	live	787	
+tables	columns:citymallSec	tables columns citymallSec	0	live	99	
+tables	columns:citymall_inventory	tables columns citymall_inventory	0	live	99	
+tables	columns:fk_grocery	tables columns fk_grocery	0	live	99	
+tables	columns:flipkartSec	tables columns flipkartSec	0	live	1087	
+tables	columns:flipkart_ads	tables columns flipkart_ads	0	live	1031	
+tables	columns:flipkart_grocery_master	tables columns flipkart_grocery_master	0	live	972	
+tables	columns:flipkart_secondary_all	tables columns flipkart_secondary_all	0	live	1929	
+tables	columns:jiomartSec	tables columns jiomartSec	0	live	3218	
+tables	columns:jiomart_inventory	tables columns jiomart_inventory	0	live	1250	
+tables	columns:master_po	tables columns master_po	0	live	5393	
+tables	columns:prim_master_po	tables columns prim_master_po	0	live	99	
+tables	columns:swiggySec	tables columns swiggySec	0	live	982	
+tables	columns:swiggy_ads	tables columns swiggy_ads	0	live	1803	
+tables	columns:swiggy_brandfund	tables columns swiggy_brandfund	0	live	1069	
+tables	columns:swiggy_inventory	tables columns swiggy_inventory	0	live	1067	
+tables	columns:test_master_po	tables columns test_master_po	0	live	99	
+tables	columns:total_po	tables columns total_po	0	live	921	
+tables	columns:total_po_zbs	tables columns total_po_zbs	0	live	955	
+tables	columns:zeptoSec	tables columns zeptoSec	0	live	955	
+tables	columns:zepto_ads	tables columns zepto_ads	0	live	1276	
+tables	columns:zepto_brandfund	tables columns zepto_brandfund	0	live	2421	
+tables	columns:zepto_inventory	tables columns zepto_inventory	0	live	913	
+tables	columns:zomatoSec	tables columns zomatoSec	0	live	99	
+tables	columns:zomato_inventory	tables columns zomato_inventory	0	live	99	

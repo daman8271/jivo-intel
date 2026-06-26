@@ -1,0 +1,1 @@
+Error: GET /api/platform/jiomart/month-targets returned HTTP 400: ["Platform 'jiomart' is out of scope for Monthly Targets."]

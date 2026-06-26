@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "last_updated_at",
+      "uploaded_at",
+      "rfc_name",
+      "sku_id",
+      "title",
+      "category",
+      "product_status",
+      "total_sellable_inv",
+      "total_unsellable_inv",
+      "fc_dmg_inv",
+      "lsp_dmg_inv",
+      "cust_dmg_inv",
+      "recvd_dmg",
+      "expired_inv",
+      "other_unsellable_inv",
+      "mtd_fwd_intransit",
+      "mtd_delvd_cust",
+      "mtd_ret_intransit",
+      "mtd_order_count"
+    ],
+    "sample": {
+      "id": 1,
+      "inventory_date": "2026-01-01",
+      "last_updated_at": "31-12-2025 10:30",
+      "uploaded_at": "2026-01-01T12:16:25.091757Z",
+      "rfc_name": "RRL HR JHJ Luhari 3P RFC",
+      "sku_id": "RVMGQM8OIG",
+      "title": "Jivo Extra Light Olive Oil 2 Ltr",
+      "category": "Edible Oils",
+      "product_status": "Active",
+      "total_sellable_inv": 272,
+      "total_unsellable_inv": 5,
+      "fc_dmg_inv": 0,
+      "lsp_dmg_inv": 5,
+      "cust_dmg_inv": 0,
+      "recvd_dmg": 0,
+      "expired_inv": 0,
+      "other_unsellable_inv": 0,
+      "mtd_fwd_intransit": 0,
+      "mtd_delvd_cust": 44,
+      "mtd_ret_intransit": 3,
+      "mtd_order_count": 49
+    }
+  }
+}

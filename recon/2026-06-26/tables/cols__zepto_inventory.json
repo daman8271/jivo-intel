@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "live"
+  },
+  "results": {
+    "columns": [
+      "id",
+      "inventory_date",
+      "uploaded_at",
+      "city",
+      "sku_code",
+      "sku_name",
+      "ean",
+      "sku_category",
+      "sku_sub_category",
+      "brand_name",
+      "manufacturer_name",
+      "manufacturer_id",
+      "units"
+    ],
+    "sample": {
+      "id": 1,
+      "inventory_date": "2026-01-01",
+      "uploaded_at": "2026-01-01T12:03:54.730467Z",
+      "city": "Faridabad",
+      "sku_code": "06c8f55b-13a5-4d9b-8990-a418e63c89ad",
+      "sku_name": "Jivo Sunflower Cold Pressed Oil | Healthy Cooking Oil 1.0 LITER",
+      "ean": "8.908E+12",
+      "sku_category": "Atta, Rice, Oil \u0026 Dals",
+      "sku_sub_category": "Oil",
+      "brand_name": "Jivo",
+      "manufacturer_name": "Jivo Wellness Pvt. Ltd.",
+      "manufacturer_id": "946950b7-1ce2-4bdf-a7c4-37499e3f5f34",
+      "units": 25
+    }
+  }
+}
