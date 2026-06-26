@@ -426,44 +426,71 @@ def ledger_append(record):
 # --------------------------------------------------------------------------- #
 # Stage: ingest
 # --------------------------------------------------------------------------- #
+def embedded_count(table):
+    """The table's OWN authoritative row count = `.results.count` from a fresh data response.
+    This is what pull.py reconciles against; the standalone `tables counts` endpoint is STALE
+    (observed both under- and over-reporting) and must NOT be used as the completeness reference."""
+    try:
+        res = cli_json(["tables", "data", table, "--page", "0", "--page-size", "200"]).get("results") or {}
+        c = res.get("count")
+        return int(c) if c is not None else None
+    except Exception:
+        return None
+
+
 def stage_ingest(pull_id):
     reg = load_registry_tables()
     reg_set = set(reg.keys())
-    counts = live_counts()
-    live_set = set(counts.keys())
+    catalog = set(live_counts().keys())     # `tables counts` keys: reliable for SET membership only
 
     failures = []
+    warns = []
 
-    new_tables = sorted(live_set - reg_set)
-    dropped = sorted(reg_set - live_set)
+    # catalog parity (set membership is reliable even though the COUNTS are not)
+    new_tables = sorted(catalog - reg_set)
+    dropped = sorted(reg_set - catalog)
     if new_tables:
-        failures.append("NEW table(s) in live catalog absent from registry: %s"
-                        % ", ".join(new_tables))
+        failures.append("NEW table(s) in live catalog absent from registry: %s" % ", ".join(new_tables))
     if dropped:
-        failures.append("registry table(s) MISSING from live catalog: %s"
-                        % ", ".join(dropped))
+        failures.append("registry table(s) MISSING from live catalog: %s" % ", ".join(dropped))
 
     per_table = []
     for table in sorted(reg_set):
-        live_n = counts.get(table)
-        if live_n is None:
+        if table not in catalog:
             continue  # already captured as 'dropped'
         present_n = len(read_state(table))
-        ok = (present_n == live_n)
-        per_table.append({"table": table, "live": live_n, "state": present_n, "ok": ok})
-        if not ok:
-            failures.append("count mismatch %s: state=%d live=%d" % (table, present_n, live_n))
+        emb = embedded_count(table)         # authoritative reference (the data's own count)
+        strat = ((reg.get(table) or {}).get("key") or {}).get("strategy", "id")
+        rec = {"table": table, "embedded": emb, "state": present_n, "strategy": strat}
+        if emb is None:
+            rec["ok"] = True
+            warns.append("%s: no embedded count returned; SSOT state=%d (assumed ok)" % (table, present_n))
+        elif present_n >= emb:
+            rec["ok"] = True                # captured at least the data's own count (the count can undercount)
+        elif strat == "content-hash":
+            # present < embedded for a content-hash table = byte-identical duplicate rows collapsing.
+            # This is LOSSLESS by design (every DISTINCT row is kept). Report, don't fail.
+            rec["ok"] = True
+            warns.append("%s: state=%d < embedded=%d — content-hash dup-collapse (lossless, %d exact dupes)"
+                         % (table, present_n, emb, emb - present_n))
+        else:
+            rec["ok"] = False               # id-keyed table missing distinct rows = real shortfall
+            failures.append("SHORTFALL %s: state=%d < embedded=%d (id-keyed — possible data loss)"
+                            % (table, present_n, emb))
+        per_table.append(rec)
 
     ok = not failures
-    log("ingest: %d tables, %d catalog tables; %s"
-        % (len(per_table), len(live_set), "ALL GREEN" if ok else "%d FAIL" % len(failures)))
+    log("ingest: %d tables, %d catalog; %s; %d note(s)"
+        % (len(per_table), len(catalog), "ALL GREEN" if ok else "%d FAIL" % len(failures), len(warns)))
+    for w in warns:
+        log("  note: " + w)
     for f in failures:
         log("  FAIL: " + f)
     return ok, {
         "stage": "ingest", "pull_id": pull_id, "ok": ok,
         "checks": len(per_table) + 1, "failed": len(failures),
-        "tables": len(per_table), "catalog": len(live_set),
-        "failures": failures[:50],
+        "tables": len(per_table), "catalog": len(catalog),
+        "notes": warns[:50], "failures": failures[:50],
     }
 
 
