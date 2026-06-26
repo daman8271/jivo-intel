@@ -253,7 +253,6 @@
     "category-litres",
     "category-platform-breakdown",
     "category-sku-breakdown",
-    "primary-po-litres",
     "state-sales",
     "state-sales-detail",
     "top-skus"
@@ -264,11 +263,32 @@
     "category-trend",
     "inventory-charts",
     "secondary-yoy-growth",
-    "platform-expiry-alerts"
+    "platform-expiry-alerts",
+    "primary-po-litres"
   ],
   "dashboard_per_platform": [
     "top-skus",
     "category-sku-breakdown",
     "expiry-alerts"
+  ],
+  "dashboard_per_platform_month_aware": [
+    "top-skus",
+    "category-sku-breakdown"
+  ],
+  "dashboard_per_platform_current_only": [
+    "expiry-alerts"
+  ],
+  "account_docs": [
+    "me",
+    "permissions"
+  ],
+  "dashboards_per_platform_extra_month_aware": [
+    "category-breakdown",
+    "category-litres",
+    "state-sales",
+    "state-sales-detail"
+  ],
+  "dashboards_per_platform_extra_plain": [
+    "category-trend"
   ]
 }

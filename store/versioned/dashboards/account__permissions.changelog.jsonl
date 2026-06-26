@@ -1,0 +1,1 @@
+{"doc":{"permissions":[{"count":1,"module":"*","permissions":["*"]}]},"event":"insert","first_seen":"2026-06-27","hash":"sha256:60e4568491d635b11011e4658744f2c9fc5cc573a35f7a3ec9d8a05016f942f5","key":"account__permissions","prev_hash":null,"pull_id":"2026-06-27","seq":1,"ts":"2026-06-27T03:44:28.910290+05:30"}

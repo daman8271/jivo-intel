@@ -7,16 +7,12 @@
       "layer": "L1",
       "has_id": false,
       "key": {
-        "strategy": "natural",
-        "cols": [
-          "inventory_date",
-          "sku_code",
-          "location",
-          "format"
-        ]
+        "strategy": "content-hash",
+        "cols": []
       },
       "expected_empty": false,
-      "n_cols": 9
+      "n_cols": 9,
+      "key_note": "grain is finer than exposed columns (multiple dark-stores per city, no store col); same (date,sku,location,format) carries different soh \u2192 natural key would lose rows. content-hash keeps every distinct row; only byte-identical dupes collapse (lossless)."
     },
     "amazon_ads": {
       "rows_recon": 48585,
@@ -379,13 +375,12 @@
       "layer": "L1",
       "has_id": true,
       "key": {
-        "strategy": "id",
-        "cols": [
-          "id"
-        ]
+        "strategy": "content-hash",
+        "cols": []
       },
       "expected_empty": false,
-      "n_cols": 18
+      "n_cols": 18,
+      "key_note": "id is NOT a row identity here — secondary-sales fact rows repeat the same id across distinct observations (~195k duplicate id-keys over 491k rows). id-key would collapse distinct rows; content-hash keeps every distinct row, only byte-identical dupes collapse (lossless). Mirrors all_platform_inventory."
     },
     "swiggy_ads": {
       "rows_recon": 249,
