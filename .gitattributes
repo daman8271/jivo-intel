@@ -1,0 +1,2 @@
+store/versioned/tables/swiggySec.changelog.jsonl filter=lfs diff=lfs merge=lfs -text
+store/versioned/tables/swiggySec.state.jsonl filter=lfs diff=lfs merge=lfs -text

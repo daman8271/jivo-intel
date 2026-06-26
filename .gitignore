@@ -1,0 +1,9 @@
+.env
+state/token.json
+store/raw/
+logs/*.log
+logs/*.out
+*.lock
+*.part
+*.tmp
+__pycache__/

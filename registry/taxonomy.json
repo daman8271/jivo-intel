@@ -1,0 +1,75 @@
+{
+  "_doc": "Verified enum guards + graph vocabulary. Used by vault_build.py for type-prefixed basenames + validation.",
+  "item_head": [
+    "PREMIUM",
+    "COMMODITY",
+    "OTHER"
+  ],
+  "brands": [
+    "JIVO",
+    "SANO"
+  ],
+  "zbs": [
+    "blinkit",
+    "swiggy",
+    "zepto"
+  ],
+  "formats_master_po": [
+    "BIG BASKET",
+    "BLINKIT",
+    "CITY MALL",
+    "DEAL SHARE",
+    "FLIPKART GROCERY",
+    "SWIGGY",
+    "ZEPTO",
+    "ZOMATO"
+  ],
+  "formats_inventory": [
+    "BIG BASKET",
+    "BLINKIT",
+    "JIO MART",
+    "SWIGGY",
+    "ZEPTO"
+  ],
+  "category_head": [
+    "OIL",
+    "BEVERAGE",
+    "OTHER"
+  ],
+  "archetypes": {
+    "A_vendor_central": [
+      "amazon"
+    ],
+    "B_qcomm": [
+      "blinkit",
+      "swiggy",
+      "zepto"
+    ],
+    "C_marketplace_grocery": [
+      "bigbasket",
+      "flipkart",
+      "flipkart_grocery",
+      "jiomart",
+      "citymall",
+      "zomato"
+    ]
+  },
+  "empty_platforms": [
+    "citymall",
+    "zomato"
+  ],
+  "basename_prefixes": {
+    "sku": "sku-<sku_sap_code>",
+    "platform": "pf-<slug>",
+    "category": "cat-<CATEGORY>",
+    "subcat": "subcat-<SUB>",
+    "brand": "brand-<BRAND>",
+    "tier": "tier-<ITEM_HEAD>",
+    "vendor": "vendor-<VENDOR>",
+    "fc": "fc-<FC_CODE>",
+    "city": "city-<CITY>",
+    "store": "store-<STORE_ID>",
+    "month": "<YYYY-MM>"
+  },
+  "join_model": "format_sku_code (platform listing) -> sku_sap_code (FG, the SKU-hub) -> item; taxonomy(item_head/brand/category/sub_category) from master_po+notifications NOT master products"
+}

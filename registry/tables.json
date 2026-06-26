@@ -1,0 +1,541 @@
+{
+  "_doc": "Per-table identity contract for the zero-loss SSOT. key.strategy: id|natural|content-hash. content-hash = every distinct row content is its own key (lossless, no update-lineage). natural cols + content-hash fallback handled in ssot.py.",
+  "generated_from": "recon/2026-06-26",
+  "tables": {
+    "all_platform_inventory": {
+      "rows_recon": 176769,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "natural",
+        "cols": [
+          "inventory_date",
+          "sku_code",
+          "location",
+          "format"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 9
+    },
+    "amazon_ads": {
+      "rows_recon": 48585,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 41
+    },
+    "amazon_coupon": {
+      "rows_recon": 765,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 15
+    },
+    "amazon_inventory": {
+      "rows_recon": 11446,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 22
+    },
+    "amazon_price_data": {
+      "rows_recon": 192,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 21
+    },
+    "amazon_sec_daily": {
+      "rows_recon": 2749,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 13
+    },
+    "amazon_sec_daily_master_view": {
+      "rows_recon": 2749,
+      "layer": "L2",
+      "has_id": false,
+      "key": {
+        "strategy": "natural",
+        "cols": [
+          "from_date",
+          "to_date",
+          "asin",
+          "sales_type",
+          "business"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 31
+    },
+    "amazon_sec_range": {
+      "rows_recon": 3610,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 14
+    },
+    "amazon_sec_range_margins": {
+      "rows_recon": 114,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 6
+    },
+    "amazon_sec_range_master_view": {
+      "rows_recon": 4240,
+      "layer": "L2",
+      "has_id": false,
+      "key": {
+        "strategy": "natural",
+        "cols": [
+          "source_id",
+          "asin",
+          "sales_type",
+          "margin_category",
+          "from_date",
+          "to_date"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 38
+    },
+    "bigbasketSec": {
+      "rows_recon": 17036,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 13
+    },
+    "bigbasket_ads": {
+      "rows_recon": 40,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 20
+    },
+    "bigbasket_inventory": {
+      "rows_recon": 34816,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 15
+    },
+    "blinkitSec": {
+      "rows_recon": 128749,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 11
+    },
+    "blinkit_ads": {
+      "rows_recon": 1073,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 12
+    },
+    "blinkit_brandfund": {
+      "rows_recon": 423,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 25
+    },
+    "blinkit_inventory": {
+      "rows_recon": 27069,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 11
+    },
+    "citymallSec": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "citymall_inventory": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "fk_grocery": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "flipkartSec": {
+      "rows_recon": 19421,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 18
+    },
+    "flipkart_ads": {
+      "rows_recon": 7965,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 18
+    },
+    "flipkart_grocery_master": {
+      "rows_recon": 4054,
+      "layer": "L2",
+      "has_id": false,
+      "key": {
+        "strategy": "natural",
+        "cols": [
+          "date",
+          "sku_id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 19
+    },
+    "flipkart_secondary_all": {
+      "rows_recon": 21430,
+      "layer": "L2",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 34
+    },
+    "jiomartSec": {
+      "rows_recon": 9434,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 53
+    },
+    "jiomart_inventory": {
+      "rows_recon": 2223,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 21
+    },
+    "master_po": {
+      "rows_recon": 44081,
+      "layer": "L2",
+      "has_id": false,
+      "key": {
+        "strategy": "natural",
+        "cols": [
+          "po_number",
+          "sku_code",
+          "location",
+          "format"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 54
+    },
+    "prim_master_po": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "swiggySec": {
+      "rows_recon": 491250,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 18
+    },
+    "swiggy_ads": {
+      "rows_recon": 249,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 30
+    },
+    "swiggy_brandfund": {
+      "rows_recon": 411,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 19
+    },
+    "swiggy_inventory": {
+      "rows_recon": 63699,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 17
+    },
+    "test_master_po": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "total_po": {
+      "rows_recon": 8030,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 16
+    },
+    "total_po_zbs": {
+      "rows_recon": 35839,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 16
+    },
+    "zeptoSec": {
+      "rows_recon": 43471,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 14
+    },
+    "zepto_ads": {
+      "rows_recon": 492,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 24
+    },
+    "zepto_brandfund": {
+      "rows_recon": 44,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 43
+    },
+    "zepto_inventory": {
+      "rows_recon": 31955,
+      "layer": "L1",
+      "has_id": true,
+      "key": {
+        "strategy": "id",
+        "cols": [
+          "id"
+        ]
+      },
+      "expected_empty": false,
+      "n_cols": 13
+    },
+    "zomatoSec": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    },
+    "zomato_inventory": {
+      "rows_recon": 0,
+      "layer": "L1",
+      "has_id": false,
+      "key": {
+        "strategy": "content-hash",
+        "cols": []
+      },
+      "expected_empty": true,
+      "n_cols": 0
+    }
+  }
+}
