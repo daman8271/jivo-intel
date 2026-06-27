@@ -69,6 +69,34 @@ secondary view and on the Home cards, because premium oils carry the margin.
 
 ---
 
+## 2.5 Independent verification (computed from raw `changelog.jsonl`, not the dashboard docs)
+
+I re-derived the dashboards from the raw row data to test the model. `state.jsonl` holds only row
+**hashes** (`first_seen/hash/key/version`) — the actual rows live in `changelog.jsonl` `.row`, and
+changelog count == state count for every platform (no version duplication: swiggySec 537,624 =
+537,624, blinkitSec 128,749 = 128,749, etc.).
+
+**✅ Units & litres reconcile exactly — these are trustworthy:**
+- swiggySec June-2026 raw `UNITS_SOLD` = **122,220** vs dashboard summary 122,457 (−0.2%, combo rounding).
+- blinkitSec June-2026 raw `qty_sold` = **54,334** — *exactly* matches `secondary-yoy-growth` Blinkit-2026 units = 54,334.
+- `flipkart_secondary_all` June `ltr_sold` = PREMIUM 14,446 + COMMODITY 4,840 + OTHER 0 = **19,286 L** — *exactly* matches yoy Flipkart-2026 = 19,286 L.
+- The eight per-platform yoy-2026 litres sum to **526,138.2 L** = `totals.2026.actual` 526,138.15. Cross-platform roll-up confirmed.
+
+**⚠️ "Value" / "Done Value" is NOT consumer GMV — it's a realised/net figure ≈ 40 % of gross MRP:**
+- swiggySec June raw `GMV` (= units × `BASE_MRP`, gross) = **₹67.41 M**, but dashboard "Done Value" (`SecMaster.sales_amt`) = **₹28.91 M** → ratio **0.43**.
+- blinkitSec June raw gross MRP = **₹41.69 M** vs SecMaster value **₹16.75 M** → ratio **0.40**.
+- The factor is *systematic* (~0.40 across platforms) ⇒ SecMaster applies a realisation/margin haircut to sticker MRP (mirrors Amazon's `shipped_revenue_after_margin`, which deducts the 25 % `margin_pct`). The exact `SecMaster.sales_amt` formula is **not reproducible from raw alone** (server-side).
+- **This independently *confirms* the value-chain ₹/L:** realised per-litre lands at ₹197 (Swiggy) – ₹240 (Blinkit), bracketing Home's Secondary **₹218.2/L** — i.e. the value-chain card uses realised price, not MRP.
+
+**🔬 Taxonomy refinement — `item_head` is SKU-level, NOT a pure category lookup.** In
+`flipkart_secondary_all`, **MUSTARD and BLENDED appear under BOTH PREMIUM and COMMODITY**
+(yellow/premium mustard vs kacchi-ghani mustard split per-SKU). PREMIUM = {CANOLA, COCONUT, GHEE,
+GROUNDNUT, OLIVE, SESAME, +premium MUSTARD/BLENDED}; COMMODITY = {SUNFLOWER, SOYABEAN, RICE BRAN,
++commodity MUSTARD/BLENDED}; OTHER = non-oils. So CONTEXT's "premium=X, commodity=Y" is right *as
+a tendency* but the real classifier is per-SKU `item_head`, not category.
+
+---
+
 ## 3. Data behind it
 
 ### 3a. Raw per-platform secondary tables (the SSOT, one schema per marketplace)
@@ -237,3 +265,69 @@ growth engine; Flipkart is **declining (−28.5%)** and BigBasket is flat — bo
    gross/cancellation/return/**final-sale**; JioMart is invoice-level with full GST. The
    `*_master_view` / `SecMaster` layers exist precisely to normalize this — trust those for
    roll-ups, the raw tables for forensics.
+8. **"Value" ≠ consumer GMV (≈40% of MRP).** Confirmed by computation (§2.5): every `*Sec` raw
+   table stores **gross MRP** value (`GMV`/`mrp`/`total_sales` = qty × sticker), while the
+   dashboards' "Done Value" uses `SecMaster.sales_amt` ≈ 0.40× that. Anyone summing raw GMV will
+   overstate revenue ~2.3×. Use realised value (₹/L ≈ 197–240) for money, raw units/litres for volume.
+9. **`blinkitSec.mrp` is an aggregate, not a unit price** — `mrp` = `qty_sold` × per-unit-MRP
+   (e.g. 33 units × ₹1499 = 49,467). Do not read it as a price. (zepto `MRP`/swiggy `BASE_MRP` *are*
+   per-unit; their `GMV` is the aggregate.) Column semantics differ per platform — read each schema.
+10. **Amazon range master views are NOT additively summable.** `amazon_sec_range_master_view`
+    June-2026 rows sum to **2,082,801 L** — ~10× the true Amazon-2026 figure of 195,294 L — because
+    the table holds **multiple overlapping `from_date→to_date` range snapshots**. The dashboards
+    de-overlap by selecting the correct range; a naive `SUM(shipped_litres)` massively double-counts.
+    (`amazon_sec_daily` and `flipkart_secondary_all` *are* line-additive; the *range* views are not.)
+11. **`flipkart_secondary_all.mapped_category` carries junk OTHER values** — alongside real non-oils
+    (HONEY, SEEDS, SPICES, TEA, DRINKS, RICE) the OTHER bucket contains garbage strings (`Crypto`,
+    `Ferrero`, `FlipPRo`, `Casserole`, `LUNCH BOX`, `ELEGANCE`). Volume is ~0 L so it doesn't distort
+    totals, but the category mapper is imperfect on Flipkart's free-text SKU strings.
+
+---
+
+## 7. UNDERSTANDING COVERAGE
+
+Self-assessment of how well each artifact is understood, with the evidence that grounds it.
+**FULLY** = grain + semantics verified against raw data; **PARTIAL** = structure known, some
+semantics inferred; **UNCLEAR** = cannot reproduce / unverifiable from the extract.
+
+### Tables
+| Table | Status | Evidence / why |
+|---|---|---|
+| `swiggySec` | **FULLY** | grain date×city×area×store×SKU confirmed; June units 122,220 ≈ dash 122,457; GMV=units×MRP verified |
+| `blinkitSec` | **FULLY** | June units 54,334 == dashboard exactly; `mrp`=aggregate semantics nailed down |
+| `zeptoSec` | **FULLY** | grain date×city×SKU; `GMV`==`MRP`×units verified on samples |
+| `bigbasketSec` | **PARTIAL** | grain/fields clear; `date_range` (single date vs span?) and `total_sales` realisation not reconciled to a dashboard |
+| `flipkartSec` | **FULLY** | gross/cancel/return/final-sale split clear; superseded by `flipkart_secondary_all` |
+| `flipkart_secondary_all` | **FULLY** | enriched layer; June ltr_sold 19,286 == yoy exactly; item_head/category mapping inspected (junk noted) |
+| `jiomartSec` | **PARTIAL** | invoice/GST grain clear, but **stale to 2026-04-15**, no dashboard, excluded from yoy — can't reconcile |
+| `amazon_sec_daily` / `_daily_master_view` | **PARTIAL** | ASIN×date grain + enrichment fields clear; only 2026-05→06 daily history; not reconciled to a daily dashboard |
+| `amazon_sec_range` / `_range_master_view` | **PARTIAL** | feeds Amazon yoy (195,294 L) which ties out, BUT raw rows are **overlapping ranges, non-additive** (sum=2.08M L) — must de-overlap, logic not fully reproduced |
+| `amazon_sec_range_margins` | **FULLY** | simple ASIN→`margin_pct` lookup (e.g. Canola 5L 25%, A2 Ghee 20%); drives after-margin value |
+| `citymallSec`, `zomatoSec` | **FULLY** (as empty) | 0 rows confirmed; no secondary page exists for them |
+| `SecMaster` (combined master) | **UNCLEAR** | not in the 41-table extract (server-side); its `sales_amt` realisation (~0.40× MRP) is the one figure I can't reproduce |
+
+### Pages / dashboards
+| Page | Status | Evidence / why |
+|---|---|---|
+| `secondary__<platform>` (7 leaves) | **FULLY** | structure, PREMIUM/COMMODITY summary, top_items, detail rows all parsed; units tie to raw |
+| `secondary-yoy-growth` | **FULLY** | per-platform 2024/25/26 + projection; sums verified to total 526,138 L |
+| `secondary-years__<platform>` | **FULLY** | confirmed = filter metadata (available years), not totals |
+| `secondary-monthly__{amazon,flipkart}` | **PARTIAL** | monthly shipped/ordered + MoM read off; only 2 platforms have it; ordered-vs-shipped definition inferred |
+| `month-on-month-sale__{bigbasket,fk_grocery}` | **PARTIAL** | target + 4-month + day-pace projection clear; only 2 platforms; target source is another domain |
+| `state-sales` | **FULLY** | units-only, 6 platforms, `by_platform` split; May-2026 435,152 u, top Maharashtra 64,368 verified in doc |
+| `state-sales-detail` | **PARTIAL** | drill template only; changelog holds empty template (runtime `state` param) — couldn't see populated output |
+| `top-skus` | **PARTIAL→caveat** | structure clear & values read, but `source:"primary"` ⇒ it shows sell-IN, not secondary; mislabelled for this page |
+| `category-sku-breakdown` | **UNCLEAR** | schema defined for 10 platforms but **never populated** (single "Uncategorized", 0 SKUs) — intent inferred, behaviour unseen |
+| Home "Secondary" toggle / Category Split | **PARTIAL** | secondary counterpart of `category-breakdown`/`category-litres` (which are `source:"primary"`); exact toggle wiring owned by Home (W-Home) |
+
+### Metrics
+| Metric | Status | Evidence / why |
+|---|---|---|
+| `shipped_units` / Done Qty | **FULLY** | reconciles to raw units across platforms |
+| `shipped_ltr` / Done Liters | **FULLY** | ties out (flipkart 19,286; cross-platform 526,138); = units × pack litres via `unit_size`/`per_ltr` |
+| `shipped_value` / Done Value | **PARTIAL** | = `SecMaster.sales_amt` ≈ 0.40× gross MRP; realised not gross — factor measured, formula UNCLEAR |
+| `per_liter_shpd` (₹/L) | **FULLY** | = value÷litres; ₹197–240 brackets value-chain ₹218.2/L — cross-confirms the chain |
+| premium-mix (`item_head`) | **FULLY** | PREMIUM/COMMODITY/OTHER split verified; classifier is **per-SKU**, not per-category (MUSTARD/BLENDED in both) |
+| YoY / MoM growth % | **FULLY** | recomputable from yearly actuals (e.g. Blinkit 64,666→69,794 = +7.93%) |
+| month-end `projection` | **FULLY** | = actual × days_in_month ÷ elapsed_day **per platform**, then summed (Amazon 195,294×30/24 = 244,118 ✓; Blinkit 69,794×30/25 = 83,753 ✓; Σ = 642,901) |
+| `state-sales` "value" | **UNCLEAR** | rows have `units == value` (no separate revenue/litres) — metric is unit count mislabelled "value" |

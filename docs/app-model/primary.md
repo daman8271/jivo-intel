@@ -140,10 +140,12 @@ re‑sold. It is the **supply ceiling**: Jivo can never sell more (JM Primary + 
 net of inventory.
 
 ### Data behind it
-A Home KPI card (sourced from the owner's screenshots per CONTEXT). It is **not** reproduced by a table in
-the extracted SSOT — `master_po` begins at the JM/distributor→platform layer, not at the Wellness→Jivo
-invoice. Treat the 811,616 L / ₹180 as authoritative‑from‑owner; note the SSOT does not independently
-recompute it. Premium/commodity split applies (same item_head axis as every card).
+A Home KPI card (sourced from the owner's screenshots per CONTEXT). **Verified independently:** the four Home
+card litre values (`811616 / 672739 / 484975 / 560048`) appear in **none** of the extracted dashboard JSONs —
+so the cards are **owner‑screenshot‑only**, not reproducible from the pulled SSOT. `master_po` begins at the
+JM/distributor→platform layer, not at the Wellness→Jivo invoice, so Wellness Billing has no table behind it
+here. Treat 811,616 L / ₹180 as authoritative‑from‑owner; the SSOT does not recompute it. Premium/commodity
+split applies (same item_head axis as every card).
 
 ---
 
@@ -172,7 +174,22 @@ po_status, item_status, missed_qty/ltrs, filled_qty/ltrs, city, state, po_month,
 
 **Status reality (44,081 rows):** `item_status` = FULL SUPPLIED 26,103 · SHORT SUPPLIED 7,347 · EXPIRED 6,294 ·
 CANCELLED 3,061 · PENDING 1,259. `item_head` rows = PREMIUM 26,405 · COMMODITY 13,320 · OTHER 4,355.
-So **PREMIUM dominates the order book by line‑count (~60%)** — the premium‑mix story starts here.
+So **PREMIUM dominates the order book by line‑count (~60%)** — but by *delivered litres* premium‑mix is only
+**~46% all‑time** (rising to ~53% in June), because commodity SKUs ship in bigger pack sizes. **Brand split
+(verified):** `JIVO` 43,347 rows, `SANO` **528** (a tiny premium pomace/olive sub‑brand), null 206 — matches
+`taxonomy.brands = [JIVO, SANO]`.
+
+**The rate columns — how the ₹ ladder is encoded per row (verified, beyond context):**
+| Column | Grain | Example (Sunflower) | Meaning |
+|---|---|---|---|
+| `basic_rate` | **per physical unit** (scales with pack) | 1 L → ₹161.38, 5 L → ₹806.86 (=5×) | Pre‑tax base price of the unit. |
+| `landing_rate` | per unit | ₹169.44 / ₹847.20 | **basic × ~1.05** — the **landed price the platform pays** (+~5% GST/freight). |
+| `realise` | **per LITRE** (pack‑normalised) | ₹152/L | What Jivo **nets per litre** after distributor commission. |
+| `distributor_margin` | ratio | **0.055** (≈5.4% blended) | Commission to the fulfilling distributor. |
+| `per_liter` | litres/unit | 1.0 or 5.0 | `total_order_liters = order_qty × per_liter`. |
+
+So a single master_po row contains three of the four ladder rungs at once: net realisation (`realise`) <
+base (`basic_rate`/per_liter) < landed (`landing_rate`/per_liter).
 
 ---
 
@@ -193,6 +210,13 @@ Zepto 71.6% · Flipkart‑Grocery 80.9% · Blinkit 81.5% · Big Basket 82.2% · 
 > Reading: the **big quick‑commerce orderers (Amazon, Swiggy) have the *worst* fill rates** — they order huge
 > and we miss a quarter of it. The small marketplace‑grocery platforms are nearly fully served. This is the
 > headline supply‑chain problem the Primary domain exists to surface.
+
+**Independent raw cross‑check (beyond context):** at the raw‑PO line level, **Swiggy has `delivered_qty = 0`
+on 8,709 of 21,274 lines (41%)**, Zepto 30%, Blinkit 17% — Swiggy's raw miss matches its worst windowed
+miss‑rate. **But beware:** BigBasket shows 2,235/3,483 (**64%**) zero‑delivered yet a *fill‑rate of 82%* — the
+raw zeros are dominated by the **EXPIRED + CANCELLED tail (6,294 + 3,061 lines)**, not genuine current misses.
+**Do not equate `delivered_qty = 0` with "missed"** — the lagged fill‑rate window exists precisely to strip
+that noise.
 
 ### Connection
 Same `master_po` numerator as Primary, just windowed + aggregated across platforms. Its `miss_rate` is the
@@ -237,7 +261,7 @@ Flipkart‑Grocery 20,166 · City Mall 17,715 → **Σ ≈ 458,704 L** (partial 
 card is the full/projected figure). Cross‑checks cleanly: master_po non‑Amazon June delivered = **330,257 L**,
 **+ Amazon 128,447 = 458,704 L**. ✔
 
-### Targets — two target tracks (both `source = master_po`)
+### Targets — two DISTINCT target tracks (different sources — do not conflate)
 1. **`primary-month-targets`** (`type = "prim"`) — the **Primary litre target & pacing** sheet, by
    format × item_head × month. Carries `targets, done_ltrs, achieved_pct, est_ltr(_pct), drr, require_drr,
    pending_ltr, dp_ltrs`. **Swiggy June:** COMMODITY target 200,000 L → done 62,446 L (**31.2%**), needs
@@ -313,3 +337,53 @@ because it **paces the Primary targets**. Per item/SKU it gives `drr_qty/ltr/val
   fill‑rate window exists precisely to stop counting POs that never had a chance to deliver.
 - **OTHER item_head = 0 litres** by design (non‑oils tracked in units) — it will always look "empty" on any
   litre chart; that's not a bug.
+
+---
+
+## 10. UNDERSTANDING COVERAGE (self‑audit: what I verified vs. what's still open)
+
+Marks reflect *independent verification against the data*, not just restating CONTEXT. Evidence cited inline.
+
+### Tables
+| Object | Status | Evidence / why |
+|---|---|---|
+| `master_po` (44,081) | **FULLY** | Confirmed = `total_po` ∪ `total_po_zbs` (8,239+35,842=44,081 exact); 55 cols decoded; status/item_head/brand/rate columns all sampled & reconciled. |
+| `total_po` (8,239) | **FULLY** | Format dist verified: BIGBASKET 3,483 / FK‑GROC 1,834 / CITYMALL 1,433 / ZOMATO 1,423 / DEALSHARE 66; `IRA…` PO ids. |
+| `total_po_zbs` (35,842) | **FULLY** | Verified = qcomm only (SWIGGY 21,274 / BLINKIT 10,451 / ZEPTO 4,117) = `taxonomy.zbs`; `P…` PO ids. "ZBS" expansion itself inferred (qcomm feed) not documented anywhere — *naming UNCLEAR, membership FULLY clear*. |
+| `prim_master_po` | **FULLY (as empty)** | 0 rows, columns `[]`. Confirmed unused placeholder. |
+| `test_master_po` | **FULLY (as empty)** | 0 rows. Test scratch. |
+| rate columns (`basic/landing/realise/per_liter/distributor_margin`) | **FULLY** | Pack‑scaling + landing=basic×1.05 + per‑litre `realise` verified on sampled rows. |
+
+### Pages / dashboards
+| Page | Status | Evidence / gap |
+|---|---|---|
+| **Primary** (`primary__<p>`) | **FULLY** | Source=master_po confirmed; full metric vocab (done/missed/pending/dp/projection), summary vs fill_rate windows, details/top_items/trends/open_vendor all decoded with Swiggy numbers. |
+| **Wellness Billing** card | **PARTIAL** | Meaning clear (rung‑1 factory invoice, 811,616 L @ ₹180); **but not in any pulled object** (verified absent) → can't recompute or drill. |
+| **JM Primary** | **UNCLEAR** | Rung‑2 concept clear (672,739 L @ ₹192.6); **no leaf/table**, `prim_master_po` empty, and the JIVO‑MART‑vendor proxy **fails** (0 L delivered Apr–Jun 2026). Needs owner confirmation of its true source. |
+| **fulfilment‑health** | **FULLY** | Window (30d/7d‑lag), fill=filled/ordered, miss=missed/ordered all verified; per‑platform numbers cross‑checked vs raw zero‑delivered rates. |
+| **pendency** | **FULLY** | 4 slices (city/distributor/sku/warehouse) + totals decoded; Swiggy 91,033 L / 162 POs. |
+| **pos** | **FULLY** | = raw master_po line viewer; populated only citymall/fk_grocery/zomato (counts match total_po); others `count:0`. |
+| **primary‑po‑litres** | **FULLY** | Per‑format delivered ltrs; Σ≈458,704 reconciled to master_po‑non‑amazon (330,257)+amazon (128,447). |
+| **primary‑month‑targets** (`prim`) | **FULLY** | Source master_po; litres + DRR pacing (`drr` vs `require_drr`) decoded. |
+| **month‑targets** (`B2B`) | **FULLY (re‑classified)** | **source=secmaster ⇒ a SECONDARY target, not primary** — verified by source field + ₹219/L + differing done_ltrs. Cross‑domain (W3). |
+| **drr** | **PARTIAL** | Mechanics clear (DRR=sales/elapsed, DOH=SOH/DRR; source secmaster+all_platform_inventory); it's primarily a Secondary/Inventory metric — full ownership is W3/W1. Included here only as the target‑pacing link. |
+
+### Metrics
+| Metric | Status | Note |
+|---|---|---|
+| Order/Done/Missed/Pending/DP/Projection LTRS | **FULLY** | `dp=done+pending` verified; projection=run‑rate extrapolation. |
+| Fill Rate / Miss Rate | **FULLY (with caveat)** | **Three different definitions/windows coexist** — never compare across pages without stating the window. |
+| Lead Time | **FULLY** | po_date→delivery_date; Swiggy avg ≈10.5d; per‑vendor `lead_time_avg`. |
+| Premium‑mix | **FULLY** | ~46% of delivered litres all‑time, ~53% June; differs from ~60% by line‑count. |
+| The value/margin ladder ₹/L | **PARTIAL** | Rungs 2–4 (₹192.6/210.3/218.2) and the master_po per‑L steps (202→213→225) verified; **rung‑1 (Wellness ₹180) is owner‑asserted, not in data.** |
+
+### Things the DATA revealed BEYOND the shared context
+1. **`month-targets` is Secondary‑sourced (`secmaster`)**, despite sitting in the primary leaf group — the
+   shared model implied it was primary. *Re‑classified.*
+2. **The JM‑Primary‑as‑master_po‑vendor proxy is false for the live period** (JIVO MART delivers 0 L
+   Apr–Jun 2026). The rung is genuinely upstream of the SSOT.
+3. **Amazon runs a parallel PO pipeline** (`reporting."Amazon PO"`) outside master_po — it's ~⅓ of all
+   ordered litres (429k of 964k) yet can't be reconciled against the same table.
+4. **Raw `delivered_qty=0` ≠ missed** — it's mostly the expired/cancelled tail (BigBasket 64% zero but 82%
+   fill). The lagged window is the only honest miss metric.
+5. **Two PO id namespaces** (`IRA…` marketplace vs `P…` qcomm/zbs) physically partition the feed.
