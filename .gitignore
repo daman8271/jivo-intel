@@ -10,3 +10,5 @@ __pycache__/
 vault-fixture/
 store/versioned-fixture/
 store/versioned.INCOMPLETE*
+logs/
+*.pid
