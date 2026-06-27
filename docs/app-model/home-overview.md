@@ -286,6 +286,19 @@ master/derived view):
 (44,081, L2) · `flipkart_grocery_master` (4,054, L2) · `fk_grocery` (0, empty) · `prim_master_po`
 (0, empty) · `test_master_po` (0, empty).
 
+> **Verified platform coverage of the PO tables (I checked the `format` distinct on each — important
+> and not obvious):** the three PO tables are **disjoint by platform**, and **none contains Amazon**:
+> - `master_po` (L2, the rich view) → SWIGGY, ZEPTO, BLINKIT, BIG BASKET, CITY MALL, FLIPKART
+>   GROCERY, ZOMATO (and DEAL SHARE) — i.e. *all non-Amazon primary*, with derived
+>   `total_delivered_liters`, `filled_ltrs`, `missed_ltrs`, `item_head`, `category`, `sub_category`.
+> - `total_po` (L1, raw) → only **BIG BASKET, FLIPKART GROCERY, CITY MALL, ZOMATO, DEAL SHARE** (the
+>   marketplace-grocery archetype). 5,342/8,030 COMPLETED, 2,082 CANCELLED.
+> - `total_po_zbs` (L1, raw) → only **SWIGGY (21,274), BLINKIT (10,451), ZEPTO (4,117)** — the q-comm
+>   "ZBS" trio. So `master_po` = `total_po` (grocery) + `total_po_zbs` (q-comm), unified + enriched.
+> - **Amazon has NO Jivo-side PO table at all.** Its primary is reconstructed server-side from
+>   *vendor-central* signals in `amazon_inventory` (`net_received`, `open_purchase_order_quantity`,
+>   `receive_fill_pct`). This is the archetype-A ("vendor_central") model from `taxonomy.json`.
+
 *Inventory (W3):* `all_platform_inventory` (176,769) · `swiggy_inventory` (63,699) ·
 `bigbasket_inventory` (34,816) · `zepto_inventory` (31,955) · `blinkit_inventory` (27,069) ·
 `amazon_inventory` (11,446) · `jiomart_inventory` (2,223) · `citymall_inventory` (0) ·

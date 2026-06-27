@@ -218,4 +218,68 @@ Vendor → format/platform → SKU → PO line (with ordered/filled/missed, comm
 
 ## 5. Cross-domain summary (one paragraph for the lead)
 
-**Distributor fills the Primary POs → stock lands as platform Inventory → Marketing spend pulls it through as Secondary → SOH/DOH signals the next re-order, which loops back to a Distributor PO.** JM Inventory is the buffer in the middle (JM's own warehouse, reconstructed from the supply chain because there's no `jm_inventory` table and the `inventory-match` reconciliation screen is empty for all platforms). The strongest, cleanest data is: per-platform inventory with DOH + potential-GMV-loss (Swiggy/Amazon), Amazon-deep marketing with ROAS/ACOS/coupons/price-match, and a computable vendor fill-rate scorecard from `master_po`. The biggest gaps to flag: empty `inventory-match` (no JM↔platform reconciliation), zeroed `soh-doh` totals for non-Amazon platforms, gated non-Amazon marketing dashboards, a buggy `jm_price` column, and a Distributor page with no native vendor-level dashboard.
+**Distributor fills the Primary POs → stock lands as platform Inventory → Marketing spend pulls it through as Secondary → SOH/DOH signals the next re-order, which loops back to a Distributor PO.** JM Inventory is the buffer in the middle (JM's own warehouse, reconstructed from the supply chain because there's no `jm_inventory` table and the `inventory-match` reconciliation screen is empty for all platforms). The strongest, cleanest data is: per-platform inventory with DOH + potential-GMV-loss (Swiggy/Amazon), Amazon-deep marketing with ROAS/ACOS/coupons/price-match, and a computable vendor fill-rate scorecard from `master_po`. The biggest gaps to flag: empty `inventory-match` (no JM↔platform reconciliation), zeroed `soh-doh` totals for non-Amazon platforms, gated non-Amazon marketing dashboards, a sparse/under-fed `amazon_price_data`, and a Distributor page with no native vendor-level dashboard.
+
+---
+
+## 6. What the data reveals BEYOND the shared context (independently verified)
+
+These are findings I derived from the rows themselves, not from the brief:
+
+1. **`all_platform_inventory` is NOT the universal inventory union.** It holds only 5 formats (no Amazon, no Flipkart); `inventory-charts` pulls Amazon/JioMart straight from the raw per-platform tables. Anyone treating `all_platform_inventory` as "all platforms" will undercount by Amazon's ~8.4M qty.
+2. **`amazon_inventory` provably feeds `soh-doh__amazon`** (sellable units 111,880 = dashboard `soh_unit` 111,880), and litres are *derived* (units × pack size), not stored — important for trusting the SOH-litre figures.
+3. **Fill-rate misses are mostly lapsed/cancelled POs, not short-supply.** `EXPIRED (6,294) + CANCELLED (3,061) = ~21%` of all PO lines. The "fill problem" is partly a PO-lifecycle/hygiene problem, not only a distributor-capacity problem — a non-obvious operational insight.
+4. **Marketing data depth is grossly uneven** (amazon 55 days / blinkit 56 vs swiggy 11 / zepto 10 / bigbasket 5). Cross-platform ROAS league tables are misleading without normalising the window.
+5. **The app reports ROAS as avg-of-ratios** (`agg: avg`), e.g. Amazon 15.83 on-screen vs 11.00 ratio-of-sums — a definition that materially flatters/distorts blended efficiency.
+6. **Potential GMV loss is a live stock-out cost**, not a static label: it moves day-to-day and ~43% concentrates in DOH<7 SKUs.
+7. **JioMart is effectively dormant** in inventory (latest snapshot: 22 rows, 1 RFC, sellable = 0) despite appearing as a live platform.
+8. **JM is one of its own "distributors"** (`vendor_new = "JIVO MART PRIVATE LIMITED"`, 888,054 ordered L) — the supply chain isn't purely outsourced; JM self-fulfils a large lane, which blurs the JM-Inventory vs Distributor boundary.
+
+**Contradictions / tensions with the assumed model:**
+- The context implies a clean **JM Inventory ↔ Inventory** reconciliation; in the live app the screen built for exactly that (`inventory-match`) returns `null` for **all 10 platforms** — the reconciliation does not actually exist yet. *(Not a data contradiction so much as a "the feature is hollow" warning.)*
+- The context lists JioMart as a normal platform; its inventory data says otherwise (near-empty).
+- Premium-mix as "premium % of volume": confirmed directionally (64% premium by SOH-litres) — *consistent*, no contradiction.
+
+---
+
+## 7. UNDERSTANDING COVERAGE
+
+Legend: **FULL** = schema + meaning + a cross-check/verification done; **PARTIAL** = schema clear, some semantics or a feed-link unverified; **UNCLEAR** = meaning or source genuinely unresolved.
+
+### Pages
+| Page | Status | Why (evidence) |
+|------|--------|----------------|
+| Inventory | **FULL** | Source tables + 3 dashboards mapped; SOH/DRR/DOH defined and cross-checked (amazon units 111,880 tie-out); GMV-loss nature verified. |
+| Marketing | **PARTIAL** | Amazon end fully understood (986 campaigns, ROAS/ACOS/NTB, price-match); non-Amazon dashboards are server-gated so I see the **tables** but not the rendered page; brandfund semantics partly inferred. |
+| Distributor | **PARTIAL** | Vendor scorecard fully computable from `master_po`; but there is **no native distributor dashboard**, so what the *page* actually renders (vs my reconstruction) is unverified. |
+| JM Inventory | **UNCLEAR** | No `jm_inventory` table; the reconciliation screen (`inventory-match`) is empty. JM-warehouse stock is only *derivable*; the page's true source/look is unconfirmed. |
+
+### Tables
+| Table | Status | Why (evidence) |
+|-------|--------|----------------|
+| `all_platform_inventory` | **FULL** | 174,155 rows; 5 formats (verified scope), content-hash grain understood; 19% zero-SOH; premium-mix 64/36. |
+| `amazon_inventory` | **FULL** | Feed to `soh-doh__amazon` proven (units tie-out); vendor-central columns clear; value vs litres disambiguated. |
+| `swiggy_inventory` | **FULL** | Richest schema; DOH/shelf-life/GMV-loss/open-PO all present and reconciled (latest 719 rows, 36 facilities). |
+| `blinkit_inventory` | **FULL** | backend/frontend/total split clear (59 facilities, 53,068 latest). |
+| `zepto_inventory`, `bigbasket_inventory` | **FULL** | Straightforward SOH/units/value by city; latest snapshots computed. |
+| `jiomart_inventory` | **PARTIAL** | Schema clear (damage/expiry/MTD counters) but latest data is near-empty (sellable=0) — can't tell stalled-feed vs wound-down. |
+| `citymall_inventory`, `zomato_inventory` | **FULL** | Empty by design (`expected_empty: true`). |
+| `amazon_ads` | **FULL** | 50,503 rows, 986 campaigns, 55 days; ROAS verified, ACOS confirmed derived; halo/NTB/promoted understood. |
+| `swiggy_ads`, `zepto_ads`, `blinkit_ads`, `flipkart_ads`, `bigbasket_ads` | **PARTIAL** | Schemas + spend/sales/ROAS computed, but short windows (5–11 days for swiggy/zepto/bigbasket) and gated dashboards limit confidence in cross-platform comparison. |
+| `blinkit_brandfund` | **PARTIAL** | Spend total clear (₹1.69M); but `offer_type` all `None` and 40% of rows zero — incentive mechanics not fully exposed. |
+| `zepto_brandfund` | **PARTIAL** | 100% populated, claim amounts clear; GST/cess/margin adjustment flags not fully traced. |
+| `swiggy_brandfund` | **UNCLEAR** | Only 9% of rows have spend (₹1,178 total) — effectively unpopulated; can't validate meaning. |
+| `amazon_coupon` | **FULL** | 795 rows; budget/clip/redemption mechanics clear (₹948k spent, 44,257 redemptions). |
+| `amazon_price_data` | **PARTIAL** | Schema clear, role (price-match) understood; but 2-date snapshot, `jm_price` 72% null + outliers — series quality poor. |
+| `master_po` (vendor lens) | **FULL** | 44,081 rows; vendor fill/miss/commission/status all computed and reconciled (66.5% litre fill). |
+
+### Metrics
+| Metric | Status | Why (evidence) |
+|--------|--------|----------------|
+| SOH / DRR / DOH | **FULL** | DOH = SOH÷DRR verified against amazon totals (21.4 d); per-platform & per-city forms understood. |
+| Potential GMV loss | **FULL** | Verified per-snapshot, stock-out-driven (43% in DOH<7). |
+| ROAS / ACOS | **PARTIAL** | Computable both ways; app uses avg-of-ratios (15.83 vs 11.00) — definition understood but the on-screen aggregation differs from intuition. |
+| Brand-fund | **PARTIAL** | Net spend clear; co-funding %/trigger mechanics and the empty Swiggy feed leave gaps. |
+| Vendor fill-rate | **FULL** | filled÷ordered (litres & units) computed per vendor; miss decomposed into short/expired/cancelled. |
+| Distributor margin/commission | **PARTIAL** | Values present (~4.5% margin, ~₹39M total commission) but the commission *calculation basis* (per-unit vs %) isn't fully pinned across formats. |
+| `inventory-match` reconciliation | **UNCLEAR** | Returns `null` everywhere — the metric the JM↔platform page should expose is not produced by the live app. |
