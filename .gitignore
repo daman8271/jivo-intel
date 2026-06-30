@@ -12,3 +12,10 @@ store/versioned-fixture/
 store/versioned.INCOMPLETE*
 logs/
 *.pid
+
+# hygiene hardening (2026-07-01): prevent accidental commits of these classes
+node_modules/
+secrets/
+.DS_Store
+*.pyc
+**/cookies*.json
