@@ -19,3 +19,7 @@ secrets/
 .DS_Store
 *.pyc
 **/cookies*.json
+
+# jivo-today: build_today.sh staging dirs (today/ itself IS committed)
+today.tmp/
+today.prev/
