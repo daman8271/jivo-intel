@@ -1154,9 +1154,25 @@ def count_csv_rows_per_table():
     return counts
 
 
+def _content_hash_tables():
+    """Tables whose key strategy is content-hash: byte-identical duplicate rows collapse
+    in the changelog, so changelog-replay present-count can be < state present-count
+    LOSSLESSLY by design (mirrors the verify.py 2026-06-27 dup-awareness fix).
+    Fail-safe: an unreadable registry returns an empty set, leaving every table strict."""
+    try:
+        _here = os.path.dirname(os.path.abspath(__file__))
+        _reg = json.load(open(os.path.join(_here, "..", "registry", "tables.json"),
+                              encoding="utf-8"))["tables"]
+        return {_t for _t, _e in _reg.items()
+                if ((_e.get("key") or {}).get("strategy")) == "content-hash"}
+    except Exception:
+        return set()
+
+
 def check_lossless(store, embed_count):
     """3-way per table: changelog-replay present == state.jsonl present == Σ embedded csv rows."""
     disk_counts = count_csv_rows_per_table()
+    _ch = _content_hash_tables()
     ok = True
     print("vault_build: check_lossless — per-table (replay / state / embedded):")
     tables = sorted(set(PLACEMENT))
@@ -1165,7 +1181,13 @@ def check_lossless(store, embed_count):
         state_n = len(state_keys(store, t))
         embed_n = embed_count.get(t, 0)
         disk_n = disk_counts.get(t, 0)
-        row_ok = (replay_n == state_n == embed_n == disk_n)
+        value_ok = (state_n == embed_n == disk_n)
+        if t in _ch:
+            # content-hash: exact-dup rows collapse losslessly in the changelog,
+            # so replay_n <= state_n is correct by design (port of verify.py 2026-06-27).
+            row_ok = value_ok and (replay_n <= state_n)
+        else:
+            row_ok = value_ok and (replay_n == state_n)
         ok = ok and row_ok
         flag = "ok" if row_ok else "**FAIL**"
         if not row_ok or replay_n:
