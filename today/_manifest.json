@@ -1,0 +1,16 @@
+{
+  "schema": "jivo-today/manifest@1",
+  "date": "2026-06-30",
+  "generated_at": "2026-07-01 04:48:26 IST",
+  "mode": "backfill",
+  "dry_run": false,
+  "total_files": 21831,
+  "sources": {
+    "ecom-app": {
+      "repo": "/root/jivo-intel",
+      "base_commit": "7793633300c15351ae42ec765aa0ca6f32db7bbd",
+      "end_commit": "06e28e86b5a975a1c8ea40624913a4ada4cd1a25",
+      "files": 21831
+    }
+  }
+}
