@@ -152,4 +152,10 @@ fi
 
 if [ "$HAVE_LOCK" = "1" ]; then exec 8>&- 2>/dev/null || true; fi
 say "DONE date=$D gate=$([ "$GATE_OK" = 1 ] && echo GREEN || echo RED)"
+
+# --- eager today/ hook (instant-per-source rule): publish the ecom-app slice
+# into the data-bank today/ once its "daily $D" commit exists. Self-gates on that
+# marker (no-ops on RED / unchanged); never blocks this sweep. ---
+/opt/ecom-intel/bin/advance_today_section.sh ecom-app --date "$D" >> /opt/ecom-intel/bin/build_today.log 2>&1 || true
+
 exit 0
