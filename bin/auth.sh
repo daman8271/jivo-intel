@@ -19,7 +19,15 @@
 
 set -euo pipefail
 
-CLI="jivo-ecom-pp-cli"
+CLI="${JIVO_ECOM_PP_CLI:-jivo-ecom-pp-cli}"
+if ! command -v "$CLI" >/dev/null 2>&1; then
+  for cand in /root/go/bin/jivo-ecom-pp-cli /root/printing-press/library/jivo-ecom/cmd/jivo-ecom-pp-cli; do
+    if [[ -x "$cand" ]]; then
+      CLI="$cand"
+      break
+    fi
+  done
+fi
 THRESHOLD_SECONDS=$((2 * 60 * 60))   # refresh if < 2h to expiry
 
 # --- resolve repo root (this script lives in <root>/bin/) ---
