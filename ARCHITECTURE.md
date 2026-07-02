@@ -38,7 +38,7 @@ bin/verify.py      re-derive sampled cells 3 ways (markdown vs state+changelog v
 bin/vault_build.py project the SSOT into linked Markdown  → vault/   (deterministic, stdlib-only)
         │            integrity gates: unique basenames + every wikilink resolves (nonzero exit on fail)
         ▼
-   git add store vault archive registry → commit → (owner) push     # green only; else preserve last-good + alert
+   git add store vault archive registry → commit → push             # green only; else preserve last-good + alert
 ```
 
 Weekly (`bin/archive_weekly.py`): freeze each table's present-state to
@@ -111,7 +111,7 @@ jivo-intel/
 │
 ├── archive/<YYYY-Www>/       weekly cold snapshots (.full.jsonl.gz, dashboards.tar.gz, MANIFEST.json)
 │
-├── vault/                    L2  the 34,749-note Obsidian vault  ← see VAULT-GUIDE.md
+├── vault/                    L2  the 35,285-note Obsidian vault  ← see VAULT-GUIDE.md
 │   ├── index.md  +  *-index.md          home + per-type Maps of Content
 │   ├── skus/ platforms/ taxonomy/ vendors/ pos/ locations/ months/ dashboards/ data/
 │   └── SESSION-MEMORY.md                 build-session handoff (not a generated note)
@@ -163,3 +163,7 @@ bin/doctor.sh
 
 The CLI itself is documented in `~/JIVO-ECOM-CLI-SETUP.md`; standard call form is
 `jivo-ecom-pp-cli <cmd> --data-source live --json 2>/dev/null` with `meta.source == "live"` asserted.
+
+Installed schedule: `/root/jivo-intel/bin/run_daily.sh` runs daily at **05:00 IST** from crontab. The
+script commits and pushes only after the gated pull → SSOT → ingest-verify → vault-build chain is green;
+sample verification runs afterward as a diagnostic and records status in `state/pull-ledger.jsonl`.

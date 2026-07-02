@@ -24,20 +24,20 @@ navigate Wikipedia: open the entity you care about, then follow its links. The g
 
 ## The note types
 
-`34,749` notes (as of the 2026-06-27 pull), all with a globally-unique, type-prefixed basename:
+`35,285` notes (current `vault/`), all with a globally-unique, type-prefixed basename:
 
 | Prefix | Folder | Count | What it is |
 |---|---|---:|---|
 | `sku-<sap_code>` | `vault/skus/` | 168 | **The convergence node** — one physical SKU; links every dimension it touches |
 | `pf-<slug>` | `vault/platforms/` | 11 | Platform hub (Amazon, the q-comm trio, the grocery long-tail) + its archetype |
-| `tier-` `brand-` `cat-` `subcat-` | `vault/taxonomy/` | 60 | The product taxonomy (3 tiers · 2 brands · 17 categories · 38 sub-categories) |
+| `tier-` `brand-` `cat-` `subcat-` | `vault/taxonomy/` | 66 | The product taxonomy (tiers · brands · categories · sub-categories) |
 | `vendor-<NAME>` | `vault/vendors/` | 19 | The distributors that fulfil POs (JIVO sells through distributors, not direct) |
-| `po-<number>` | `vault/pos/` | 9,905 | One purchase order; links its vendor, SKUs, platform, month |
+| `po-<number>` | `vault/pos/` | 10,064 | One purchase order; links its vendor, SKUs, platform, month |
 | `fc-<code>` | `vault/locations/` | 19 | Amazon fulfilment centres (e-com geography; q-comm uses dark-stores, kept separate) |
-| `<YYYY-MM>` | `vault/months/` | 30 | A connective month rollup (2024-01 → 2026-06); links what was active that month |
-| `dash-<endpoint_key>` | `vault/dashboards/` | 2,946 | **The app's OWN computed aggregate**, captured verbatim (NOT raw rows, NOT our summary) |
-| `<entity>.<table>.<chunk>` | `vault/data/` | 21,582 | **Raw rows** for one entity×table, embedded once as CSV (large tables split into chunks) |
-| `index` / `*-index` | `vault/` | 9 | Home MOC + the per-type Maps of Content |
+| `<YYYY-MM>` | `vault/months/` | 31 | A connective month rollup; links what was active that month |
+| `dash-<endpoint_key>` | `vault/dashboards/` | 3,012 | **The app's OWN computed aggregate**, captured verbatim (NOT raw rows, NOT our summary) |
+| `<entity>.<table>.<chunk>` | `vault/data/` | 21,885 | **Raw rows** for one entity×table, embedded once as CSV (large tables split into chunks) |
+| `index` / `*-index` | `vault/` | 10 | Home MOC + the per-type Maps of Content |
 
 > **The most important distinction:** a **`data/` note holds raw source rows (L1)**; a **`dash-`
 > note holds the app's own pre-computed number (L3)**. When the two disagree, the
@@ -139,8 +139,8 @@ JIVO's own cockpit shows** (DOH/DRR/fill/projection/targets) rather than recompu
 
 ## Caveats when reading
 
-- **Date-stamp everything.** These notes are the **2026-06-27** snapshot. The live app drifts a few
-  percent a day — quote figures as "as of 2026-06-27".
+- **Date-stamp everything.** These notes are a checked-in snapshot of the live app. The latest full
+  vault is from **2026-07-01**; use git history and `state/pull-ledger.jsonl` for exact run status.
 - **Chunks:** a `data/` note may be `chunk 1/46` — don't read one chunk and assume it's the whole table.
 - **Raw ≠ enriched:** prefer the app's `_master_view` tables / `dash-` aggregates over raw rows for
   revenue, margin and category — raw fields are frequently zeroed or dirty. See [DATA-MODEL](DATA-MODEL.md).

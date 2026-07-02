@@ -39,6 +39,13 @@ say()   { echo "[$(stamp)] run_daily: $*" | tee -a "$LOG" ; }
 if [ -f "$DIR/.env" ]; then
   set -a; . "$DIR/.env"; set +a
 fi
+export PATH="/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:${PATH:-}"
+if [ -z "${JIVO_ECOM_PP_CLI:-}" ] && [ -x /root/go/bin/jivo-ecom-pp-cli ]; then
+  export JIVO_ECOM_PP_CLI="/root/go/bin/jivo-ecom-pp-cli"
+fi
+if [ -z "${JIVO_CLI:-}" ] && [ -n "${JIVO_ECOM_PP_CLI:-}" ]; then
+  export JIVO_CLI="$JIVO_ECOM_PP_CLI"
+fi
 
 # ---- Telegram owner alert (best-effort; degrades to stderr + cron.log) ------
 tg() {  # tg <text>

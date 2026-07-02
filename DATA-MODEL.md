@@ -5,8 +5,8 @@ faithful **distillation** of the deep, adversarially-verified model in
 **`datamap/00-MASTER-data-model.md`** — read that for full per-domain detail (and `W1`–`W4`
 alongside it). Read **[`VAULT-GUIDE.md`](VAULT-GUIDE.md)** for how to find these things in the vault.
 
-> Figures below are **as of the 2026-06-27 pull** unless noted. The live app drifts ~3–6 % a day —
-> date-stamp anything you report.
+> Figures below describe the checked-in source vault. The live app drifts day to day, and the latest
+> run status is recorded in `state/pull-ledger.jsonl` — date-stamp anything you report.
 
 ---
 

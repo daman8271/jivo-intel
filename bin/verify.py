@@ -55,7 +55,7 @@ LEDGER = os.path.join(STATE_DIR, "pull-ledger.jsonl")
 LOGDIR = os.path.join(ROOT, "logs")
 CRONLOG = os.path.join(LOGDIR, "cron.log")
 
-CLI = os.environ.get("JIVO_CLI", "jivo-ecom-pp-cli")
+CLI = os.environ.get("JIVO_CLI") or os.environ.get("JIVO_ECOM_PP_CLI") or "jivo-ecom-pp-cli"
 IST = _dt.timezone(_dt.timedelta(hours=5, minutes=30))
 
 # The projection table that every (sku, platform, month) sell-in cell is derived

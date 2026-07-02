@@ -27,7 +27,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 
-CLI = "jivo-ecom-pp-cli"
+CLI = os.environ.get("JIVO_ECOM_PP_CLI") or os.environ.get("JIVO_CLI") or "jivo-ecom-pp-cli"
 PAGE_SIZE = 200
 PAGE_WORKERS = 12          # concurrent page fetches per pass for large tables (I/O-bound subprocess calls)
 GAIN_THRESH = 0.004        # stop multi-pass union when a pass adds < this fraction of new distinct rows

@@ -119,7 +119,7 @@ pull-ledger; Telegram alert on fail. Also projection invariants (month sell_in_l
 total_order_liters; premium-mix ≈ 52%).
 
 ## 7. cron + archive  [Phase F4 — owner: W4]
-`run_daily.sh` (mirror run_all.sh): flock `.daily.lock` → auth.sh → pull.py --mode daily → ssot.py →
+Installed at **05:00 IST**. `run_daily.sh` (mirror run_all.sh): flock `.daily.lock` → auth.sh → pull.py --mode daily → ssot.py →
 verify.py --stage ingest → vault_build.py → if green: git add store vault archive registry; commit;
 pull --rebase --autostash; push (1 retry) → else preserve last-good + Telegram 🛑 → verify.py --stage
 sample. Sundays: archive_weekly.py then prune store/raw older than archived week. IST cron line.
