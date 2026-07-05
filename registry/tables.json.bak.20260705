@@ -66,19 +66,6 @@
       "expected_empty": false,
       "n_cols": 21
     },
-    "amazon_sec_city": {
-      "rows_recon": 17671,
-      "layer": "L1",
-      "has_id": true,
-      "key": {
-        "strategy": "id",
-        "cols": [
-          "id"
-        ]
-      },
-      "expected_empty": false,
-      "n_cols": 12
-    },
     "amazon_sec_daily": {
       "rows_recon": 2749,
       "layer": "L1",
@@ -393,7 +380,7 @@
       },
       "expected_empty": false,
       "n_cols": 18,
-      "key_note": "id is NOT a row identity here \u2014 secondary-sales fact rows repeat the same id across distinct observations (~195k duplicate id-keys over 491k rows). id-key would collapse distinct rows; content-hash keeps every distinct row, only byte-identical dupes collapse (lossless). Mirrors all_platform_inventory."
+      "key_note": "id is NOT a row identity here — secondary-sales fact rows repeat the same id across distinct observations (~195k duplicate id-keys over 491k rows). id-key would collapse distinct rows; content-hash keeps every distinct row, only byte-identical dupes collapse (lossless). Mirrors all_platform_inventory."
     },
     "swiggy_ads": {
       "rows_recon": 249,
