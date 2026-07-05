@@ -553,7 +553,18 @@ def main():
         if live_set != reg_set:
             missing = reg_set - live_set
             extra = live_set - reg_set
-            die("table-set drift: missing=%s extra=%s" % (sorted(missing), sorted(extra)))
+            # Auto-profile any NEW table into the log before dying (2026-07-05, goal #66):
+            # adjudicating the amazon_sec_city drift needed exactly count+columns+sample,
+            # so put them where the Telegram alert already points (this log). Best-effort —
+            # the gate still fails closed regardless.
+            for t in sorted(extra):
+                try:
+                    prof_cols = cli(["tables", "columns", t])["results"]
+                    log("  drift-profile %s: rows=%s columns+sample=%s"
+                        % (t, counts.get(t), json.dumps(prof_cols, ensure_ascii=False)[:1200]))
+                except Exception as e:  # noqa: BLE001
+                    log("  drift-profile %s: profiling failed (%s)" % (t, e))
+            die("table-set drift: missing=%s extra=%s (profiles above; adjudicate into registry/tables.json)" % (sorted(missing), sorted(extra)))
         log("  41-table set OK")
 
     # which tables to pull
