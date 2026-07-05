@@ -1,44 +1,49 @@
 {
   "artifacts": {
     "all_platform_inventory.full.jsonl.gz": {
-      "bytes": 11874902,
-      "rows": 183065,
-      "sha256": "8109ac4d604cc68546f1b5710a439124a03d88e357bae0ca29e1ab837770c949"
+      "bytes": 11981876,
+      "rows": 184585,
+      "sha256": "0deaf91bc455d1decb8dbfc5c2dfacda68fe88f41af567075283e40fbdb0f1b7"
     },
     "amazon_ads.full.jsonl.gz": {
-      "bytes": 6812611,
-      "rows": 57283,
-      "sha256": "9691edb50ac9105929968fc35da8761f4862394e06338af542f5bc1d7a63a838"
+      "bytes": 6924570,
+      "rows": 58324,
+      "sha256": "3e3ba69b1e4d63f803818e9817ed13da421d4d495080c88dc120440c2459c49d"
     },
     "amazon_coupon.full.jsonl.gz": {
-      "bytes": 75282,
-      "rows": 1019,
-      "sha256": "47aa561434d330d4fc097f98e298852d0fd245acaf9f5848345552724de9f851"
+      "bytes": 78570,
+      "rows": 1067,
+      "sha256": "53e2de1abb68df8f93df2222a9314c47261d02de1ab24444073b0f5fc8effa0c"
     },
     "amazon_inventory.full.jsonl.gz": {
-      "bytes": 1715866,
-      "rows": 13576,
-      "sha256": "984acdb6e521c1c19b81d749b1714f4767c8ad3a87695112d499b71cb13698c2"
+      "bytes": 1728623,
+      "rows": 13677,
+      "sha256": "a6c58068928f560f4ac0807d0ba1e2d43aeed59236cebed0f31419eb363a395f"
     },
     "amazon_price_data.full.jsonl.gz": {
       "bytes": 19638,
       "rows": 192,
       "sha256": "c964270cee9133cf03dcf1a36f123a5cd55ee3354bdcfac0429566e745d44281"
     },
+    "amazon_sec_city.full.jsonl.gz": {
+      "bytes": 956427,
+      "rows": 17671,
+      "sha256": "383dc40f521581ccf80a08553ef9289bc708270350c21d81747b07fbd6d45f0f"
+    },
     "amazon_sec_daily.full.jsonl.gz": {
-      "bytes": 259873,
-      "rows": 3066,
-      "sha256": "5ae2e16d06fa637e961d36bdff1ae6e00d07472212006cb1ef7df20b2bc0815e"
+      "bytes": 263536,
+      "rows": 3113,
+      "sha256": "22e24b0741e5c0d1dfca07f2e178276403c402827e91b89cd7437ce472f1e1bb"
     },
     "amazon_sec_daily_master_view.full.jsonl.gz": {
-      "bytes": 558221,
-      "rows": 3066,
-      "sha256": "7d7f2d7b5238ae4ae6e8dcf405dc80c3b968e8532363c5d3700ae4ccd5d41e94"
+      "bytes": 567224,
+      "rows": 3113,
+      "sha256": "ea0a12303dd49af599480396ad026af0c3f3e948d9dee44c9b9515aed2ec1453"
     },
     "amazon_sec_range.full.jsonl.gz": {
-      "bytes": 521644,
-      "rows": 4607,
-      "sha256": "b3df4afb09fdd0b446ef24bf2cb7c77be595dcd06192a1348cdc26983b6538a7"
+      "bytes": 525672,
+      "rows": 4658,
+      "sha256": "c986a59e16c6b926abf7a981246ef8266d6579a7445d934ccdada1ae83d1ecf8"
     },
     "amazon_sec_range_margins.full.jsonl.gz": {
       "bytes": 7595,
@@ -46,14 +51,14 @@
       "sha256": "fd9432c1cd20eb5af17981369c232cbe97d46ead1fe438d864dee9e6275da146"
     },
     "amazon_sec_range_master_view.full.jsonl.gz": {
-      "bytes": 1217310,
-      "rows": 4607,
-      "sha256": "2b8a94fd90b82a32a91c536789bea34b1a3bfbfcd0703aef21fde1b1fe762003"
+      "bytes": 1231071,
+      "rows": 4658,
+      "sha256": "8e431a151cab07d5def94a7d6e541d1ba5904e35f10b8b23e88bfcae54308f22"
     },
     "bigbasketSec.full.jsonl.gz": {
-      "bytes": 1135276,
-      "rows": 18104,
-      "sha256": "4099999776f4128ccae03c7a719e82a789da57f0a02c9167f8a9dfeb07062f69"
+      "bytes": 1139486,
+      "rows": 18171,
+      "sha256": "0f794f6febf3873e4a0abbf22d25ff29156b27de24ce7fb6c775608baff36b5c"
     },
     "bigbasket_ads.full.jsonl.gz": {
       "bytes": 4390,
@@ -61,29 +66,29 @@
       "sha256": "e9c61527a6c2f3f97f4b39d9f92df5da88f5d9ca571a65111355c01547b03d49"
     },
     "bigbasket_inventory.full.jsonl.gz": {
-      "bytes": 2571697,
-      "rows": 38980,
-      "sha256": "8ba806275e45007205559c81471b248f547878b186769a7bf8fcde41691d462f"
+      "bytes": 2573676,
+      "rows": 39010,
+      "sha256": "b156144820117464195450142b954a76c7da2ab0b527069ddb48e29ada149c47"
     },
     "blinkitSec.full.jsonl.gz": {
-      "bytes": 7406483,
-      "rows": 134224,
-      "sha256": "5df945ba52d0e96e5dc4e7ea924fd57722ee50f0d60d756d8c05384b81b34495"
+      "bytes": 7423961,
+      "rows": 134529,
+      "sha256": "9ee9ab5f4ceb15c1b125c38a2db5f22bee1865dd0e47ed93aae8ba4ff0bd5662"
     },
     "blinkit_ads.full.jsonl.gz": {
-      "bytes": 192549,
-      "rows": 2573,
-      "sha256": "95e2b8997d8e46c559d0db3f9673aa73e48b5c50b56a2245b68bf633778eced6"
+      "bytes": 194164,
+      "rows": 2594,
+      "sha256": "14b7009a0600851e6344a28a3ecf8ad8c802c1751f37cdefb4c2ead54ace4a56"
     },
     "blinkit_brandfund.full.jsonl.gz": {
-      "bytes": 93966,
-      "rows": 1287,
-      "sha256": "6d30ddaffc4e7f6c257ce0a6d99da0857b7d3b0717b957bfc0d68e9d8b8b7510"
+      "bytes": 94725,
+      "rows": 1296,
+      "sha256": "044c9c231997c34f9467b7a2b5d88d8144f90681c5b125135aa1dd3a0f507003"
     },
     "blinkit_inventory.full.jsonl.gz": {
-      "bytes": 1873263,
-      "rows": 30662,
-      "sha256": "686b1311981b4cf3d96233dd5dd0101754a6949af778086564c025da65b3081b"
+      "bytes": 1893688,
+      "rows": 30990,
+      "sha256": "e19b00b7d252838b977063e39f865123daf4aaebcaeeb56c35150fc0e84dc6bf"
     },
     "citymallSec.full.jsonl.gz": {
       "bytes": 55,
@@ -96,9 +101,9 @@
       "sha256": "900b44fe7d276981fc10bb76bb9ddec77088981465aeba54fde7e29f3f8fcba7"
     },
     "dashboards.tar.gz": {
-      "bytes": 1182444,
-      "rows": 3015,
-      "sha256": "4e1e8a4c24be95e367f45e92853e55fde8992ad1c89b57a218050174760fddf0"
+      "bytes": 1453303,
+      "rows": 3016,
+      "sha256": "2840199acf14082f32afcc4eb55145fd8dd9f0fdf217fb58e3854517b4a89b2a"
     },
     "fk_grocery.full.jsonl.gz": {
       "bytes": 54,
@@ -106,9 +111,9 @@
       "sha256": "0ee0c26a0eebf3711ae1af45ff626b4c0bd31e23e5a94dd56124faf7b4ca0edd"
     },
     "flipkartSec.full.jsonl.gz": {
-      "bytes": 1728611,
-      "rows": 21806,
-      "sha256": "8b216f73a41d5383ff71ac9607a1c1685734909b63a1ff0eb22a6a48df678254"
+      "bytes": 1733289,
+      "rows": 21865,
+      "sha256": "01c0bd465266f840f39cde39a0c4aa0a15bd7b15d8522008cfadea6b3cafe66c"
     },
     "flipkart_ads.full.jsonl.gz": {
       "bytes": 1315851,
@@ -121,9 +126,9 @@
       "sha256": "48395cccfec61eb2e13e6f76db3df29a33d5e4545a148e8151a25c41b29cdb77"
     },
     "flipkart_secondary_all.full.jsonl.gz": {
-      "bytes": 2270581,
-      "rows": 21806,
-      "sha256": "68a4ba88ae0e6bb7d55cb335072e44b2d39d5cce6808eff1a4e0a68f423ce2c2"
+      "bytes": 2276924,
+      "rows": 21865,
+      "sha256": "d46656a60e3da8817b18f136df2ae2b905ab85a5e53e4784563509486f45da5e"
     },
     "jiomartSec.full.jsonl.gz": {
       "bytes": 1325260,
@@ -136,9 +141,9 @@
       "sha256": "93b200fbce1a6f73839500155bc60e70bd01209ebf9b5e994ccdcad7361091c7"
     },
     "master_po.full.jsonl.gz": {
-      "bytes": 11134963,
-      "rows": 45183,
-      "sha256": "b7d57a2c863adf032cf1b5c78d7ac5248745aab5dff3b889a1588a60d69623c6"
+      "bytes": 11189413,
+      "rows": 45384,
+      "sha256": "0f10d9603d26b2dc51a3a20cfe0c5bfc8ad146c8c759dd907d2fe7ecbc5d2b2b"
     },
     "prim_master_po.full.jsonl.gz": {
       "bytes": 58,
@@ -146,14 +151,14 @@
       "sha256": "c382b2df837b645dde1ea470b7f8a56bb7bdc05ff1465d911de1f303c0ed72c1"
     },
     "swiggySec.full.jsonl.gz": {
-      "bytes": 20014771,
-      "rows": 249838,
-      "sha256": "a23c32256b444b9465c43d2f62f402df811628cdc4bd65262eb05a185e04d759"
+      "bytes": 17797354,
+      "rows": 221847,
+      "sha256": "73e747e2532195578bdea34da78b1d3736e7ee917eb86a747fe22d1118579b68"
     },
     "swiggy_ads.full.jsonl.gz": {
-      "bytes": 59629,
-      "rows": 456,
-      "sha256": "23e3dc4c0b2462eb61308334e7e7ed5bc146e3e74603c837e1fd21f63173c617"
+      "bytes": 62370,
+      "rows": 480,
+      "sha256": "3fefc08cdc7fa2908ebf7e9f65a0ddca0123d945b3f3650d3c07a43d126302f9"
     },
     "swiggy_brandfund.full.jsonl.gz": {
       "bytes": 30991,
@@ -161,9 +166,9 @@
       "sha256": "67f690f57bab8ae406077dd74441954833b287528da7d24ec3c0d606ee646388"
     },
     "swiggy_inventory.full.jsonl.gz": {
-      "bytes": 5256200,
-      "rows": 77269,
-      "sha256": "67e2be24712261513b2581736a9b79ff24e90ba65a92c4cea8cbaaf3b03b2179"
+      "bytes": 5304914,
+      "rows": 77992,
+      "sha256": "94f14bae07756117c324cde78016aa15e76507c609734b7e55d96b49a4ebac53"
     },
     "test_master_po.full.jsonl.gz": {
       "bytes": 58,
@@ -171,24 +176,24 @@
       "sha256": "5b7a142118ced7197c87e81c8b38c52e69109fcaff1b3dbe437c8ebaa583148a"
     },
     "total_po.full.jsonl.gz": {
-      "bytes": 609205,
-      "rows": 8333,
-      "sha256": "9c1012e51f9c1937e539a8c4e98834b932503eb3a5103697b9a8dfd3bb9098ce"
+      "bytes": 612817,
+      "rows": 8384,
+      "sha256": "7905bf2829299475d3d97fd9907adc63af665ab4973c7e463dde76db3fe0b5a9"
     },
     "total_po_zbs.full.jsonl.gz": {
-      "bytes": 2495667,
-      "rows": 36850,
-      "sha256": "792201dde701da5869de8589e2bf20c9e0eabc825e27b1f7b0ffe8a1f006e8a1"
+      "bytes": 2507325,
+      "rows": 37000,
+      "sha256": "93a73652875ff1ace5341b64431e35e64e382499124818e2ed9e43eeb9881ea7"
     },
     "zeptoSec.full.jsonl.gz": {
-      "bytes": 2721311,
-      "rows": 45062,
-      "sha256": "ec0a631464c262b8febf2dbd9c417fb42c53488702f2656d08a1acb758271546"
+      "bytes": 2734890,
+      "rows": 45280,
+      "sha256": "db08f0ad2d23d9a78e13777ec660b4058eff5af34112d081a8f86d852e26051f"
     },
     "zepto_ads.full.jsonl.gz": {
-      "bytes": 116830,
-      "rows": 1146,
-      "sha256": "d494230d1ef47f91233cea58e4e725a692ad0be180d74e60ff595ce55dce8340"
+      "bytes": 121581,
+      "rows": 1196,
+      "sha256": "929a1728e3355ed7b9603fd8e3827e16115ecbcc8a427efb60c854db49e7c1da"
     },
     "zepto_brandfund.full.jsonl.gz": {
       "bytes": 8389,
@@ -196,9 +201,9 @@
       "sha256": "bf7a26a4f566a5ccf8f7a9f00a00f723f49358c3d2a57b068a0b4878677bb79a"
     },
     "zepto_inventory.full.jsonl.gz": {
-      "bytes": 2284512,
-      "rows": 36742,
-      "sha256": "d7dba74a79c07b33213e10c834f6ffd9e458dba2b7e86efeeb3ca4accbe217f2"
+      "bytes": 2312064,
+      "rows": 37201,
+      "sha256": "33d70c2ab851f102f347d620dda7bf16bcc07a215e5baab970806157a6b8c336"
     },
     "zomatoSec.full.jsonl.gz": {
       "bytes": 53,
@@ -212,9 +217,9 @@
     }
   },
   "failures": [],
-  "generated": "2026-07-05T05:01:01+05:30",
+  "generated": "2026-07-05T15:43:34+05:30",
   "ok": true,
-  "tables": 41,
+  "tables": 42,
   "week": "2026-W27",
   "week_monday": "2026-06-29"
 }
