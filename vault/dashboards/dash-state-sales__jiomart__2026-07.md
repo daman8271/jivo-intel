@@ -493,6 +493,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    },
    {
     "category": "CANOLA",
+    "item": "CANOLA 5 LTR + EXTRA VIRGIN 200 ML",
+    "sub_category": "CANOLA"
+   },
+   {
+    "category": "CANOLA",
     "item": "CANOLA 5LTR + MUSTARD 1LTR",
     "sub_category": "CANOLA"
    },
@@ -569,12 +574,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "CLOVE"
+    "sub_category": "JIVO CLOVE"
    },
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "JIVO CLOVE"
+    "sub_category": "CLOVE"
    },
    {
     "category": "COCONUT",
@@ -873,6 +878,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    },
    {
     "category": "OLIVE",
+    "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 200 ML",
+    "sub_category": "EXTRA LIGHT"
+   },
+   {
+    "category": "OLIVE",
     "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 5L (BUNDLE)",
     "sub_category": "EXTRA VIRGIN"
    },
@@ -1064,6 +1074,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "OLIVE",
     "item": "EXTRA VIRGIN 5LTR +1LTR CANOLA",
+    "sub_category": "EXTRA VIRGIN"
+   },
+   {
+    "category": "OLIVE",
+    "item": "EXTRA VIRGIN 5 LTR + 200 ML",
     "sub_category": "EXTRA VIRGIN"
    },
    {
@@ -1384,12 +1399,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "JIVO POMACE"
+    "sub_category": "POMACE"
    },
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "POMACE"
+    "sub_category": "JIVO POMACE"
    },
    {
     "category": "OLIVE",
@@ -1954,12 +1969,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "EXTRA LIGHT"
+    "sub_category": "CLASSIC"
    },
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "CLASSIC"
+    "sub_category": "EXTRA LIGHT"
    },
    {
     "category": "OLIVE",
@@ -1974,12 +1989,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "HONEY"
+    "sub_category": "NATURAL HONEY"
    },
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "NATURAL HONEY"
+    "sub_category": "HONEY"
    },
    {
     "category": "HONEY",
@@ -2599,6 +2614,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-jiomart]]
    {
     "category": "MUSTARD",
     "item": "YELLOW MUSTARD 5L",
+    "sub_category": "YELLOW MUSTARD"
+   },
+   {
+    "category": "MUSTARD",
+    "item": "YELLOW MUSTARD 5L + 5L",
     "sub_category": "YELLOW MUSTARD"
    }
   ],

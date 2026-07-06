@@ -28,20 +28,20 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zomato]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -81.8,
+   "delta_pct": -73.0,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 1660.0,
+   "ltrs": 2460.0,
    "name": "SANO POMACE 1L",
    "prev_ltrs": 9116.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -93.5,
+   "delta_pct": -91.6,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 860.0,
+   "ltrs": 1100.0,
    "name": "SANO POMACE 5L",
    "prev_ltrs": 13165.0
   },
@@ -58,22 +58,32 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zomato]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -91.1,
+   "delta_pct": -87.1,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 440.0,
+   "ltrs": 640.0,
    "name": "JIVO POMACE 5L",
    "prev_ltrs": 4945.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -96.2,
+   "delta_pct": -92.1,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 336.0,
+   "name": "EXTRA VIRGIN 1L",
+   "prev_ltrs": 4256.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -91.2,
    "head": "PREMIUM",
    "is_new": false,
    "ltrs": 160.0,
-   "name": "EXTRA VIRGIN 1L",
-   "prev_ltrs": 4256.0
+   "name": "JIVO POMACE 1L",
+   "prev_ltrs": 1808.0
   },
   {
    "brand": null,
@@ -88,34 +98,34 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zomato]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -97.3,
-   "head": "PREMIUM",
-   "is_new": false,
-   "ltrs": 48.0,
-   "name": "JIVO POMACE 1L",
-   "prev_ltrs": 1808.0
-  },
-  {
-   "brand": null,
-   "code": null,
    "delta_pct": -60.0,
    "head": "PREMIUM",
    "is_new": false,
    "ltrs": 32.0,
    "name": "EXTRA LIGHT 1L",
    "prev_ltrs": 80.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -88.9,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 20.0,
+   "name": "EXTRA VIRGIN 5L",
+   "prev_ltrs": 180.0
   }
  ],
  "source": "primary",
  "top_faller": {
   "brand": null,
   "code": null,
-  "delta_pct": -97.3,
+  "delta_pct": -92.1,
   "head": "PREMIUM",
   "is_new": false,
-  "ltrs": 48.0,
-  "name": "JIVO POMACE 1L",
-  "prev_ltrs": 1808.0
+  "ltrs": 336.0,
+  "name": "EXTRA VIRGIN 1L",
+  "prev_ltrs": 4256.0
  },
  "top_riser": {
   "brand": null,

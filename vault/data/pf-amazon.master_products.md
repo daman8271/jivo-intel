@@ -2,7 +2,7 @@
 type: data
 entity: pf-amazon
 table: master_products
-rows: 190
+rows: 194
 chunk: 1/1
 source: app-master
 tags:
@@ -14,7 +14,7 @@ tags:
 # Raw `master_products` rows for [[pf-amazon]]
 
 Up: [[pf-amazon]]
-Canonical raw rows (190) for `master_products`, embedded once here (verbatim, full column set). Other dimensions are links on the parent.
+Canonical raw rows (194) for `master_products`, embedded once here (verbatim, full column set). Other dimensions are links on the parent.
 
 ```csv
 case_pack,format,format_sku_code,item,item_head,per_unit,per_unit_value,product_name,sku_sap_code,sku_sap_name,tax_rate,uom
@@ -50,6 +50,7 @@ case_pack,format,format_sku_code,item,item_head,per_unit,per_unit_value,product_
 ,AMAZON,B0BJDFHFYS,SOYABEAN 5LTR + CANOLA 1LTR,COMMODITY,5 + 1 LTR,6.0,"Jivo Cold Pressed Canola Oil 1L with Soyabean Oil 5L | Ideal for Roasting, Frying & Baking | Cooking Oil for Daily Use | (Pack of 6L)",,,0.05,LTR
 2,AMAZON,B0CNQ52ZDF,CANOLA 5L + EXTRA LIGHT 1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,Jivo Cold Pressed Canola Oil 5L & Extra Light Olive Oil 1L Ideal for all type of Cuisines (Pack of 2),,,0.05,LTR
 2,AMAZON,B0CNQ5G2RK,CANOLA 5L + EXTRA VIRGIN 1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,"Jivo Cold Pressed Canola Oil 5L & Extra Virgin Olive Oil 1L for Cooking Dressings, Salad, and Soups, Dips & Marinades (Pack of 2)",,,0.05,LTR
+,AMAZON,B0H6B2VVM1,CANOLA 5 LTR + EXTRA VIRGIN 200 ML,PREMIUM,5 LTR + 200 ML,5.2,Jivo Cold-Pressed Canola Oil 5L + Extra Virgin Olive Oil 200 ml | Imported Cooking Oils | Vitamin Fortified Edible Oils | Cholesterol & Trans Fat Free | For Salads and Everyday Cooking,,,0.05,LTR
 ,AMAZON,B0BWRC4F33,EXTRA VIRGIN 1LTR + CANOLA 5LTR,PREMIUM,1 + 5 LTR,6.0,"Jivo Cold Pressed Canola Oil 5 Litre with Extra Virgin Olive Oil 1 Litre | Ideal for Roasting, Frying, Baking All types of Cuisines| Cooking Oil for Daily use.",,,0.05,LTR
 2,AMAZON,B0BKQ5CPL7,CANOLA 5L + MUSTARD 1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,"Jivo Cold Pressed Canola oil 5 Litre With Kachi Ghani Chemical Free Mustard Oil 1L | Ideal for Roasting, Frying, Baking All type of Cuisines| Healthy Cooking Oil for Daily use | (Pack of 6L)",,,0.05,LTR
 ,AMAZON,B0B96TXHR6,CANOLA 5LTR + MUSTARD 1LTR,PREMIUM,5 + 1 MUSTARD,6.0,"Jivo Cold Pressed Canola Oil 5 Litre With Kachi Ghani Chemical Free Mustard Oil 1 Litre | Ideal for Roasting, Frying, Baking All types of Cuisines | Cooking Oil for Daily use.",,,0.05,LTR
@@ -108,6 +109,7 @@ case_pack,format,format_sku_code,item,item_head,per_unit,per_unit_value,product_
 2,AMAZON,B0FR4X61SQ,EXTRA LIGHT 2L + 1L (BUNDLE),PREMIUM,2LTR + 1LTR (BUNDLE),3.0,Jivo Extra Light Olive Oil 2L & 1L,,,0.05,LTR
 ,AMAZON,B0FV8S8XT7,Extra light olive oil 1+1+1L,PREMIUM,1+1+1 LTR,3.0,Jivo Extra Light Olive Oil 3 Litre Imported from Spain Recommended for Daily Cooking Roasting Frying Baking All Types of Cuisines Low in,,,0.05,LTR
 2,AMAZON,B0FR59TGXR,EXTRA LIGHT 5L + 2L (BUNDLE),PREMIUM,5LTR + 2LTR (BUNDLE),7.0,Jivo Extra Light Olive Oil 5L & 2L,,,0.05,LTR
+,AMAZON,B0H683KW3S,EXTRA LIGHT 5L + EXTRA VIRGIN 200 ML,PREMIUM,5 LTR + 200 ML,5.2,Jivo Extra Light Olive Oil 5L + Extra Virgin Olive Oil 200 ml | Imported from Spain | MUFA-Rich Olive Oils | Cholesterol & Trans Fat Free | Contains Vitamin E | Ideal for Varied Indian Cooking,,,0.05,LTR
 2,AMAZON,B0BKQ7HMF7,EXTRA LIGHT 5L + EXTRA VIRGIN 1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,"Jivo Extra light olive oil 5 Litre with Extra Virgin olive oil 1 Litre | Ideal for Roasting, Frying, Baking All type of Cuisines| Healthy Cooking Oil for Daily use | (Pack of 6L)",,,0.05,LTR
 ,AMAZON,B092JKGB1S,EXTRA LIGHT 5L + JIVO POMACE 1L,PREMIUM,5 LTR + 1 LTR,6.0,"Jivo Extra Light Olive Oil 5L With Pomace Olive Oil 1L For Cooking | Very Light Taste |Recommendable for Roasting, Frying, Baking & Sautéing | Low in Saturated fat | Pack of 6 Litres",,,0.05,LTR
 2,AMAZON,B0CNQ5V3TQ,EXTRA LIGHT 1L + SOYABEAN 1L (BUNDLE),PREMIUM,1LTR + 1LTR (BUNDLE),2.0,Jivo Extra Light Olive Oil & Cold Pressed Soyabean Oil 1L Each (Pack of 2),,,0.05,LTR
@@ -134,6 +136,7 @@ case_pack,format,format_sku_code,item,item_head,per_unit,per_unit_value,product_
 2,AMAZON,B0BGPJMN5W,EXTRA LIGHT 5L + EXTRA VIRGIN 5L (BUNDLE),PREMIUM,5LTR + 5LTR (BUNDLE),10.0,"Jivo Extra Virgin Olive Oil 5 litres, 100% natural and cold pressed cooking oil & Marinades.&Jivo Olive Oil Extra Light Daily Cooking 5 Litre (TIN)",,,0.05,LTR
 2,AMAZON,B0BGPHG2KN,EXTRA VIRGIN 5L +1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,"Jivo Extra Virgin Olive Oil 5 Litres & Extra Virgin Olive Oil, 1L",,,0.05,LTR
 ,AMAZON,B0B97QXPVW,EXTRA VIRGIN 5+1L,PREMIUM,6 LTR,6.0,Jivo Extra Virgin Olive Oil 5 litre with 1Litre Pack of 6L 100 natural and cold pressed cooking oil for Dressings Salad and Soups Dips Marina,,,0.05,LTR
+,AMAZON,B0H6B4SVDS,EXTRA VIRGIN 5 LTR + 200 ML,PREMIUM,5 LTR + 200 ML,5.2,"Jivo Extra Virgin Olive Oil 5 Litre with 200 ml | Imported from Spain | MUFA-Rich Olive Oil | Vitamin E Fortified | Low in Saturated Fat | Ideal for Salads, Dressings, Soups, Dips & Marinades",,,0.05,LTR
 ,AMAZON,B0B945QDGY,EXTRA VIRGIN 5LTR +1LTR CANOLA,PREMIUM,5+1 LTR,6.0,"Jivo Extra Virgin olive oil 5 Litre with Cold Pressed Canola oil 1 Litre | Ideal for Roasting, Frying, Baking All type of Cuisines| Cooking Oil for Daily use | (Pack of 6L)",,,0.05,LTR
 2,AMAZON,B0BKQ59RHB,EXTRA VIRGIN 5L + CANOLA 1L (BUNDLE),PREMIUM,5LTR + 1LTR (BUNDLE),6.0,"Jivo Extra Virgin olive oil 5 Litre with Cold Pressed Canola oil 1 Litre | Ideal for Roasting, Frying, Baking All type of Cuisines| Healthy Cooking Oil for Daily use | (Pack of 6L)",,,0.05,LTR
 ,AMAZON,B0H5QFNW4L,FIRST PRESSED MUSTARD 1 LTR,PREMIUM,1 LTR,1.0,"Jivo First Pressed Mustard Oil 1 Litre | Vitamin A and D Fortified | MUFA-Rich with Balanced Omega 3 and 6 |Cholesterol and Trans Fat Free Oil| Ideal for Frying, Pickling, Sautéing, Baking, and More",,,0.05,LTR
@@ -142,6 +145,7 @@ case_pack,format,format_sku_code,item,item_head,per_unit,per_unit_value,product_
 ,AMAZON,B0H5KGC6P7,FIRST PRESSED SUNFLOWER 1 LTR,PREMIUM,1 LTR,1.0,"Jivo First Pressed Sunflower Oil 1 Litre | MUFA-Rich Balanced with PUFA Omega-3 and 6 | Vitamin A and D Fortified Oil| Cholesterol and Trans Fat Free Oil | Ideal for Deep Frying, Roasting and Sautéing",,,0.05,LTR
 ,AMAZON,B0GX19RGQH,YELLOW MUSTARD 1L + 1L,PREMIUM,1LTR + 1LTR,2.0,Jivo First Pressed Yellow Mustard Oil 1L + 1L Offer | Cooking Oil for Indian Dishes | Contains MUFA & PUFA | Fortified with Vitamins A&D,,,0.05,LTR
 2,AMAZON,B0GG7LVH12,YELLOW MUSTARD 1L + 1L (BUNDLE),COMMODITY,1LTR + 1LTR (BUNDLE),2.0,"JIVO First Pressed Yellow Mustard Oil 1 Litre | Pili Sarson Oil for Cooking | Chemical-Free | Ideal for Roasting, Frying, Baking | Omega-3 PUFA, Tocopherols & Added Vitamins A & D for Diverse Cuisines",,,0.05,LTR
+,AMAZON,B0H6GB5KVD,YELLOW MUSTARD 5L + 5L,PREMIUM,5 LTR + 5 LTR,10.0,"JIVO First Pressed Yellow Mustard Oil 5L | Pili Sarson Oil for Cooking | Chemical-Free Edible Oil for Deep Frying & Roasting | Omega-3 PUFA, Tocopherols & Added Vitamins A & D for Diverse Cuisines-",,,0.05,LTR
 4,AMAZON,B0GWZXCFR6,GOLD 1L + 1L + 1L + 1L (BUNDLE),COMMODITY,1LTR + 1LTR + 1LTR + 1LTR (BUNDLE),4.0,Jivo Gold Premium Refined Cooking Oil Perfect Blend of Rice Bran & Sunflower Oil | Natural Antioxidants | 1 Litre Pack (Pack of 4),,,0.05,LTR
 2,AMAZON,B0FR4ZK68G,GOLD 5L + SUNFLOWER 5L (BUNDLE),COMMODITY,5LTR + 5LTR (BUNDLE),10.0,Jivo Gold Refined Oil 5L & Cold Pressed Sunflower Oil 5L,,,0.05,LTR
 2,AMAZON,B0FR55TBPH,GOLD 5L + RICE BRAN 5L (BUNDLE),COMMODITY,5LTR + 5LTR (BUNDLE),10.0,Jivo Gold Refined Oil 5L & Rice Bran Health Oil 5L,,,0.05,LTR

@@ -493,6 +493,11 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    },
    {
     "category": "CANOLA",
+    "item": "CANOLA 5 LTR + EXTRA VIRGIN 200 ML",
+    "sub_category": "CANOLA"
+   },
+   {
+    "category": "CANOLA",
     "item": "CANOLA 5LTR + MUSTARD 1LTR",
     "sub_category": "CANOLA"
    },
@@ -569,12 +574,12 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "CLOVE"
+    "sub_category": "JIVO CLOVE"
    },
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "JIVO CLOVE"
+    "sub_category": "CLOVE"
    },
    {
     "category": "COCONUT",
@@ -873,6 +878,11 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    },
    {
     "category": "OLIVE",
+    "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 200 ML",
+    "sub_category": "EXTRA LIGHT"
+   },
+   {
+    "category": "OLIVE",
     "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 5L (BUNDLE)",
     "sub_category": "EXTRA VIRGIN"
    },
@@ -1064,6 +1074,11 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    {
     "category": "OLIVE",
     "item": "EXTRA VIRGIN 5LTR +1LTR CANOLA",
+    "sub_category": "EXTRA VIRGIN"
+   },
+   {
+    "category": "OLIVE",
+    "item": "EXTRA VIRGIN 5 LTR + 200 ML",
     "sub_category": "EXTRA VIRGIN"
    },
    {
@@ -1384,12 +1399,12 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "JIVO POMACE"
+    "sub_category": "POMACE"
    },
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "POMACE"
+    "sub_category": "JIVO POMACE"
    },
    {
     "category": "OLIVE",
@@ -1954,12 +1969,12 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "EXTRA LIGHT"
+    "sub_category": "CLASSIC"
    },
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "CLASSIC"
+    "sub_category": "EXTRA LIGHT"
    },
    {
     "category": "OLIVE",
@@ -1974,12 +1989,12 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "HONEY"
+    "sub_category": "NATURAL HONEY"
    },
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "NATURAL HONEY"
+    "sub_category": "HONEY"
    },
    {
     "category": "HONEY",
@@ -2600,6 +2615,11 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
     "category": "MUSTARD",
     "item": "YELLOW MUSTARD 5L",
     "sub_category": "YELLOW MUSTARD"
+   },
+   {
+    "category": "MUSTARD",
+    "item": "YELLOW MUSTARD 5L + 5L",
+    "sub_category": "YELLOW MUSTARD"
    }
   ],
   "sub_categories": [
@@ -2941,8 +2961,8 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
    }
   ]
  },
- "mapped_units": 13012.0,
- "mapped_value": 13012.0,
+ "mapped_units": 13113.0,
+ "mapped_value": 13113.0,
  "metric": "units",
  "metric_label": "Units sold",
  "metric_unit": "units",
@@ -2953,179 +2973,179 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
  "states": [
   {
    "by_platform": {
-    "FLIPKART": 1411.0
+    "FLIPKART": 1426.0
    },
    "state": "UTTAR PRADESH",
-   "units": 1411.0,
-   "value": 1411.0
+   "units": 1426.0,
+   "value": 1426.0
   },
   {
    "by_platform": {
-    "FLIPKART": 1110.0
+    "FLIPKART": 1116.0
    },
    "state": "DELHI",
-   "units": 1110.0,
-   "value": 1110.0
+   "units": 1116.0,
+   "value": 1116.0
   },
   {
    "by_platform": {
-    "FLIPKART": 1051.0
+    "FLIPKART": 1065.0
    },
    "state": "WEST BENGAL",
-   "units": 1051.0,
-   "value": 1051.0
+   "units": 1065.0,
+   "value": 1065.0
   },
   {
    "by_platform": {
-    "FLIPKART": 1043.0
+    "FLIPKART": 1047.0
    },
    "state": "PUNJAB",
-   "units": 1043.0,
-   "value": 1043.0
+   "units": 1047.0,
+   "value": 1047.0
   },
   {
    "by_platform": {
-    "FLIPKART": 964.0
+    "FLIPKART": 970.0
    },
    "state": "HARYANA",
-   "units": 964.0,
-   "value": 964.0
+   "units": 970.0,
+   "value": 970.0
   },
   {
    "by_platform": {
-    "FLIPKART": 903.0
+    "FLIPKART": 912.0
    },
    "state": "MAHARASHTRA",
-   "units": 903.0,
-   "value": 903.0
+   "units": 912.0,
+   "value": 912.0
   },
   {
    "by_platform": {
-    "FLIPKART": 624.0
+    "FLIPKART": 626.0
    },
    "state": "ODISHA",
-   "units": 624.0,
-   "value": 624.0
+   "units": 626.0,
+   "value": 626.0
   },
   {
    "by_platform": {
-    "FLIPKART": 605.0
+    "FLIPKART": 610.0
    },
    "state": "ASSAM",
-   "units": 605.0,
-   "value": 605.0
+   "units": 610.0,
+   "value": 610.0
   },
   {
    "by_platform": {
-    "FLIPKART": 572.0
+    "FLIPKART": 577.0
    },
    "state": "KARNATAKA",
-   "units": 572.0,
-   "value": 572.0
+   "units": 577.0,
+   "value": 577.0
   },
   {
    "by_platform": {
-    "FLIPKART": 494.0
+    "FLIPKART": 499.0
    },
    "state": "TELANGANA",
-   "units": 494.0,
-   "value": 494.0
+   "units": 499.0,
+   "value": 499.0
   },
   {
    "by_platform": {
-    "FLIPKART": 484.0
+    "FLIPKART": 488.0
    },
    "state": "ANDHRA PRADESH",
-   "units": 484.0,
-   "value": 484.0
+   "units": 488.0,
+   "value": 488.0
   },
   {
    "by_platform": {
-    "FLIPKART": 458.0
+    "FLIPKART": 460.0
    },
    "state": "MADHYA PRADESH",
-   "units": 458.0,
-   "value": 458.0
+   "units": 460.0,
+   "value": 460.0
   },
   {
    "by_platform": {
-    "FLIPKART": 455.0
+    "FLIPKART": 456.0
    },
    "state": "BIHAR",
-   "units": 455.0,
-   "value": 455.0
+   "units": 456.0,
+   "value": 456.0
   },
   {
    "by_platform": {
-    "FLIPKART": 356.0
+    "FLIPKART": 361.0
    },
    "state": "MIZORAM",
-   "units": 356.0,
-   "value": 356.0
+   "units": 361.0,
+   "value": 361.0
   },
   {
    "by_platform": {
-    "FLIPKART": 322.0
+    "FLIPKART": 323.0
    },
    "state": "RAJASTHAN",
-   "units": 322.0,
-   "value": 322.0
+   "units": 323.0,
+   "value": 323.0
   },
   {
    "by_platform": {
-    "FLIPKART": 300.0
+    "FLIPKART": 302.0
    },
    "state": "TAMIL NADU",
-   "units": 300.0,
-   "value": 300.0
+   "units": 302.0,
+   "value": 302.0
   },
   {
    "by_platform": {
-    "FLIPKART": 239.0
+    "FLIPKART": 240.0
    },
    "state": "JHARKHAND",
-   "units": 239.0,
-   "value": 239.0
+   "units": 240.0,
+   "value": 240.0
   },
   {
    "by_platform": {
-    "FLIPKART": 235.0
+    "FLIPKART": 237.0
    },
    "state": "KERALA",
-   "units": 235.0,
-   "value": 235.0
+   "units": 237.0,
+   "value": 237.0
   },
   {
    "by_platform": {
-    "FLIPKART": 198.0
-   },
-   "state": "UTTARAKHAND",
-   "units": 198.0,
-   "value": 198.0
-  },
-  {
-   "by_platform": {
-    "FLIPKART": 195.0
+    "FLIPKART": 199.0
    },
    "state": "GUJARAT",
-   "units": 195.0,
-   "value": 195.0
+   "units": 199.0,
+   "value": 199.0
   },
   {
    "by_platform": {
-    "FLIPKART": 151.0
+    "FLIPKART": 199.0
+   },
+   "state": "UTTARAKHAND",
+   "units": 199.0,
+   "value": 199.0
+  },
+  {
+   "by_platform": {
+    "FLIPKART": 154.0
    },
    "state": "CHHATTISGARH",
-   "units": 151.0,
-   "value": 151.0
+   "units": 154.0,
+   "value": 154.0
   },
   {
    "by_platform": {
-    "FLIPKART": 141.0
+    "FLIPKART": 142.0
    },
    "state": "TRIPURA",
-   "units": 141.0,
-   "value": 141.0
+   "units": 142.0,
+   "value": 142.0
   },
   {
    "by_platform": {
@@ -3161,11 +3181,11 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
   },
   {
    "by_platform": {
-    "FLIPKART": 89.0
+    "FLIPKART": 90.0
    },
    "state": "CHANDIGARH",
-   "units": 89.0,
-   "value": 89.0
+   "units": 90.0,
+   "value": 90.0
   },
   {
    "by_platform": {
@@ -3177,19 +3197,19 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
   },
   {
    "by_platform": {
-    "FLIPKART": 62.0
+    "FLIPKART": 63.0
    },
    "state": "GOA",
-   "units": 62.0,
-   "value": 62.0
+   "units": 63.0,
+   "value": 63.0
   },
   {
    "by_platform": {
-    "FLIPKART": 30.0
+    "FLIPKART": 31.0
    },
    "state": "ARUNACHAL PRADESH",
-   "units": 30.0,
-   "value": 30.0
+   "units": 31.0,
+   "value": 31.0
   },
   {
    "by_platform": {
@@ -3225,8 +3245,8 @@ Up: [[dashboards-index]] · [[2026-05]] · [[pf-flipkart]]
   }
  ],
  "sub_categories": [],
- "total_units": 13021.0,
- "total_value": 13021.0,
+ "total_units": 13122.0,
+ "total_value": 13122.0,
  "year": 2026
 }
 ```
