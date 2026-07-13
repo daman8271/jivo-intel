@@ -1,7 +1,7 @@
 {
   "schema": "jivo-today/manifest@1",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13 16:00:22 IST",
+  "generated_at": "2026-07-13 16:20:19 IST",
   "mode": "live",
   "dry_run": false,
   "total_files": 22563,
@@ -9,7 +9,7 @@
     "ecom-app": {
       "repo": "/root/jivo-intel",
       "base_commit": "a4621f743f5f663b8cf5eca33647989100ca151e",
-      "end_commit": "b437a0136350d043809d34e898de0d43e1e7c23d",
+      "end_commit": "825123adf79eb31a7f6a94e5e8ce75c3a2a0ed77",
       "files": 22563
     }
   }
